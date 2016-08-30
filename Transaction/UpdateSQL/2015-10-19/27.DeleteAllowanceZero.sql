@@ -1,0 +1,1 @@
+delete from Checkroll.EmpAllowanceDeduction where Amount = 0

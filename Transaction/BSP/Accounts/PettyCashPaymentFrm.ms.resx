@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnAdd.Text" xml:space="preserve">
+    <value>Tambah</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>Tutup</value>
+  </data>
+  <data name="btnResetIB.Text" xml:space="preserve">
+    <value>Ulang Awal</value>
+  </data>
+  <data name="btnResetMultipleEntryGrp.Text" xml:space="preserve">
+    <value>Ulang Awal</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>Simpan</value>
+  </data>
+  <data name="btnSearch.Text" xml:space="preserve">
+    <value>Cari</value>
+  </data>
+  <data name="btnviewReport.Text" xml:space="preserve">
+    <value>Lihat Laporan</value>
+  </data>
+  <data name="cbDiscrepancytransaction.Text" xml:space="preserve">
+    <value>Perbedaan Pembayaran</value>
+  </data>
+  <data name="chkVoucherDate.Text" xml:space="preserve">
+    <value>Tanggal Voucher</value>
+  </data>
+  <data name="dgvPettyCashPaymentView.Columns(dgclDescription).HeaderText" xml:space="preserve">
+    <value>Keterangan</value>
+  </data>
+  <data name="dgvPettyCashPaymentView.Columns(dgclDistributionDescp).HeaderText" xml:space="preserve">
+    <value>Dibayarkan Kepada</value>
+  </data>
+  <data name="dgvPettyCashPaymentView.Columns(dgclVoucherDate).HeaderText" xml:space="preserve">
+    <value>Tanggal Voucher</value>
+  </data>
+  <data name="dgvPettyCashPaymentView.Columns(dgclVoucherNo).HeaderText" xml:space="preserve">
+    <value>Voucher No</value>
+  </data>
+  <data name="DgvMultipleEntry.Columns(dgmeAccountCode).HeaderText" xml:space="preserve">
+    <value>Kode Akun</value>
+  </data>
+  <data name="DgvMultipleEntry.Columns(DgMeAmount).HeaderText" xml:space="preserve">
+    <value>Jumlah Pembayaran</value>
+  </data>
+  <data name="DgvMultipleEntry.Columns(DgMeQty).HeaderText" xml:space="preserve">
+    <value>Jumlah</value>
+  </data>
+  <data name="DgvMultipleEntry.Columns(DgMeTAnalysisCode0).HeaderText" xml:space="preserve">
+    <value>T0</value>
+  </data>
+  <data name="DgvMultipleEntry.Columns(DgMeTAnalysisCode1).HeaderText" xml:space="preserve">
+    <value>T1</value>
+  </data>
+  <data name="DgvMultipleEntry.Columns(DgMeTAnalysisCode2).HeaderText" xml:space="preserve">
+    <value>T2</value>
+  </data>
+  <data name="DgvMultipleEntry.Columns(DgMeTAnalysisCode3).HeaderText" xml:space="preserve">
+    <value>T3</value>
+  </data>
+  <data name="DgvMultipleEntry.Columns(DgMeTAnalysisCode4).HeaderText" xml:space="preserve">
+    <value>T4</value>
+  </data>
+  <data name="grpVoucherDetails.Text" xml:space="preserve">
+    <value>Detil Voucher (Multiple Entry)</value>
+  </data>
+  <data name="lblAccountCode.Text" xml:space="preserve">
+    <value>Kode Akun</value>
+  </data>
+  <data name="lblAmount.Text" xml:space="preserve">
+    <value>Jumlah Pembayaran</value>
+  </data>
+  <data name="lblDescp.Text" xml:space="preserve">
+    <value>Keterangan</value>
+  </data>
+  <data name="lblPayto.Text" xml:space="preserve">
+    <value>Dibayarkan Kepada</value>
+  </data>
+  <data name="lblQty.Text" xml:space="preserve">
+    <value>Jumlah</value>
+  </data>
+  <data name="lblRemarks.Text" xml:space="preserve">
+    <value>Keterangan</value>
+  </data>
+  <data name="lblSearchBy.Text" xml:space="preserve">
+    <value>Pencarian Dengan</value>
+  </data>
+  <data name="lblStatus.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="lblT0.Text" xml:space="preserve">
+    <value>T0</value>
+  </data>
+  <data name="lblT1.Text" xml:space="preserve">
+    <value>T1</value>
+  </data>
+  <data name="lblT2.Text" xml:space="preserve">
+    <value>T2</value>
+  </data>
+  <data name="lblT3.Text" xml:space="preserve">
+    <value>T3</value>
+  </data>
+  <data name="lblT4.Text" xml:space="preserve">
+    <value>T4</value>
+  </data>
+  <data name="lblVoucherDate.Text" xml:space="preserve">
+    <value>Tanggal Voucher</value>
+  </data>
+  <data name="lblVoucherNo.Text" xml:space="preserve">
+    <value>No Voucher</value>
+  </data>
+  <data name="lblvoucherNoSearch.Text" xml:space="preserve">
+    <value>No Voucher</value>
+  </data>
+  <data name="PnlSearch.CaptionText" xml:space="preserve">
+    <value>Cari Bayaran Kas kecil</value>
+  </data>
+  <data name="tbPCP.TabPages(tbAdd).Text" xml:space="preserve">
+    <value>Bayaran Kas kecil</value>
+  </data>
+  <data name="tbPCP.TabPages(tbView).Text" xml:space="preserve">
+    <value>Melihat</value>
+  </data>
+  <data name="DgvMultipleEntry.Columns(DgMeAccountDescp).HeaderText" xml:space="preserve">
+    <value>Keterangan Akun</value>
+  </data>
+  <data name="DgvMultipleEntry.Columns(dgmeOldCOACode).HeaderText" xml:space="preserve">
+    <value>Kode Akun Tua</value>
+  </data>
+  <data name="dgvPettyCashPaymentView.Columns(dgclApproved).HeaderText" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="lblSearchStatus.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="DgvMultipleEntry.Columns(DgMeUOM).HeaderText" xml:space="preserve">
+    <value>Kesatuan</value>
+  </data>
+  <data name="lblUnit.Text" xml:space="preserve">
+    <value>Kesatuan</value>
+  </data>
+  <data name="Msg1" xml:space="preserve">
+    <value>Voucher Tidak disyaratkan</value>
+  </data>
+  <data name="Msg10" xml:space="preserve">
+    <value>Nilai tidak valid T2, Silahkan Pilih dari mencari</value>
+  </data>
+  <data name="Msg11" xml:space="preserve">
+    <value>Nilai tidak valid T3, Silahkan Pilih dari mencari</value>
+  </data>
+  <data name="Msg12" xml:space="preserve">
+    <value>Nilai tidak valid T4, Silahkan Pilih dari mencari</value>
+  </data>
+  <data name="Msg13" xml:space="preserve">
+    <value>Silahkan Masukkan Kriteria untuk Pencarian</value>
+  </data>
+  <data name="Msg14" xml:space="preserve">
+    <value>Tidak ada catatan (s) yang cocok dengan kriteria pencarian Anda</value>
+  </data>
+  <data name="Msg15" xml:space="preserve">
+    <value>Merekam Tidak untuk Edit, Silahkan Pilih Edit Record</value>
+  </data>
+  <data name="Msg16" xml:space="preserve">
+    <value>Pengguna tidak bisa Hapus Record Disetujui</value>
+  </data>
+  <data name="Msg17" xml:space="preserve">
+    <value>Anda akan Hapus catatan terpilih. Apakah Anda yakin? Jika ya, silakan klik "" OK "" atau klik "" Batal "".</value>
+  </data>
+  <data name="Msg18" xml:space="preserve">
+    <value>Data Berhasil Dihapus</value>
+  </data>
+  <data name="Msg19" xml:space="preserve">
+    <value>Tidak ada Record ke Hapus, Silahkan Pilih Record untuk menghapus</value>
+  </data>
+  <data name="Msg2" xml:space="preserve">
+    <value>Voucher Tanggal Diperlukan</value>
+  </data>
+  <data name="Msg20" xml:space="preserve">
+    <value>Gagal menyimpan database</value>
+  </data>
+  <data name="Msg21" xml:space="preserve">
+    <value>Data (s) Berhasil Disimpan</value>
+  </data>
+  <data name="Msg22" xml:space="preserve">
+    <value>Gagal menyimpan database</value>
+  </data>
+  <data name="Msg23" xml:space="preserve">
+    <value>Data (s) Berhasil Diperbarui</value>
+  </data>
+  <data name="Msg24" xml:space="preserve">
+    <value>Tidak Voucher sudah ada! Harap masukkan voucher tidak berbeda</value>
+  </data>
+  <data name="Msg25" xml:space="preserve">
+    <value>Kode Rekening Diperlukan</value>
+  </data>
+  <data name="Msg26" xml:space="preserve">
+    <value>Jumlah Diperlukan</value>
+  </data>
+  <data name="Msg27" xml:space="preserve">
+    <value>Unit Field ini Harus Diisi</value>
+  </data>
+  <data name="Msg28" xml:space="preserve">
+    <value>Kode Account sudah ada dalam daftar</value>
+  </data>
+  <data name="Msg29" xml:space="preserve">
+    <value>Harap Tambahkan Kode Rekening</value>
+  </data>
+  <data name="Msg3" xml:space="preserve">
+    <value>Bayar Untuk Diperlukan</value>
+  </data>
+  <data name="Msg30" xml:space="preserve">
+    <value>"Data tidak disimpan, apakah Anda ingin melanjutkan tanpa menyimpan?" Jika ya silahkan klik "" OK "" atau klik "" Batal ""</value>
+  </data>
+  <data name="Msg31" xml:space="preserve">
+    <value>No Record (s) Tersedia</value>
+  </data>
+  <data name="Msg32" xml:space="preserve">
+    <value>Silahkan Masukkan Alasan Ditolak</value>
+  </data>
+  <data name="Msg33" xml:space="preserve">
+    <value>Rekam Ditolak Berhasil</value>
+  </data>
+  <data name="Msg34" xml:space="preserve">
+    <value>Tidak dapat menyetujui, Jumlah Pembayaran Kas kecil lebih besar dari yang tersedia Jumlah Kas Kecil</value>
+  </data>
+  <data name="Msg35" xml:space="preserve">
+    <value>Berhasil Disetujui</value>
+  </data>
+  <data name="Msg36" xml:space="preserve">
+    <value>Transaksi Gagal</value>
+  </data>
+  <data name="Msg37" xml:space="preserve">
+    <value>Transaksi Berhasil Diselesaikan</value>
+  </data>
+  <data name="Msg38" xml:space="preserve">
+    <value>UOM tidak valid, Silahkan Pilih dari mencari</value>
+  </data>
+  <data name="Msg39" xml:space="preserve">
+    <value>Anda akan Konfirmasi merekam. Apakah Anda yakin? Jika ya, silakan klik "" OK "" atau klik "" Batal "".</value>
+  </data>
+  <data name="Msg4" xml:space="preserve">
+    <value>Deskripsi Diperlukan</value>
+  </data>
+  <data name="Msg5" xml:space="preserve">
+    <value>Kode Rekening Diperlukan</value>
+  </data>
+  <data name="Msg6" xml:space="preserve">
+    <value>Jumlah Diperlukan</value>
+  </data>
+  <data name="Msg7" xml:space="preserve">
+    <value>Kode valid Account, Silahkan Pilih dari mencari</value>
+  </data>
+  <data name="Msg8" xml:space="preserve">
+    <value>Nilai tidak valid T0, Silahkan Pilih dari mencari</value>
+  </data>
+  <data name="Msg9" xml:space="preserve">
+    <value>Nilai tidak valid T1, Silahkan Pilih dari mencari</value>
+  </data>
+  <data name="DgvMultipleEntry.Columns(DgMeRemarks).HeaderText" xml:space="preserve">
+    <value>Keterangan</value>
+  </data>
+  <data name="Msg61" xml:space="preserve">
+    <value>T0 yang Diperlukan</value>
+  </data>
+  <data name="Msg62" xml:space="preserve">
+    <value>You are about to Save the  record. Are you sure? If yes please click ""OK"" or click ""Cancel""</value>
+  </data>
+  <data name="Msg63" xml:space="preserve">
+    <value>Anda akan beralih dari tab saat ini, Anda mungkin kehilangan data yang belum disimpan. apakah Anda yakin? jika ya silahkan klik "" ok "" atau klik "" cancel "".</value>
+  </data>
+  <data name="cmsPCP.Items.Item(0).Text" xml:space="preserve">
+    <value>Menambahkan</value>
+  </data>
+  <data name="cmsPCP.Items.Item(1).Text" xml:space="preserve">
+    <value>Menyunting</value>
+  </data>
+  <data name="cmsPCP.Items.Item(2).Text" xml:space="preserve">
+    <value>Menghilangkan</value>
+  </data>
+  <data name="msg64" xml:space="preserve">
+    <value>cant fungsi Hapus dilakukan untuk merekam single</value>
+  </data>
+  <data name="btnConform.Text" xml:space="preserve">
+    <value>menegaskan</value>
+  </data>
+  <data name="lblTrancactionType.Text" xml:space="preserve">
+    <value>Jenis Transaksi</value>
+  </data>
+  <data name="Msg310" xml:space="preserve">
+    <value>Nilai Debet harus lebih besar dari nilai kredit</value>
+  </data>
+  <data name="Msg40" xml:space="preserve">
+    <value>Sila Pilih Detail Cost Code</value>
+  </data>
+</root>

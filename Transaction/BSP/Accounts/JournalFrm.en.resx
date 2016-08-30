@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="btnResetIB.Text" xml:space="preserve">
+    <value>Reset All</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>Save All</value>
+  </data>
+  <data name="btnSearch.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="chkJournalDate.Text" xml:space="preserve">
+    <value>Journal Date</value>
+  </data>
+  <data name="dgvJournalView.Columns(dgclJournalDate).HeaderText" xml:space="preserve">
+    <value>Journal Date</value>
+  </data>
+  <data name="dgvJournalView.Columns(dgclLedgerNo).HeaderText" xml:space="preserve">
+    <value>Ledger No</value>
+  </data>
+  <data name="dgvJournalView.Columns(dgclLedgerType).HeaderText" xml:space="preserve">
+    <value>Ledger Type</value>
+  </data>
+  <data name="dgvJournalView.Columns(dgclAccBatchTotal).HeaderText" xml:space="preserve">
+    <value>Batch Total</value>
+  </data>
+  <data name="dgvJournalView.Columns(dgclContractNo).HeaderText" xml:space="preserve">
+    <value>Contract No</value>
+  </data>
+  <data name="dgvJournalView.Columns(dgclJournalDescp).HeaderText" xml:space="preserve">
+    <value>Journal Descp</value>
+  </data>
+  <data name="lblAccountCode.Text" xml:space="preserve">
+    <value>Account Code</value>
+  </data>
+  <data name="lblBatchTotal.Text" xml:space="preserve">
+    <value>Batch Total</value>
+  </data>
+  <data name="lblContractNo.Text" xml:space="preserve">
+    <value>Contract no</value>
+  </data>
+  <data name="lblCredit.Text" xml:space="preserve">
+    <value>Credit</value>
+  </data>
+  <data name="lblCreditKeenValue.Text" xml:space="preserve">
+    <value>Credit</value>
+  </data>
+  <data name="lblDebit.Text" xml:space="preserve">
+    <value>Debit</value>
+  </data>
+  <data name="lblDebitKeenValue.Text" xml:space="preserve">
+    <value>Debit</value>
+  </data>
+  <data name="lblDetailCostCode.Text" xml:space="preserve">
+    <value>Detail Cost Code</value>
+  </data>
+  <data name="lblDiff.Text" xml:space="preserve">
+    <value>Diff</value>
+  </data>
+  <data name="lblDiv.Text" xml:space="preserve">
+    <value>Afdeling</value>
+  </data>
+  <data name="lblJournalDate.Text" xml:space="preserve">
+    <value>Journal Date</value>
+  </data>
+  <data name="lblJournalDescp.Text" xml:space="preserve">
+    <value>Journal Descp</value>
+  </data>
+  <data name="lblledgerNo.Text" xml:space="preserve">
+    <value>Ledger No</value>
+  </data>
+  <data name="lblLedgerNoSearch.Text" xml:space="preserve">
+    <value>Ledger No</value>
+  </data>
+  <data name="lblledgerType.Text" xml:space="preserve">
+    <value>Ledger Type</value>
+  </data>
+  <data name="lblLedgerTypeSearch.Text" xml:space="preserve">
+    <value>Ledger Type</value>
+  </data>
+  <data name="lblSearchBy.Text" xml:space="preserve">
+    <value>Search By</value>
+  </data>
+  <data name="lblStation.Text" xml:space="preserve">
+    <value>Station</value>
+  </data>
+  <data name="lblSubBlock.Text" xml:space="preserve">
+    <value>Field No</value>
+  </data>
+  <data name="lblT0.Text" xml:space="preserve">
+    <value>T0</value>
+  </data>
+  <data name="lblT1.Text" xml:space="preserve">
+    <value>T1</value>
+  </data>
+  <data name="lblT2.Text" xml:space="preserve">
+    <value>T2</value>
+  </data>
+  <data name="lblT3.Text" xml:space="preserve">
+    <value>T3</value>
+  </data>
+  <data name="lblT4.Text" xml:space="preserve">
+    <value>T4</value>
+  </data>
+  <data name="lblVehicleCode.Text" xml:space="preserve">
+    <value>Vehicle Code</value>
+  </data>
+  <data name="lblYOP.Text" xml:space="preserve">
+    <value>YOP</value>
+  </data>
+  <data name="PnlSearch.CaptionText" xml:space="preserve">
+    <value>Search Journal</value>
+  </data>
+  <data name="tbJournal.TabPages(tbAdd).Text" xml:space="preserve">
+    <value>Journal</value>
+  </data>
+  <data name="tbJournal.TabPages(tbView).Text" xml:space="preserve">
+    <value>view</value>
+  </data>
+  <data name="btnAdd.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btnResetMultipleEntryGrp.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="dgvMultipleEntry.Columns(DgMeCOACode).HeaderText" xml:space="preserve">
+    <value>Account Code</value>
+  </data>
+  <data name="dgvMultipleEntry.Columns(dgMeCredit).HeaderText" xml:space="preserve">
+    <value>Credit</value>
+  </data>
+  <data name="dgvMultipleEntry.Columns(dgMeDebit).HeaderText" xml:space="preserve">
+    <value>Debit</value>
+  </data>
+  <data name="dgvMultipleEntry.Columns(DgMeDiv).HeaderText" xml:space="preserve">
+    <value>Afdeling</value>
+  </data>
+  <data name="dgvMultipleEntry.Columns(DgMeStationCode).HeaderText" xml:space="preserve">
+    <value>Station</value>
+  </data>
+  <data name="dgvMultipleEntry.Columns(DgMeSubBlock).HeaderText" xml:space="preserve">
+    <value>Field No</value>
+  </data>
+  <data name="dgvMultipleEntry.Columns(dgMeTAnalysisCode0).HeaderText" xml:space="preserve">
+    <value>T0</value>
+  </data>
+  <data name="dgvMultipleEntry.Columns(dgMeTAnalysisCode1).HeaderText" xml:space="preserve">
+    <value>T1</value>
+  </data>
+  <data name="dgvMultipleEntry.Columns(dgMeTAnalysisCode2).HeaderText" xml:space="preserve">
+    <value>T2</value>
+  </data>
+  <data name="dgvMultipleEntry.Columns(dgMeTAnalysisCode3).HeaderText" xml:space="preserve">
+    <value>T3</value>
+  </data>
+  <data name="dgvMultipleEntry.Columns(dgMeTAnalysisCode4).HeaderText" xml:space="preserve">
+    <value>T4</value>
+  </data>
+  <data name="dgvMultipleEntry.Columns(dgMeVHDetailCostCode).HeaderText" xml:space="preserve">
+    <value>Detail Cost Code</value>
+  </data>
+  <data name="dgvMultipleEntry.Columns(dgMeVHWSCode).HeaderText" xml:space="preserve">
+    <value>Vehicle Code</value>
+  </data>
+  <data name="dgvMultipleEntry.Columns(dgMeYOP).HeaderText" xml:space="preserve">
+    <value>YOP</value>
+  </data>
+  <data name="dgvMultipleEntry.Columns(DgMeCOADescp).HeaderText" xml:space="preserve">
+    <value>Account Descp</value>
+  </data>
+  <data name="dgvMultipleEntry.Columns(dgMeOldCOACode).HeaderText" xml:space="preserve">
+    <value>Old Account Code</value>
+  </data>
+  <data name="dgvJournalView.Columns(dgclStatus).HeaderText" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="lblSearchStatus.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="lblStatus.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Msg1" xml:space="preserve">
+    <value>No Records in Ledger Type,Please Add the Records in Accounts Ledger Setup Screen</value>
+  </data>
+  <data name="Msg10" xml:space="preserve">
+    <value>Invalid Station Value,Please Choose it from look up</value>
+  </data>
+  <data name="Msg11" xml:space="preserve">
+    <value>Invalid Contract No ,Please Choose it from look up</value>
+  </data>
+  <data name="Msg12" xml:space="preserve">
+    <value>Ledger Type Field is mandatory</value>
+  </data>
+  <data name="Msg13" xml:space="preserve">
+    <value>Journal Date Field is mandatory</value>
+  </data>
+  <data name="Msg14" xml:space="preserve">
+    <value>Ledger No Field is mandatory</value>
+  </data>
+  <data name="Msg15" xml:space="preserve">
+    <value>Journal Descp Field is mandatory</value>
+  </data>
+  <data name="Msg16" xml:space="preserve">
+    <value>Details Cost Code is empty, Please Keying the Detail Cost Code Value</value>
+  </data>
+  <data name="Msg17" xml:space="preserve">
+    <value>Account Code is Required</value>
+  </data>
+  <data name="Msg18" xml:space="preserve">
+    <value>Either Debit or Credit Should be Keyed in</value>
+  </data>
+  <data name="Msg19" xml:space="preserve">
+    <value>This Account Code required a Vehicle Code</value>
+  </data>
+  <data name="Msg2" xml:space="preserve">
+    <value>Invalid Account code,Please Choose it from look up</value>
+  </data>
+  <data name="Msg21" xml:space="preserve">
+    <value>Debit and Credit Should be Equal</value>
+  </data>
+  <data name="Msg22" xml:space="preserve">
+    <value>Failed to save data</value>
+  </data>
+  <data name="Msg23" xml:space="preserve">
+    <value>Data(s) Successfully Saved</value>
+  </data>
+  <data name="Msg24" xml:space="preserve">
+    <value>Debit and Credit Should be Equal</value>
+  </data>
+  <data name="Msg25" xml:space="preserve">
+    <value>Failed to save database</value>
+  </data>
+  <data name="Msg26" xml:space="preserve">
+    <value>Data(s) Successfully Updated</value>
+  </data>
+  <data name="Msg27" xml:space="preserve">
+    <value>Please Add Account Code</value>
+  </data>
+  <data name="Msg28" xml:space="preserve">
+    <value>“Data not saved, do you want to proceed without saving?” If yes please click ""OK"" or click ""Cancel""</value>
+  </data>
+  <data name="Msg29" xml:space="preserve">
+    <value>No Record to Edit, Please Select a Record to Edit</value>
+  </data>
+  <data name="Msg3" xml:space="preserve">
+    <value>Invalid T0 Value,Please Choose it from look up</value>
+  </data>
+  <data name="Msg30" xml:space="preserve">
+    <value>User cannot Delete Approved Record</value>
+  </data>
+  <data name="Msg31" xml:space="preserve">
+    <value>You are about to Delete the selected record. Are you sure? If yes please click  "OK" or click "Cancel"</value>
+  </data>
+  <data name="Msg32" xml:space="preserve">
+    <value>Data Sucessfully Deleted</value>
+  </data>
+  <data name="Msg33" xml:space="preserve">
+    <value>No Record to Delete,Please Select a Record to delete</value>
+  </data>
+  <data name="Msg34" xml:space="preserve">
+    <value>Please Enter Criteria to Search</value>
+  </data>
+  <data name="Msg35" xml:space="preserve">
+    <value>No record(s) found matching your search criteria.</value>
+  </data>
+  <data name="Msg36" xml:space="preserve">
+    <value>No Record to Edit,Please Select a Record to Edit</value>
+  </data>
+  <data name="Msg37" xml:space="preserve">
+    <value>Account Code Required</value>
+  </data>
+  <data name="Msg38" xml:space="preserve">
+    <value>Either Debit or Credit Should be Keyed in</value>
+  </data>
+  <data name="Msg39" xml:space="preserve">
+    <value>Ledger No Already Exists ! Please enter different Ledger No</value>
+  </data>
+  <data name="Msg4" xml:space="preserve">
+    <value>Invalid T1 Value,Please Choose it from look up</value>
+  </data>
+  <data name="Msg40" xml:space="preserve">
+    <value>The Account Code already exist in the list</value>
+  </data>
+  <data name="Msg41" xml:space="preserve">
+    <value>Account Code Required</value>
+  </data>
+  <data name="Msg42" xml:space="preserve">
+    <value>Either Debit or Credit Should be Keyed in</value>
+  </data>
+  <data name="Msg43" xml:space="preserve">
+    <value>The Account Code already exist in the list</value>
+  </data>
+  <data name="Msg44" xml:space="preserve">
+    <value>This FieldNo does not belongs to selected Afdeling,Please Choose it from look up</value>
+  </data>
+  <data name="Msg45" xml:space="preserve">
+    <value>Invalid T4 Value,Please Choose it from look up</value>
+  </data>
+  <data name="Msg46" xml:space="preserve">
+    <value>No Record(s) Available</value>
+  </data>
+  <data name="Msg47" xml:space="preserve">
+    <value>You are about to Confirm the  record. Are you sure? If yes please click ""OK"" or click ""Cancel""</value>
+  </data>
+  <data name="Msg48" xml:space="preserve">
+    <value>Please Keying the Rejected Reason</value>
+  </data>
+  <data name="Msg49" xml:space="preserve">
+    <value>Record Rejected Successfully</value>
+  </data>
+  <data name="Msg5" xml:space="preserve">
+    <value>Invalid T2 Value,Please Choose it from look up</value>
+  </data>
+  <data name="Msg50" xml:space="preserve">
+    <value>Approved Successfully</value>
+  </data>
+  <data name="Msg51" xml:space="preserve">
+    <value>Transaction  Failed</value>
+  </data>
+  <data name="Msg52" xml:space="preserve">
+    <value>Approved Failed</value>
+  </data>
+  <data name="Msg53" xml:space="preserve">
+    <value>Transaction completed Successfully</value>
+  </data>
+  <data name="Msg6" xml:space="preserve">
+    <value>Invalid T3 Value,Please Choose it from look up</value>
+  </data>
+  <data name="Msg7" xml:space="preserve">
+    <value>Invalid FieldNo,Please Choose it from look up</value>
+  </data>
+  <data name="Msg8" xml:space="preserve">
+    <value>Invalid VHNo,Please Choose it from look up</value>
+  </data>
+  <data name="Msg9" xml:space="preserve">
+    <value>Invalid VHDetail Cost code,Please Choose it from look up</value>
+  </data>
+  <data name="btnviewReport.Text" xml:space="preserve">
+    <value>View Report</value>
+  </data>
+  <data name="Msg54" xml:space="preserve">
+    <value>This Account Code required a Field No Code</value>
+  </data>
+  <data name="dgvMultipleEntry.Columns(DgMeDescription).HeaderText" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Msg60" xml:space="preserve">
+    <value>Description is Required</value>
+  </data>
+  <data name="lblDescp.Text" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Msg61" xml:space="preserve">
+    <value>T0 is Required</value>
+  </data>
+  <data name="Msg62" xml:space="preserve">
+    <value>You are about to Save the  record. Are you sure? If yes please click ""OK"" or click ""Cancel""</value>
+  </data>
+  <data name="Msg63" xml:space="preserve">
+    <value>you are about to navigate away from the current tab,you may lose unsaved data. are you sure? if yes please click ""ok"" or click ""cancel"".</value>
+  </data>
+  <data name="btnDeleteAll.Text" xml:space="preserve">
+    <value>Delete All</value>
+  </data>
+  <data name="cmsJournal.Items.Item(0).Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="cmsJournal.Items.Item(1).Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="cmsJournal.Items.Item(2).Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="msg64" xml:space="preserve">
+    <value>Delete function cant be done for single record!</value>
+  </data>
+  <data name="btnConform.Text" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+</root>

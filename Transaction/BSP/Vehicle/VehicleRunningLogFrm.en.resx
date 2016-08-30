@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="btnPrintFFBDO.Text" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="btnReset.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="btnSaveOrUpdate.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btnSearch.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="chkDate.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="dgVehicleCode.Columns(Sno).HeaderText" xml:space="preserve">
+    <value>S.No</value>
+  </data>
+  <data name="dgVehicleCode.Columns(VHWSCode).HeaderText" xml:space="preserve">
+    <value>Vehicle Code</value>
+  </data>
+  <data name="dgvListOfVehicleLog.Columns(Activity).HeaderText" xml:space="preserve">
+    <value>Activity</value>
+  </data>
+  <data name="dgvListOfVehicleLog.Columns(EndTime).HeaderText" xml:space="preserve">
+    <value>End Time</value>
+  </data>
+  <data name="dgvListOfVehicleLog.Columns(LogDate).HeaderText" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="dgvListOfVehicleLog.Columns(StartTime).HeaderText" xml:space="preserve">
+    <value>Start Time</value>
+  </data>
+  <data name="dgvListOfVehicleLog.Columns(TotalHrs).HeaderText" xml:space="preserve">
+    <value>Total Hrs</value>
+  </data>
+  <data name="dgvListOfVehicleLog.Columns(VehicleCode).HeaderText" xml:space="preserve">
+    <value>Vehicle Code</value>
+  </data>
+  <data name="gbBunchesData.Text" xml:space="preserve">
+    <value>Bunches Data</value>
+  </data>
+  <data name="gbListOfVehicleLog.Text" xml:space="preserve">
+    <value>Vehicle Running Log Records</value>
+  </data>
+  <data name="gbVehicleRunningData.Text" xml:space="preserve">
+    <value>Vehicle Running Data</value>
+  </data>
+  <data name="lblActualBunchesMill.Text" xml:space="preserve">
+    <value>Actual Bunches[Mill]</value>
+  </data>
+  <data name="lblBatchValue.Text" xml:space="preserve">
+    <value>Batch Value</value>
+  </data>
+  <data name="lblBunches.Text" xml:space="preserve">
+    <value>Bunches</value>
+  </data>
+  <data name="lblCollectionPoint.Text" xml:space="preserve">
+    <value>Collection Point</value>
+  </data>
+  <data name="lblContractNo.Text" xml:space="preserve">
+    <value>Contract No</value>
+  </data>
+  <data name="lblDate.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="lblDateCollected.Text" xml:space="preserve">
+    <value>Date Collected</value>
+  </data>
+  <data name="lblDateHarvested.Text" xml:space="preserve">
+    <value>Date Harvested</value>
+  </data>
+  <data name="lblDispatchedBy.Text" xml:space="preserve">
+    <value>Dispatched By</value>
+  </data>
+  <data name="lblDIV.Text" xml:space="preserve">
+    <value>Afdeling</value>
+  </data>
+  <data name="lblDoubleHandledFFB.Text" xml:space="preserve">
+    <value>Double Handled FFB</value>
+  </data>
+  <data name="lblEndKms.Text" xml:space="preserve">
+    <value>End Kms</value>
+  </data>
+  <data name="lblEndTime.Text" xml:space="preserve">
+    <value>End Time</value>
+  </data>
+  <data name="lblLocation.Text" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="lblMillWeight.Text" xml:space="preserve">
+    <value>Mill Weight</value>
+  </data>
+  <data name="lblOperatedBy.Text" xml:space="preserve">
+    <value>Operated By</value>
+  </data>
+  <data name="lblRemarks.Text" xml:space="preserve">
+    <value>Remarks</value>
+  </data>
+  <data name="lblSearchby.Text" xml:space="preserve">
+    <value>Search By</value>
+  </data>
+  <data name="lblSerialNo.Text" xml:space="preserve">
+    <value>FEB Delivery Order No</value>
+  </data>
+  <data name="lblShift.Text" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="lblStartKms.Text" xml:space="preserve">
+    <value>Start Kms</value>
+  </data>
+  <data name="lblStartTime.Text" xml:space="preserve">
+    <value>Start Time</value>
+  </data>
+  <data name="lblStatus.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="lblSubBlock.Text" xml:space="preserve">
+    <value>FieldNo</value>
+  </data>
+  <data name="lblTotalHours.Text" xml:space="preserve">
+    <value>Total Hours</value>
+  </data>
+  <data name="lblTotalKms.Text" xml:space="preserve">
+    <value>Total Kms</value>
+  </data>
+  <data name="lblUOM.Text" xml:space="preserve">
+    <value>UOM</value>
+  </data>
+  <data name="lblVehicleActivity.Text" xml:space="preserve">
+    <value>Vehicle Activity</value>
+  </data>
+  <data name="lblVehicleCode.Text" xml:space="preserve">
+    <value>Vehicle Code</value>
+  </data>
+  <data name="lblVehicleDescription.Text" xml:space="preserve">
+    <value>Vehicle Description</value>
+  </data>
+  <data name="lblVehicleModel.Text" xml:space="preserve">
+    <value>Vehicle Model</value>
+  </data>
+  <data name="lblVehicleRegNo.Text" xml:space="preserve">
+    <value>Vehicle Reg No</value>
+  </data>
+  <data name="lblViewVehicleCode.Text" xml:space="preserve">
+    <value>Vehicle Code</value>
+  </data>
+  <data name="lblWeightedBy.Text" xml:space="preserve">
+    <value>Weighted By</value>
+  </data>
+  <data name="lblYOP.Text" xml:space="preserve">
+    <value>YOP</value>
+  </data>
+  <data name="PnlSearch.Text" xml:space="preserve">
+    <value>Search Vehicle Running Log</value>
+  </data>
+  <data name="rbBreakDown.Text" xml:space="preserve">
+    <value>Break Down</value>
+  </data>
+  <data name="rbOperational.Text" xml:space="preserve">
+    <value>Operational</value>
+  </data>
+  <data name="rbStandBy.Text" xml:space="preserve">
+    <value>Stand By</value>
+  </data>
+  <data name="tbVehicleRunningLog.TabPages(tbpgAdd).Text" xml:space="preserve">
+    <value>Vehicle Running Log</value>
+  </data>
+  <data name="tbVehicleRunningLog.TabPages(tpViewVRL).Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="IContractEstate" xml:space="preserve">
+    <value>This contract number does not belong to this estate.</value>
+  </data>
+  <data name="IContractNo" xml:space="preserve">
+    <value>Invalid Contract Number.</value>
+  </data>
+  <data name="IEndStartKms" xml:space="preserve">
+    <value>End kms value should be more than Start kms value.</value>
+  </data>
+  <data name="IKmsFormat" xml:space="preserve">
+    <value>Please check that the precedence is 16 digits and the decimal is 2 digits.</value>
+  </data>
+  <data name="INumeric" xml:space="preserve">
+    <value>Please make sure that you have entered a numeric value.</value>
+  </data>
+  <data name="IStartEndHrs" xml:space="preserve">
+    <value>Start hrs value should be less than end hrs value.</value>
+  </data>
+  <data name="IStartEndHrsEqual" xml:space="preserve">
+    <value>Start hrs value should not be equlal to end hrs value.</value>
+  </data>
+  <data name="IStartEndKms" xml:space="preserve">
+    <value>Start kms value should be less than end kms value.</value>
+  </data>
+  <data name="IStartEndKmsEqual" xml:space="preserve">
+    <value>Start kms value should not be equal to end kms value.</value>
+  </data>
+  <data name="IStartEndTime" xml:space="preserve">
+    <value>Start Time should be earlier than End Time.</value>
+  </data>
+  <data name="ISubBlock" xml:space="preserve">
+    <value>Invalid FieldNo</value>
+  </data>
+  <data name="IVehicle" xml:space="preserve">
+    <value>Invalid Vehicle Code.</value>
+  </data>
+  <data name="IVehicleEstate" xml:space="preserve">
+    <value>This vehicle code does not belong to this estate.</value>
+  </data>
+  <data name="MsgNoRecords" xml:space="preserve">
+    <value>No record found</value>
+  </data>
+  <data name="MsgPosted" xml:space="preserve">
+    <value>This record was posted. Hence cannot be updated/deleted.</value>
+  </data>
+  <data name="MsgSearch" xml:space="preserve">
+    <value>Please enter criteria to search</value>
+  </data>
+  <data name="REndHr" xml:space="preserve">
+    <value>End time required when start time is filled.</value>
+  </data>
+  <data name="REndKm" xml:space="preserve">
+    <value>End kms required when start kms is filled.</value>
+  </data>
+  <data name="RField" xml:space="preserve">
+    <value>This field is required.</value>
+  </data>
+  <data name="RStartHr" xml:space="preserve">
+    <value>Start time required when end time is filled.</value>
+  </data>
+  <data name="RStartKm" xml:space="preserve">
+    <value>Start kms required when end kms is filled.</value>
+  </data>
+  <data name="UsedVehicleSomeWhere" xml:space="preserve">
+    <value>Vehicle used in workshop log screen for the same time and date</value>
+  </data>
+  <data name="Msg11" xml:space="preserve">
+    <value>Current data conflicts with existing data in the database. Please modify start kms and/or end kms.</value>
+  </data>
+  <data name="Msg12" xml:space="preserve">
+    <value>Current data conflicts with existing data in the database. Please modify start time and/or end time.</value>
+  </data>
+  <data name="txtPosted" xml:space="preserve">
+    <value>Posted</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>View Report</value>
+  </data>
+  <data name="pnlSearch" xml:space="preserve">
+    <value>Search Vehicle Running Log</value>
+  </data>
+  <data name="ClosePrompt" xml:space="preserve">
+    <value>Do you want to close this screen? If yes please click ""OK"" or click ""Cancel""</value>
+  </data>
+  <data name="DeleteMorePrompt" xml:space="preserve">
+    <value>This operation might delete more than one record for the selected date and vehicle code. Are you sure? If yes please click "OK" or click "Cancel".</value>
+  </data>
+  <data name="DeletePrompt" xml:space="preserve">
+    <value>You are about to delete the selected record. Are you sure? If yes please click "OK" or click "Cancel".</value>
+  </data>
+  <data name="FFBReportMsg" xml:space="preserve">
+    <value>Report is available only for records of FFB delivered to mill, can be viewed only during update mode.</value>
+  </data>
+  <data name="REndHrsSelect" xml:space="preserve">
+    <value>This field is required when End Hrs selected.</value>
+  </data>
+  <data name="REndMtsSelect" xml:space="preserve">
+    <value>This field is required when End Minutes selected.</value>
+  </data>
+  <data name="REndTimeSelect" xml:space="preserve">
+    <value>This field is required when End time is selected.</value>
+  </data>
+  <data name="RStartHrsSelect" xml:space="preserve">
+    <value>This field is required when Starting Hrs selected.</value>
+  </data>
+  <data name="RStartMtsSelect" xml:space="preserve">
+    <value>This field is required when Start Minutes selected.</value>
+  </data>
+  <data name="RStartTimeSelect" xml:space="preserve">
+    <value>This field is required when Start time is selected.</value>
+  </data>
+  <data name="BreakDownOnlyone" xml:space="preserve">
+    <value>For Breakdown,Only one Vehicle per day for the same date and Vehicle</value>
+  </data>
+  <data name="RTime" xml:space="preserve">
+    <value>Start Time should be greater than 00:00</value>
+  </data>
+  <data name="IEndHrs" xml:space="preserve">
+    <value>Invalid EndHrs</value>
+  </data>
+  <data name="IEndMin" xml:space="preserve">
+    <value>Invalid EndMin</value>
+  </data>
+  <data name="IStartHrs" xml:space="preserve">
+    <value>Invalid Start Hrs</value>
+  </data>
+  <data name="IStartMin" xml:space="preserve">
+    <value>Invalid Start Min</value>
+  </data>
+  <data name="ITimeFormat" xml:space="preserve">
+    <value>Invalid Time Format. Time would be hh:mm (eg: 05:54)</value>
+  </data>
+  <data name="cmsDelete.Items.Item(0).Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="cmsDelete.Items.Item(1).Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="cmsDelete.Items.Item(2).Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="HeaderGrid" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+</root>

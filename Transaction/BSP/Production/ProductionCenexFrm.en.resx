@@ -1,0 +1,521 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="TabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TabPage1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="TabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1110, 613</value>
+  </data>
+  <data name="TabPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TabPage2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="TabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1110, 613</value>
+  </data>
+  <data name="TabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1118, 639</value>
+  </data>
+  <data name="cmbStorageRm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>700, 172</value>
+  </data>
+  <data name="cmbStorageRm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="lblstoragerm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>477, 172</value>
+  </data>
+  <data name="lblstoragerm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 13</value>
+  </data>
+  <data name="cmbProductType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 167</value>
+  </data>
+  <data name="cmbProductType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="lblproducttype.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 172</value>
+  </data>
+  <data name="lblproducttype.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="txtShiftHours.Location" type="System.Drawing.Point, System.Drawing">
+    <value>700, 124</value>
+  </data>
+  <data name="txtShiftHours.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="txtShiftHours.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="lblshifthours.Location" type="System.Drawing.Point, System.Drawing">
+    <value>477, 132</value>
+  </data>
+  <data name="lblshifthours.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="txtBreakDownTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 124</value>
+  </data>
+  <data name="txtBreakDownTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="txtBreakDownTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="txtEndTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>700, 81</value>
+  </data>
+  <data name="txtEndTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="cmbStartTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 74</value>
+  </data>
+  <data name="cmbStartTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="cmbStartTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="Button4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 568</value>
+  </data>
+  <data name="Button4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 29</value>
+  </data>
+  <data name="Button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>525, 568</value>
+  </data>
+  <data name="Button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 29</value>
+  </data>
+  <data name="Button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>658, 568</value>
+  </data>
+  <data name="Button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 29</value>
+  </data>
+  <data name="Button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>791, 568</value>
+  </data>
+  <data name="Button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 29</value>
+  </data>
+  <data name="GroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 204</value>
+  </data>
+  <data name="GroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1099, 330</value>
+  </data>
+  <data name="txtLossesGain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>970, 239</value>
+  </data>
+  <data name="txtLossesGain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="lbllossesgain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>825, 243</value>
+  </data>
+  <data name="lbllossesgain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="txtConcentratedDry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>970, 189</value>
+  </data>
+  <data name="txtConcentratedDry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="lblconcentratedd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>825, 191</value>
+  </data>
+  <data name="lblconcentratedd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 13</value>
+  </data>
+  <data name="txtConcentratedWet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>970, 126</value>
+  </data>
+  <data name="txtConcentratedWet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="lblconcentratedw.Location" type="System.Drawing.Point, System.Drawing">
+    <value>825, 130</value>
+  </data>
+  <data name="lblconcentratedw.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 13</value>
+  </data>
+  <data name="txtWashing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>964, 84</value>
+  </data>
+  <data name="txtWashing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="txtLimbah.Location" type="System.Drawing.Point, System.Drawing">
+    <value>689, 84</value>
+  </data>
+  <data name="txtLimbah.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="lblwashing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>830, 86</value>
+  </data>
+  <data name="lblwashing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
+  </data>
+  <data name="lbllimbah.Location" type="System.Drawing.Point, System.Drawing">
+    <value>552, 86</value>
+  </data>
+  <data name="lbllimbah.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="txtSludge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>382, 84</value>
+  </data>
+  <data name="txtSludge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="txtSkimDry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 84</value>
+  </data>
+  <data name="txtSkimDry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="lblsludge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 86</value>
+  </data>
+  <data name="lblsludge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="lblskimdry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 88</value>
+  </data>
+  <data name="lblskimdry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="txtLatexProcessDry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>964, 21</value>
+  </data>
+  <data name="txtLatexProcessDry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="txtLatexProcessWet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>689, 23</value>
+  </data>
+  <data name="txtLatexProcessWet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="lbllatexdry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>830, 25</value>
+  </data>
+  <data name="lbllatexdry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 13</value>
+  </data>
+  <data name="lbllatexwet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>552, 25</value>
+  </data>
+  <data name="lbllatexwet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 13</value>
+  </data>
+  <data name="wbbtndelete.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAQQAAAAlCAIAAAAr7QB6AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAy0lEQVR4Xu3Ca0pCAQCE0dn/JlyDf6MI
+        kSJCE5EwtczU7tXMtFLzEYyzkO9wdPg3ydT+ZJKp3dEkU5uDSaZ+9iaZWv+ZZGq1M8nUcmuSqcXGJFPz
+        X5NMld8mmSrWJpmarkwyNf4yydRoaZKp4adJpl4WJpkafJhkqjc3yVR3ZpKpx9IkU53CJFPtd5NMtaYm
+        mXqYmGSqMTbJ1P2bSabuRiaZun01ydTN0CRT9WeTTNUGJpm67ptk6qpnkqnLJ5NMXXRNMlWpNklWqs0z
+        o+UJwj8nfMkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="wbbtndelete.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACxIAAAsSAdLdfvwAAARcSURBVDhPjZR7TJNXGMYPbEMg
+        mWxoUopcWlZuE0q4g6AkUmY0ipJMyeoMTv3DbCT6j1kGUSLETLZxixFm1Gm4lV6wWErlOgNEkLRkoLBV
+        FhiWZMK4CYSbDJ69X/mMF9TxJF/a7zvn+Z3zXs5h79KPjImzGfv2pw/eN+TZ2z/MsdvQlm3D8uhbHD9l
+        fcpgzJZgXxW6uXWWbt26rIyOhio2Fqrt21efbdugDAnBFZFoJN/BISeNMSFvfbNyGHP4wc7ufnlYGBQE
+        K6NfJQd57VFERaGMwBW02M9C4WQ+Y1Ie8aoKGNtQ6Ozcw5mK/f3xW24uBrRalEulUBNEQ981MTFQBAXB
+        mJUFS2MjFBERUNLYdZEIlJIDPOqF8u3sjOrISJQR5FFpKZ5r4sED3CKjlksBAU3nz2Nledk6NmOxQE2L
+        qTiwu/v094x9zOMYu2Rrm6IgmCo8HMNtbVbDy3pqNkO/Ywf+LCnhv7zQ/OgoahIToQoORpGjYwuPZOy6
+        q2sLt0u1NBBj7e389PVpgaCGBBlUoaFQ+Pkhl7EwdoUxx1KJZElDRdFyD4U4qFLxlndrlsKvi49HFQEr
+        yaum3f4iEHzHrgoEETraIQfUUeIN0VHQ+fhgkEJdWVnh7Ws13deHWvIYoiKhpyir6P+t0BCUeYmLWYmv
+        b6KOql1NAwaC1lMrNdDvXar04vg4j1irRxcvop521kAFrCWvnjxclOVicSXThIbuqRIKcdvbG3U02BgR
+        jvb9+7E0NcXb3yyuA34/exaNBG6kjegDA6FwcoLaz0/DKqXSnfW+vtC6uOD2pk24n3QA/87M8Nb/1+Mb
+        N6Ann87dDerNm1EXHV3BFJ6eombqtWpXFzTTMXybnhqNWJqd5d9eVW9aGnQfOcHwqT/uyWQ5DIzZtMXH
+        D9RKJGjYsgWW4mJ+6qq4Ug0VFaEnIAB9R45Y31/W3OAgWiiXdR4e6ExKQp1E8rm1T5t8fS91JyejmQrW
+        Svl9UlFhNXDVH6ZF+nftgoWAg9Tk/SdOYHFy0jo+PzSEDqp66yde6JDJ0BIcPE3H9UMrVCkQiH/18Vnu
+        kcvRQQUzSbxhycuDJTMLQ4cPY+TMGYxTUUYpzCcnT2IgJQX/3LmDbjqBJmr4rn370J2QAL2Hx5dW4HPV
+        uLsn3wsKemY+ehR/0KpmMgwdOoSxc+cwdfkyZm7exPS1a5igVhr+JhV9sTEwUw3MFGHXZwkwuAiVKsbe
+        43Gr4u5Rvafn13cpN70HD2KYLo5RAk7m52NOo8FCUxMWamowQ+DxCxcwnJmJv06fRjulrE4s1tLJdOJR
+        a1Xt5bWnUSw2du/ejRG64qbVasy3tuIZ3VaLJhPmKOxx2nn/sWNoDQz42yASZVwRCh15+9t1deNG55a4
+        uC8eyuU1/adOTQxnZ2O8sBBjBQV4nJ6+0Hv8eJdx7970an9/by5C3rY+ZcTF2XfK5Z49aWkRXRkZO3vS
+        02NNqal+KpmMC9VmddbrYuw/KCezO7iy/T4AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="wbbtndelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>699, 125</value>
+  </data>
+  <data name="wbbtndelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 22</value>
+  </data>
+  <data name="wbbtnadd.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAQQAAAAlCAIAAAAr7QB6AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAy0lEQVR4Xu3Ca0pCAQCE0dn/JlyDf6MI
+        kSJCE5EwtczU7tXMtFLzEYyzkO9wdPg3ydT+ZJKp3dEkU5uDSaZ+9iaZWv+ZZGq1M8nUcmuSqcXGJFPz
+        X5NMld8mmSrWJpmarkwyNf4yydRoaZKp4adJpl4WJpkafJhkqjc3yVR3ZpKpx9IkU53CJFPtd5NMtaYm
+        mXqYmGSqMTbJ1P2bSabuRiaZun01ydTN0CRT9WeTTNUGJpm67ptk6qpnkqnLJ5NMXXRNMlWpNklWqs0z
+        o+UJwj8nfMkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="wbbtnadd.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAAB6
+        JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAAACXBIWXMAAAsSAAALEgHS3X78AAADwklE
+        QVQ4T41Ta0zTVxxt3Ic9vviJLRllLFITlyVmDhYQ2QPWMZyUlxOBobHIqrB1DnQaZKZTVzeBYHkIkqJh
+        pXTUFiYqrRsIImA3GNSOxwCB2tJSSltaiqWlj//Zf7XZKxnxJCf33l/O7+Tee+6l/BdsGfE066oxJq/N
+        /itbZrWwZTZT/nV79+Hm5aiCe9pnA7L1weFgQ57UmnKk3TpWNe7CFbUbl2fdKFetrn0usylZLbaEgHR9
+        ZNRrXjx0zfJD1bgTYgPQqAW+0wBCPYELI04wJWZBQLo+9gsNsUV3rF6Bxoe6CR9qxj2oHHGDN0qA/5BA
+        YccSAtL1kS2aizt51+atnQIqRjzgqZwoVTrAHXKjYhIovP2ERgkXp97Ol5k9XBWBon4XTvSt4HgvyX43
+        uL8BrBuLT2hUr9u2t2lOc1zhArvHh8MdThwieaSXwLE+J9Kb9HMB6f8jsU7/XE6LJYPBnx3MlhpQqCDw
+        6V34WXDPi48kBmQIdQpWm439ocBI23MVTwVa/wZDtPACU2zml6lchjKVg8gSqpHWOIccuQ0H5ctIJqPb
+        16xFrvQoskV0R1bjZlWmIKgn0P4Y+8Xm4I9bLZKKESfRZgLERqBkjCB3sIB3Kn73k3l9CaeGPMhpTYLG
+        swfTa7tRJKch55otggNs8Bt9dsP6NVex4hGoyYgnvODPrIGvc6P6oRe8aZIzPv+8RusGU5qEYfsu3LHQ
+        UdhGw0GJqYPTu/qS3+jEj0vakuE1lCh9OD3wCFzlCkpGHbgwsUpGvor89pPksVKQJUpGaV84FCY65Pq3
+        cK53CxJr6Y8SLm4eeq/y+W4KS7pIxuwFu9OB/J9MZDpWFP2yjOJBO4oH7GDUJ+FnaxS65qPRqYuGdCoK
+        DaPh6NDuQJc+Gv3mKDBFL4OyV7SAvE4C6c2LyJTqcOCmgbxgI3JvGclxAbGVDNSoN4E7GIYzijAUd9NQ
+        3EUDpy/MX+NNbELyFSoo6WITmHIC8Ze0SGxQI+V7zb8YeZ6B9+tCQK8OQaaEiqOdVBTcCgFLTvXX4mtD
+        EHGONIq/NGved9OFN8sfIK5Wg0SRBbuaFvFBkwE7G+exUzhPrg0kjdh6NhWf3A4Cqz0IkWXBiK2a1ERw
+        7qf5L/v1s8N5cdWzmsjzY4gpn0ZKsxOpUg9SJW6ktbixu9X9eE7WXv0qHbkDG3GgZyNeKw3G1i8H0v56
+        mKEc9TPbTg29G35a2RB+5r73jW/GfNvLJkk+IHbwZhBDcnvpJPFnLfSLZOKVb6nYQh4l+FjoP/4dhfIH
+        39me5yYTGLYAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="wbbtnadd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>528, 126</value>
+  </data>
+  <data name="wbbtnadd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 22</value>
+  </data>
+  <data name="txtReceivedDry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>382, 23</value>
+  </data>
+  <data name="txtReceivedDry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="txtReceivedWet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 23</value>
+  </data>
+  <data name="txtReceivedWet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="lblreceivedd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>275, 25</value>
+  </data>
+  <data name="lblreceivedd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 13</value>
+  </data>
+  <data name="lblreceivedw.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 28</value>
+  </data>
+  <data name="lblreceivedw.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 13</value>
+  </data>
+  <data name="dtpDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 31</value>
+  </data>
+  <data name="dtpDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="txtAssistant.Location" type="System.Drawing.Point, System.Drawing">
+    <value>700, 29</value>
+  </data>
+  <data name="txtAssistant.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="lblstoptime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>478, 80</value>
+  </data>
+  <data name="lblstoptime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="lblassistant.Location" type="System.Drawing.Point, System.Drawing">
+    <value>477, 37</value>
+  </data>
+  <data name="lblassistant.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="lblstarttime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 81</value>
+  </data>
+  <data name="lblstarttime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="lblbreakdowntime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 128</value>
+  </data>
+  <data name="lblbreakdowntime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 13</value>
+  </data>
+  <data name="lbldate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 37</value>
+  </data>
+  <data name="lbldate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbltest.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbltest.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="lbltest.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbltest.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lbltest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 13</value>
+  </data>
+  <data name="lbltest.Text" xml:space="preserve">
+    <value>Storage RM</value>
+  </data>
+  <data name="dgvtransfer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="dgvtransfer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>581, 113</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1118, 639</value>
+  </data>
+</root>

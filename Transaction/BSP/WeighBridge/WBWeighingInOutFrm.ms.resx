@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnAdd.Text" xml:space="preserve">
+    <value>Menambahkan</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>Tutup</value>
+  </data>
+  <data name="btnDelete.Text" xml:space="preserve">
+    <value>Menghapus</value>
+  </data>
+  <data name="btnGetWeight.Text" xml:space="preserve">
+    <value>Mendapatkan Berat</value>
+  </data>
+  <data name="btnReset.Text" xml:space="preserve">
+    <value>Kembali Awal</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>Simpan</value>
+  </data>
+  <data name="btnSearch.Text" xml:space="preserve">
+    <value>Mencari</value>
+  </data>
+  <data name="btnUpdate.Text" xml:space="preserve">
+    <value>Pembaruan</value>
+  </data>
+  <data name="btnviewReport.Text" xml:space="preserve">
+    <value>Lihat Laporan</value>
+  </data>
+  <data name="chkManualWeight.Text" xml:space="preserve">
+    <value>Manual Berat</value>
+  </data>
+  <data name="chkOthers.Text" xml:space="preserve">
+    <value>Lainnya</value>
+  </data>
+  <data name="chkViewOthers.Text" xml:space="preserve">
+    <value>Lainnya</value>
+  </data>
+  <data name="dgvFieldBlockSetup.Columns(gvBlock).HeaderText" xml:space="preserve">
+    <value>Blok</value>
+  </data>
+  <data name="dgvFieldBlockSetup.Columns(gvDivision).HeaderText" xml:space="preserve">
+    <value>Afdeling</value>
+  </data>
+  <data name="dgvFieldBlockSetup.Columns(gvQuality).HeaderText" xml:space="preserve">
+    <value>Jumlah FFB</value>
+  </data>
+  <data name="dgvFieldBlockSetup.Columns(gvYOP).HeaderText" xml:space="preserve">
+    <value>Tahun Tanam</value>
+  </data>
+  <data name="dgvWBWeighingInOut.Columns(dgclDate).HeaderText" xml:space="preserve">
+    <value>Tanggal</value>
+  </data>
+  <data name="dgvWBWeighingInOut.Columns(dgclNoofTrip).HeaderText" xml:space="preserve">
+    <value>Jumlah Trip</value>
+  </data>
+  <data name="dgvWBWeighingInOut.Columns(dgclOthers).HeaderText" xml:space="preserve">
+    <value>Lainnya</value>
+  </data>
+  <data name="dgvWBWeighingInOut.Columns(dgclProductCode).HeaderText" xml:space="preserve">
+    <value>Kode Produksi</value>
+  </data>
+  <data name="dgvWBWeighingInOut.Columns(dgclRemarks).HeaderText" xml:space="preserve">
+    <value>Keterangan</value>
+  </data>
+  <data name="dgvWBWeighingInOut.Columns(dgclSession).HeaderText" xml:space="preserve">
+    <value>Seksi</value>
+  </data>
+  <data name="dgvWBWeighingInOut.Columns(dgclTime).HeaderText" xml:space="preserve">
+    <value>Waktu Dalam</value>
+  </data>
+  <data name="dgvWBWeighingInOut.Columns(dgclVehicleCode).HeaderText" xml:space="preserve">
+    <value>Kendaraan Kode</value>
+  </data>
+  <data name="dgvWBWeighingInOut.Columns(dgclWBTicketNo).HeaderText" xml:space="preserve">
+    <value>No WB Tiket</value>
+  </data>
+  <data name="lblBlock.Text" xml:space="preserve">
+    <value>Sub Blok</value>
+  </data>
+  <data name="lblDate.Text" xml:space="preserve">
+    <value>Tanggal</value>
+  </data>
+  <data name="lblDivision.Text" xml:space="preserve">
+    <value>Afdeling</value>
+  </data>
+  <data name="lblDriver.Text" xml:space="preserve">
+    <value>Supir</value>
+  </data>
+  <data name="lblFFBDeleiveryOrderNo.Text" xml:space="preserve">
+    <value>No Pengiriman FFB</value>
+  </data>
+  <data name="lblFirstWeight.Text" xml:space="preserve">
+    <value>Berat Awal</value>
+  </data>
+  <data name="lblNetWeight.Text" xml:space="preserve">
+    <value>Selisih Berat</value>
+  </data>
+  <data name="lblNoTrip.Text" xml:space="preserve">
+    <value>Jumlah Trip</value>
+  </data>
+  <data name="lblProductCode.Text" xml:space="preserve">
+    <value>Kode Produksi</value>
+  </data>
+  <data name="lblQtyFFB.Text" xml:space="preserve">
+    <value>Jumlah FFB</value>
+  </data>
+  <data name="lblRemarks.Text" xml:space="preserve">
+    <value>Keterangan</value>
+  </data>
+  <data name="lblsearchby.Text" xml:space="preserve">
+    <value>Cari Berdasarkan</value>
+  </data>
+  <data name="lblSecondWeight.Text" xml:space="preserve">
+    <value>Berat Akhir</value>
+  </data>
+  <data name="lblSection.Text" xml:space="preserve">
+    <value>Seksi</value>
+  </data>
+  <data name="lblSupplier.Text" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="lblTime.Text" xml:space="preserve">
+    <value>Waktu</value>
+  </data>
+  <data name="lblTotalBunches.Text" xml:space="preserve">
+    <value>Jumlah tandan</value>
+  </data>
+  <data name="lblVehicleCode.Text" xml:space="preserve">
+    <value>Kode Kendaraan</value>
+  </data>
+  <data name="lblviewDate.Text" xml:space="preserve">
+    <value>Tanggal</value>
+  </data>
+  <data name="lblviewProductCode.Text" xml:space="preserve">
+    <value>Kode Produksi</value>
+  </data>
+  <data name="lblviewVehicleNo.Text" xml:space="preserve">
+    <value>Kode Kendaraan</value>
+  </data>
+  <data name="lblviewWBTicketNo.Text" xml:space="preserve">
+    <value>No WB Tiket</value>
+  </data>
+  <data name="lblYOP.Text" xml:space="preserve">
+    <value>Tahun Tanam</value>
+  </data>
+  <data name="plWeighingInOutSearch.CaptionText" xml:space="preserve">
+    <value>Mencari  Penimbangan Dalam  Out</value>
+  </data>
+  <data name="tcWeighingInOut.TabPages(tpView).Text" xml:space="preserve">
+    <value>Lihat 1st Berat</value>
+  </data>
+  <data name="tcWeighingInOut.TabPages(tpWeighingInOut).Text" xml:space="preserve">
+    <value>Penimbangan Di / Luar</value>
+  </data>
+  <data name="lblWBTicketNo.Text" xml:space="preserve">
+    <value>No WB Tiket</value>
+  </data>
+  <data name="gbMutiEntry.Text" xml:space="preserve">
+    <value>Produk Details</value>
+  </data>
+  <data name="gbSingleEntry.Text" xml:space="preserve">
+    <value>Utama</value>
+  </data>
+  <data name="Msg1" xml:space="preserve">
+    <value>WBTicketNo Diperlukan</value>
+  </data>
+  <data name="Msg10" xml:space="preserve">
+    <value>Bidang YOP Diperlukan</value>
+  </data>
+  <data name="Msg11" xml:space="preserve">
+    <value>Lapangan Blok Diperlukan</value>
+  </data>
+  <data name="Msg12" xml:space="preserve">
+    <value>Bidang QtyFFB Diperlukan</value>
+  </data>
+  <data name="Msg13" xml:space="preserve">
+    <value>TBS Tandan harus lebih besar dari nol</value>
+  </data>
+  <data name="Msg14" xml:space="preserve">
+    <value>WB No Tiket sudah ada</value>
+  </data>
+  <data name="Msg15" xml:space="preserve">
+    <value>Gagal, untuk menyisipkan Records</value>
+  </data>
+  <data name="Msg16" xml:space="preserve">
+    <value>Records berhasil dimasukkan</value>
+  </data>
+  <data name="Msg17" xml:space="preserve">
+    <value>Harap masukkan Serial No di WBTicket No Konfigurasi</value>
+  </data>
+  <data name="Msg18" xml:space="preserve">
+    <value>Harap masukkan Serial No di WBTicket No Konfigurasiv</value>
+  </data>
+  <data name="Msg19" xml:space="preserve">
+    <value>Kedua Berat harus kurang dari Pertama Berat</value>
+  </data>
+  <data name="Msg2" xml:space="preserve">
+    <value>Kode Kendaraan Diperlukan</value>
+  </data>
+  <data name="Msg20" xml:space="preserve">
+    <value>Kedua Berat harus kurang dari Pertama Berat</value>
+  </data>
+  <data name="Msg21" xml:space="preserve">
+    <value>Bagi orang lain Lapangan Blok Detail tidak diperlukan</value>
+  </data>
+  <data name="Msg22" xml:space="preserve">
+    <value>Beratnya In / Out Screen tidak lengkap, lanjutkan setelah selesai</value>
+  </data>
+  <data name="Msg23" xml:space="preserve">
+    <value>Rekaman sudah ada</value>
+  </data>
+  <data name="Msg24" xml:space="preserve">
+    <value>Rekaman sudah ada</value>
+  </data>
+  <data name="Msg25" xml:space="preserve">
+    <value>Maaf Anda tidak dapat menambahkan lebih dari Lima catatan</value>
+  </data>
+  <data name="Msg26" xml:space="preserve">
+    <value>Data berhasil diperbarui</value>
+  </data>
+  <data name="Msg27" xml:space="preserve">
+    <value>Anda akan Hapus catatan terpilih. Apakah Anda yakin? Jika ya, silakan klik " OK " atau klik " Batal ".</value>
+  </data>
+  <data name="Msg28" xml:space="preserve">
+    <value>No Records Hapus</value>
+  </data>
+  <data name="Msg29" xml:space="preserve">
+    <value>WB No Tiket sudah ada</value>
+  </data>
+  <data name="Msg3" xml:space="preserve">
+    <value>Kode Produk Diperlukan</value>
+  </data>
+  <data name="Msg30" xml:space="preserve">
+    <value>Gagal, untuk menyisipkan Records</value>
+  </data>
+  <data name="Msg31" xml:space="preserve">
+    <value>Gagal untuk mengupdate Records</value>
+  </data>
+  <data name="Msg32" xml:space="preserve">
+    <value>Records diperbaharui Berhasil</value>
+  </data>
+  <data name="Msg33" xml:space="preserve">
+    <value>Silahkan masukkan kriteria pencarian</value>
+  </data>
+  <data name="Msg34" xml:space="preserve">
+    <value>Apakah Anda ingin menutup tampilan ini? Jika ya, silakan klik " OK " atau klik " Batal ".</value>
+  </data>
+  <data name="Msg35" xml:space="preserve">
+    <value>Rekam sudah menggunakan di Grading TBS</value>
+  </data>
+  <data name="Msg36" xml:space="preserve">
+    <value>Anda akan Hapus catatan terpilih. Apakah Anda yakin? Jika ya, silakan klik "" OK "" atau klik "" Batal "".</value>
+  </data>
+  <data name="Msg37" xml:space="preserve">
+    <value>Rekam Sudah Di Gunakan</value>
+  </data>
+  <data name="Msg38" xml:space="preserve">
+    <value>Data Berhasil Dihapus</value>
+  </data>
+  <data name="Msg39" xml:space="preserve">
+    <value>Merekam Tidak untuk Hapus</value>
+  </data>
+  <data name="Msg4" xml:space="preserve">
+    <value>Perjalanan No.of Diperlukan</value>
+  </data>
+  <data name="Msg40" xml:space="preserve">
+    <value>Tidak ada Record ke Hapus, Silahkan Pilih Record yang akan dihapus</value>
+  </data>
+  <data name="Msg41" xml:space="preserve">
+    <value>Kendaraan Kode Tidak Valid</value>
+  </data>
+  <data name="Msg42" xml:space="preserve">
+    <value>Supplier Kode Tidak Valid</value>
+  </data>
+  <data name="Msg43" xml:space="preserve">
+    <value>ProductCode tidak valid</value>
+  </data>
+  <data name="Msg5" xml:space="preserve">
+    <value>WBTicketNo Diperlukan</value>
+  </data>
+  <data name="Msg6" xml:space="preserve">
+    <value>Keterangan Diperlukan</value>
+  </data>
+  <data name="Msg7" xml:space="preserve">
+    <value>Berat Manual Pertama Diperlukan</value>
+  </data>
+  <data name="Msg8" xml:space="preserve">
+    <value>Berat Pertama Diperlukan</value>
+  </data>
+  <data name="Msg9" xml:space="preserve">
+    <value>Afdeling Bidang Diperlukan</value>
+  </data>
+  <data name="Msg44" xml:space="preserve">
+    <value>Supplier Details Diperlukan</value>
+  </data>
+  <data name="tcWeighingInOut.TabPages(tpviewsecweight).Text" xml:space="preserve">
+    <value>Lihat 2nd Berat</value>
+  </data>
+  <data name="Msg45" xml:space="preserve">
+    <value>Inavlid Format tanggal</value>
+  </data>
+  <data name="gbFieldBlockDetails.Text" xml:space="preserve">
+    <value>Lapangan Blok Details</value>
+  </data>
+  <data name="lblTextmsg.Text" xml:space="preserve">
+    <value>Tidak Records untuk Display!!!</value>
+  </data>
+  <data name="tcWeighingInOut.TabPages(tpFieldBlockDetails).Text" xml:space="preserve">
+    <value>Lapangan Blok Details</value>
+  </data>
+  <data name="dgvWBWeighingInOut.Columns(dgclFirstWeight).HeaderText" xml:space="preserve">
+    <value>Pertama Berat</value>
+  </data>
+  <data name="dgvWBWeighingInOut.Columns(dgclNetWeight).HeaderText" xml:space="preserve">
+    <value>Berat Bersih</value>
+  </data>
+  <data name="dgvWBWeighingInOut.Columns(dgclSecondWeight).HeaderText" xml:space="preserve">
+    <value>Kedua Berat</value>
+  </data>
+  <data name="dgvWBWeighingInOut.Columns(dgclTimeOut).HeaderText" xml:space="preserve">
+    <value>Waktu keluar</value>
+  </data>
+  <data name="AddToolStripMenuItem.Text" xml:space="preserve">
+    <value>Menambahkan</value>
+  </data>
+  <data name="DeleteToolStripMenuItem.Text" xml:space="preserve">
+    <value>Menghapus</value>
+  </data>
+  <data name="EditUpdateToolStripMenuItem.Text" xml:space="preserve">
+    <value>Edit / Pembaruan</value>
+  </data>
+  <data name="Msg46" xml:space="preserve">
+    <value>Jumlah FFB atau Loose Fruit (Brondolan) harus diisi</value>
+  </data>
+</root>

@@ -1,0 +1,200 @@
+Changelog BSPMS
+
+2.14.05.85
+1. Fix Avg Bunch Weight Calculation
+2. Fix Import Allowance Code unknown error message when setting default value to "System Error Message Column"
+3. FIX PPH 21 Yearly Report Format
+4. FIX PPH 21 Monthy Report Format
+5. FIX SPT Report 
+6. Add New Vehicle Cost Code for Depreciation
+7. Fix Exception catch for Vehicle Monthly Processing
+
+
+2.14.05.84
+1. Fix Overtime Process not proceessing overtime for Daily Attendance Mandor
+
+
+2.14.05.83
+1. Fix Daily Attendance Mandor not saving correctly because of new TPH Field
+
+2.14.05.82
+1. Fix Change label on Daily Costing Report from HK to unit
+2. Add Field No and TPH in Daily Attendance Mandor
+3. Add Calculate Premi Gudang as allowance
+4. Fix Change SPT 21 Printout to follow new structure
+5. Add New Report SPT 21 Tahunan and Bulanan. 
+
+
+
+2.14.05.81
+1. Add Daily Attendance Mandor Report
+2. Fix Change Printing of Petty Cash Payment Report from A5 to A4, remove footer
+3. Fix Transfer Out rounding up available balance 
+4. Fix Adjustment Qty allow decimal values
+5. Fix Adding A mandor/kerani/mandor besar as a team member in daily activity now removes them as a mandor of another team.
+6. Fix Rice Allowance Report remove attendance calculation and display no of children 
+7. Fix Bonus Relabel SPSB to SBSI
+8. Fix Change THR minimum months worked to get THR to 1 month
+9. Fix Relabel Pengajian to Penggajian
+10.ADD Calculate Premi Rajin to salary report
+11.ADD New report Salary Employee By Mandor Besar
+12.ADD New report Money Denomination By Mandor Besar 
+13.ADD Allow 0 Paid For daily reception report
+
+
+
+2.14.05.80
+1. Fix Premi Kerani wrongly displaying in Mandors salary slip
+2. Add Analysis Rubber Cost Report
+3. Add Group Sum by Date for Rekap Premi Mandor and Kerani Deres/ Panen Report
+4  Fix spelling error SBSI in Bonus Slip Report
+5. Fix Mandor besar id restores to default after daily team activity modify function.
+6. Fix Distribution Check Monthly Processing when using Attendance Code not 11 or J1.
+
+
+2.14.05.79
+1. Add Vehicle and Detail Cost Code selection in Petty Cash Payment form
+2. Fix Piece Rate Reference no filter valid dates
+3. Fix Piece Rate Report still showing deleted reference no's
+4. Fix Delete Piece Rate deletes all sub data
+5. Add Qty and UOM in Vehicle Running Expenditure Report
+6. Fix Material Usage Report for non Estates
+7. Fix Daily Reception Report HA field showing from TPH master instead of Daily Reception
+
+2.14.05.78
+1. Fix Store issue to Vehicle Distribution saving wrong cost 
+
+
+2.14.05.77
+1. Add Column UOM to Vehicle Running Expenditure Report
+2. Change calculation for THR and Bonus
+3. Fix Approval failed message when approving journals with vehicle code entered
+4. Add UOM and Qty field to vehicle distribution charging
+
+
+2.14.05.76
+1. Add new Menu Process Overtime
+2. Fix Daily Activity add Materials for POM and Bunut
+3. Fix Accounts Module Login problem for previous year
+
+2.14.05.75
+1. Add export Salary Report to Text File
+2. Fix Block Dispatch when dispatch is more than stock balance
+3. Fix Salary Slip Group By Employees, Align Deductions correctly, change font to Courier New.
+4. Fix Piece Rate Report
+5. Fix Premi Rubber use Actual Task instead of Budget Task
+
+
+2.14.05.74
+1. Add new report Daily Costing By YOP and Block
+2. Add new Process Bonus
+3. Fix Tax Calculation
+4. Fix THR Calculation
+5. Add new Report Bonus Payment Report
+6. Add new Report Rekap Pengajian Karyawan
+7. Add new Slip THR Report
+8. Add new Slip Bonus Report
+
+
+2.14.05.73
+1. Add Version Checker
+2. Add Crop Yield At Analysis Harvesting Cost
+3. Fix Pembulatan in Salary Slip
+4. Fix FFB Year to date check with today so that same value is acceptable especially if first day of year
+
+
+2.14.05.72
+1. Add Display Total HK, Total OT, Total Latex, Lump, Treelace in Daily Reception Deres
+2. Add Display Total HK, Total OT, Daily Reception Panen
+3. Add Allow search of both Supplier Name and Code in Supplier Search Popup
+4. Add Column B/F Qty in Stock Master View
+
+
+2.14.05.71
+1. Fix CPO Production allow save zero value
+2. Fix Attendance Summary number is deducted
+3. Fix Allowance And Deduction allow to re-upload data
+4. Fix Display correct header values in salary
+5. Fix Allow Duplicate COA ID in Vehicle Distribution as long as Field No is different
+6. Fix THR Report
+7. Fix Monthly Grading Report
+
+2.14.05.70
+1. Fix Rice Payment
+2. Fix Sundays not calculating correctly for salary payment
+3. Add new Allowance codes for Premi Mandor, kerani and mandor besar. Display in salary slip as well.
+
+2.14.05.69
+1. Fix Tax Calculation using BSP Formula
+2. FIx Piece Rate Not saving COAID
+3. Fix Disable checking of duplicate account codes when entering vehicle distribution
+4. Fix Allowance Deduction not adding to grid. Hide auto calculated allowance deduction from screen.
+5. New Report Weighbridge Crop Statement
+
+
+2.14.05.68
+1. Fix Premi Deres Calculation
+2. Fix Tax Processing
+3. Fix Advanced Payment Processing
+4. Fix Advance Payment Report
+5. Fix Rekap Advance Payment Report
+6. Fix Advance Payment Salary Slip
+
+
+2.14.05.67
+1. New Add Date to Crop Statement
+2. Remove msgbox Rate setup has not yet been setup properly for RicePayment if ricepayment value = 0
+3. Fix Class Penderes not generating
+4. Fix Concatenate Activity Description
+5. Fix Remove checking for duplicate entry journal and Petty Cash
+6. New Add UOM to Activity Distribution
+7. New Add Report Piece Rate Transaction
+8. Fix Mandor Premi Besar Calculation
+9. Fix Rate Setup Configuration calculation
+
+
+
+
+
+2.14.05.66
+1. Fixed Add new fields Buyer and Instruksi to Dispatch Form
+2. New Modify team allow addition of normal employee as mandor / kerani, automatically deletes employee from team
+3. New Daily Attendance Mandor now displays employees who are assigned as mandor/kerani in daily team activity even if their job description 
+is not mandor/kerani.
+4. Fix Formula for KHL overtime work
+5. Fix Breakdown Vehicle distribution auto approve. 
+6. Fix Distribution Summary Calculation 
+
+2.14.05.65
+1. Fix Changed Due to Samarinda Message to Due to HO Kisaran when account code not correctly setup for Petty Cash
+2. Fix Retrieval of Due To HO Kisaran for auto journal of Petty Cash receipts and payments
+3. Fix Petty Cash Payment Amount Check
+4. Hide T0 to T4 fields in Petty Cash Payment and Accounts Module
+5. Fix Laporan Stock, Stock Issue, Summary Pengeluaran Date From and Date To Fields
+6. Fix wrong header being displayed in Delivery Note Summary Report
+7. Increase size of Stock Description Field in TNIn Report
+
+2.14.05.64
+1. Fix Buyer Name and its corresponding fields in Production Dispatch not saving correctly
+2. Fix Monthly Production Report
+3. Fix Daily Quality Productions Report
+4. New Use Enter to key to go to next control in Daily Productions Rubber
+5. Fix Dispatch CPO PKO Report
+6. Fix Grading Report
+7. Fix Mill Working Hrs Report
+8. Fix Dispatch Details Report
+
+2.14.05.63
+
+1. Fix Transfer Salary to Allowance Process in Monthly Processing so that it doesnt double update allowance values
+2. Fix Allowance and Deduction Summary Report
+3. Update Allowance Code to include check for Transfer to Allowance Table after salary processing or not.
+4. Fix Rice Allowance Report, previously showing rice values for husband/wife for those not married as well.
+5. Fix Process Rice Value, includes checking of husband/wife rice values
+6. Fix Premi Kerani Panen now taking from kg in Daily Attendance Mandor instead of 125% of total premi of team
+7. Add new table Mandor Besar Premi and add function to process premi Mandor Besar in Monthly Processing
+8. Add New Report Rekap Premi Mandor Besar, add menu item to admin security
+9. Fix Paid Bunches not calculting correctly, now follows BSP formula
+10. Fix Daily Attendance Mandor OT allow decimal values.
+11. Fix EmpID displaying in Daily Modify Team, now showing EmpCode (NikNo)
+12. Fix Rekap Premi Mandor dan Kerani Panen Report, now showing correct premi values for Kerani (hasil kg)

@@ -1,0 +1,8 @@
+GO
+SET IDENTITY_INSERT [dbo].[Menu] ON 
+INSERT [dbo].[Menu] ([RNo], [MenuID], [MenuName], [MenuNameB], [ModID], [MenuGroupID], [MenuGroupSeqNo], [MenuSeqNo], [CreatedBy], [CreatedOn], [ModifiedBy], [ModifiedOn], [PageName]) VALUES (1607, N'M375', N'Detail Produksi dan Premi Deres', N'Detail Produksi dan Premi Deres', 1, N'M3', 3, 34, N'system', CAST(N'2015-07-06 00:00:00.000' AS DateTime), N'system', CAST(N'2015-07-06 00:00:00.000' AS DateTime), NULL)
+INSERT [dbo].[Menu] ([RNo], [MenuID], [MenuName], [MenuNameB], [ModID], [MenuGroupID], [MenuGroupSeqNo], [MenuSeqNo], [CreatedBy], [CreatedOn], [ModifiedBy], [ModifiedOn], [PageName]) VALUES (1608, N'M376', N'Rekap Premi Mandor Dan Kerani Deres', N'Rekap Premi Mandor Dan Kerani Deres', 1, N'M3', 3, 35, N'system', CAST(N'2015-07-06 00:00:00.000' AS DateTime), N'system', CAST(N'2015-07-06 00:00:00.000' AS DateTime), NULL)
+INSERT [dbo].[Menu] ([RNo], [MenuID], [MenuName], [MenuNameB], [ModID], [MenuGroupID], [MenuGroupSeqNo], [MenuSeqNo], [CreatedBy], [CreatedOn], [ModifiedBy], [ModifiedOn], [PageName]) VALUES (1609, N'M377', N'Detail Premi Deres', N'Detail Premi Deres', 1, N'M3', 3, 36, N'system', CAST(N'2015-07-06 00:00:00.000' AS DateTime), N'system', CAST(N'2015-07-06 00:00:00.000' AS DateTime), NULL)
+INSERT [dbo].[Menu] ([RNo], [MenuID], [MenuName], [MenuNameB], [ModID], [MenuGroupID], [MenuGroupSeqNo], [MenuSeqNo], [CreatedBy], [CreatedOn], [ModifiedBy], [ModifiedOn], [PageName]) VALUES (1610, N'M378', N'Allowance Deduction Summary By Employee', N'Allowance Deduction Summary By Employee', 1, N'M3', 3, 37, N'system', CAST(N'2015-07-06 00:00:00.000' AS DateTime), N'system', CAST(N'2015-07-06 00:00:00.000' AS DateTime), NULL)
+SET IDENTITY_INSERT [dbo].[Menu] OFF
+

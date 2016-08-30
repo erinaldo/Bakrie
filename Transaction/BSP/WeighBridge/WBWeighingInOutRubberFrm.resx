@@ -1,0 +1,2423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;wbdrytotal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Label5.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="dgclTotalPrice.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;dgtxtDocDate.Name" xml:space="preserve">
+    <value>dgtxtDocDate</value>
+  </data>
+  <data name="&gt;&gt;btnViewSearch.Parent" xml:space="preserve">
+    <value>pnlSearchLPO</value>
+  </data>
+  <data name="dgclTotalPrice.HeaderText" xml:space="preserve">
+    <value>Total Price</value>
+  </data>
+  <data name="&gt;&gt;dgclTotalPrice.Name" xml:space="preserve">
+    <value>dgclTotalPrice</value>
+  </data>
+  <data name="&gt;&gt;dgtxtWet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbTicketNum.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="txtDryTot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>705, 169</value>
+  </data>
+  <data name="&gt;&gt;txtTicketNum.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>610, 468</value>
+  </data>
+  <data name="&gt;&gt;dgclMainStatus.Name" xml:space="preserve">
+    <value>dgclMainStatus</value>
+  </data>
+  <data name="wbdrytotal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="Button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 29</value>
+  </data>
+  <data name="&gt;&gt;chkLPOViewDate.Parent" xml:space="preserve">
+    <value>pnlSearchLPO</value>
+  </data>
+  <data name="&gt;&gt;Button4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPage1.Name" xml:space="preserve">
+    <value>TabPage1</value>
+  </data>
+  <data name="&gt;&gt;btnSearchEstate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgclMainStatus.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tabSearchView.Name" xml:space="preserve">
+    <value>tabSearchView</value>
+  </data>
+  <data name="dgclContractID.HeaderText" xml:space="preserve">
+    <value>ContractID</value>
+  </data>
+  <data name="Button2.Text" xml:space="preserve">
+    <value>Reset All</value>
+  </data>
+  <data name="Button3.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="lblwbwettotal.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="txtTicketNum.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;wbbtnadd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSearchEstate.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;DeleteToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtVehicleID.Name" xml:space="preserve">
+    <value>txtVehicleID</value>
+  </data>
+  <data name="dgvView.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="btnSearchEstate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>699, 106</value>
+  </data>
+  <data name="&gt;&gt;dgtxtWbTcktNum.Name" xml:space="preserve">
+    <value>dgtxtWbTcktNum</value>
+  </data>
+  <data name="&gt;&gt;DataGridView3.Parent" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="&gt;&gt;btnLPOViewSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgclContractNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>211, 468</value>
+  </data>
+  <data name="&gt;&gt;dgvLPOView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtTotalDrc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="&gt;&gt;lblSearch.Name" xml:space="preserve">
+    <value>lblSearch</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Button3.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;TabMain.Name" xml:space="preserve">
+    <value>TabMain</value>
+  </data>
+  <data name="TextBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Label2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblLPONoView.Name" xml:space="preserve">
+    <value>lblLPONoView</value>
+  </data>
+  <data name="&gt;&gt;dgvFieldBlockSetup.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="dgclQty.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cmbTicketNum.Parent" xml:space="preserve">
+    <value>tabSave</value>
+  </data>
+  <data name="txtDiv.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="lblView.TabIndex" type="System.Int32, mscorlib">
+    <value>409</value>
+  </data>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>Drc (%)</value>
+  </data>
+  <data name="cmdEstateID.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;dtpLPOViewDate.Parent" xml:space="preserve">
+    <value>pnlSearchLPO</value>
+  </data>
+  <data name="&gt;&gt;dgclT1Value.Name" xml:space="preserve">
+    <value>dgclT1Value</value>
+  </data>
+  <data name="dgclT2Value.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Button2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;Button4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Label67.Parent" xml:space="preserve">
+    <value>pnlSearchLPO</value>
+  </data>
+  <data name="dgvView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 141</value>
+  </data>
+  <data name="wbbtndelete.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAQQAAAAlCAIAAAAr7QB6AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAy0lEQVR4Xu3Ca0pCAQCE0dn/JlyDf6MI
+        kSJCE5EwtczU7tXMtFLzEYyzkO9wdPg3ydT+ZJKp3dEkU5uDSaZ+9iaZWv+ZZGq1M8nUcmuSqcXGJFPz
+        X5NMld8mmSrWJpmarkwyNf4yydRoaZKp4adJpl4WJpkafJhkqjc3yVR3ZpKpx9IkU53CJFPtd5NMtaYm
+        mXqYmGSqMTbJ1P2bSabuRiaZun01ydTN0CRT9WeTTNUGJpm67ptk6qpnkqnLJ5NMXXRNMlWpNklWqs0z
+        o+UJwj8nfMkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="txtDryTot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="&gt;&gt;dgclSupplierNameCode.Name" xml:space="preserve">
+    <value>dgclSupplierNameCode</value>
+  </data>
+  <data name="&gt;&gt;Button1.Parent" xml:space="preserve">
+    <value>tabSave</value>
+  </data>
+  <data name="&gt;&gt;txtVehicleID.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;wbbtndelete.Name" xml:space="preserve">
+    <value>wbbtndelete</value>
+  </data>
+  <data name="&gt;&gt;SearchView.Parent" xml:space="preserve">
+    <value>TabMain</value>
+  </data>
+  <data name="DateTimePicker1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txtTotalDrc.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnSearchTruck.Parent" xml:space="preserve">
+    <value>tabSave</value>
+  </data>
+  <data name="dgclContractNo.HeaderText" xml:space="preserve">
+    <value>Contract No</value>
+  </data>
+  <data name="dgclLPONo.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;dgclT1Value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgclT2Value.HeaderText" xml:space="preserve">
+    <value>T2</value>
+  </data>
+  <data name="&gt;&gt;cmbTicketNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSaveAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgclStockCategoryDescp.HeaderText" xml:space="preserve">
+    <value>Stock Category Descp</value>
+  </data>
+  <data name="&gt;&gt;wbdry.Name" xml:space="preserve">
+    <value>wbdry</value>
+  </data>
+  <data name="txtTotalDrc.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;Button2.Parent" xml:space="preserve">
+    <value>TabPage1</value>
+  </data>
+  <data name="&gt;&gt;btnSearchTruck.Name" xml:space="preserve">
+    <value>btnSearchTruck</value>
+  </data>
+  <data name="&gt;&gt;dgclStockCategoryDescp.Name" xml:space="preserve">
+    <value>dgclStockCategoryDescp</value>
+  </data>
+  <data name="&gt;&gt;txtDryTot.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 29</value>
+  </data>
+  <data name="&gt;&gt;Label3.Name" xml:space="preserve">
+    <value>Label3</value>
+  </data>
+  <data name="&gt;&gt;txtTruckID.Name" xml:space="preserve">
+    <value>txtTruckID</value>
+  </data>
+  <data name="&gt;&gt;TabMain.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label4.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txt.Parent" xml:space="preserve">
+    <value>pnlSearchLPO</value>
+  </data>
+  <data name="GroupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>832, 321</value>
+  </data>
+  <data name="&gt;&gt;Button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgtxtWet.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnReset.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="TabPage1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Button3.Parent" xml:space="preserve">
+    <value>TabPage1</value>
+  </data>
+  <data name="&gt;&gt;TextBox1.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;txtSearchWBTcktNum.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="tabSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="txtSearchVehicleID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>379, 99</value>
+  </data>
+  <data name="Label2.Text" xml:space="preserve">
+    <value>ID Truck</value>
+  </data>
+  <data name="txtDryTot.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cbLPOViewStatus.Name" xml:space="preserve">
+    <value>cbLPOViewStatus</value>
+  </data>
+  <data name="dgvFieldBlockSetup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>581, 177</value>
+  </data>
+  <data name="&gt;&gt;chkLPOViewDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSearch.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wbwet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 13</value>
+  </data>
+  <data name="&gt;&gt;lblStatusLPOView.Parent" xml:space="preserve">
+    <value>pnlSearchLPO</value>
+  </data>
+  <data name="chkLPOViewDate.TabIndex" type="System.Int32, mscorlib">
+    <value>400</value>
+  </data>
+  <data name="wbbtndelete.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="lblLPONoView.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="dgvLPOView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;dgclT2Value.Name" xml:space="preserve">
+    <value>dgclT2Value</value>
+  </data>
+  <data name="&gt;&gt;txtEstate.Name" xml:space="preserve">
+    <value>txtEstate</value>
+  </data>
+  <data name="&gt;&gt;Main.Parent" xml:space="preserve">
+    <value>TabMain</value>
+  </data>
+  <data name="&gt;&gt;lblLPONoView.Parent" xml:space="preserve">
+    <value>pnlSearchLPO</value>
+  </data>
+  <data name="&gt;&gt;btnSaveAl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="wbdrytotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 13</value>
+  </data>
+  <data name="&gt;&gt;btnSearchTicketNum.Parent" xml:space="preserve">
+    <value>tabSave</value>
+  </data>
+  <data name="&gt;&gt;wbdrctotal.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtSearchVehicleID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtDiv.Name" xml:space="preserve">
+    <value>txtDiv</value>
+  </data>
+  <data name="&gt;&gt;txtTotalDrc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtWetTotal.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="wbdry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 45</value>
+  </data>
+  <data name="&gt;&gt;lblSearchTcktNum.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;dgclT2Value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtDry.Name" xml:space="preserve">
+    <value>txtDry</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>WBWeighingInOutRubberFrm</value>
+  </data>
+  <data name="&gt;&gt;btnSearchTruck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Button2.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;txtTotalDrc.Name" xml:space="preserve">
+    <value>txtTotalDrc</value>
+  </data>
+  <data name="&gt;&gt;txtVehicleID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgclT4Value.Name" xml:space="preserve">
+    <value>dgclT4Value</value>
+  </data>
+  <data name="&gt;&gt;lblSearchTcktNum.Parent" xml:space="preserve">
+    <value>pnlSearchLPO</value>
+  </data>
+  <data name="&gt;&gt;dgclSupplierNameCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label1.Text" xml:space="preserve">
+    <value>WB Ticket No.</value>
+  </data>
+  <data name="&gt;&gt;dgclUnitPrice.Name" xml:space="preserve">
+    <value>dgclUnitPrice</value>
+  </data>
+  <data name="&gt;&gt;txtLPOViewNo.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtEstateID.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;wbdrctotal.Name" xml:space="preserve">
+    <value>wbdrctotal</value>
+  </data>
+  <data name="&gt;&gt;dtpDate.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtLPOViewNo.TabIndex" type="System.Int32, mscorlib">
+    <value>402</value>
+  </data>
+  <data name="&gt;&gt;dtpLPOViewDate.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;dgclT4Value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbTicketNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 57</value>
+  </data>
+  <data name="&gt;&gt;dtpDocDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>Div</value>
+  </data>
+  <data name="&gt;&gt;dgclStockCategory.Name" xml:space="preserve">
+    <value>dgclStockCategory</value>
+  </data>
+  <data name="wbdry.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="dgclLPONo.HeaderText" xml:space="preserve">
+    <value>PO NO</value>
+  </data>
+  <data name="Label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="wbwet.Text" xml:space="preserve">
+    <value>Wet (Kg)</value>
+  </data>
+  <data name="&gt;&gt;TabPage2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Name" xml:space="preserve">
+    <value>btnClose</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Name" xml:space="preserve">
+    <value>btnSave</value>
+  </data>
+  <data name="&gt;&gt;Button3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;btnSaveAll.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Button4.Name" xml:space="preserve">
+    <value>Button4</value>
+  </data>
+  <data name="Button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>477, 468</value>
+  </data>
+  <data name="&gt;&gt;lblSearchTcktNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgtxtWet.HeaderText" xml:space="preserve">
+    <value>Wet(Kg)</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtWetTotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="&gt;&gt;btnClose.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lbldate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label4.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;btnSearchEstate.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;wbbtnadd.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="txtSearchWBTcktNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 99</value>
+  </data>
+  <data name="&gt;&gt;wbwet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPage1.Parent" xml:space="preserve">
+    <value>TabControl1</value>
+  </data>
+  <data name="&gt;&gt;txtDry.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnViewSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>553, 95</value>
+  </data>
+  <data name="&gt;&gt;txtSearchVehicleID.Name" xml:space="preserve">
+    <value>txtSearchVehicleID</value>
+  </data>
+  <data name="txtDryTot.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="wbdrctotal.Text" xml:space="preserve">
+    <value>Total Drc (%)</value>
+  </data>
+  <data name="&gt;&gt;wbdry.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;cmdEstateID.Name" xml:space="preserve">
+    <value>cmdEstateID</value>
+  </data>
+  <data name="&gt;&gt;Label67.Name" xml:space="preserve">
+    <value>Label67</value>
+  </data>
+  <data name="&gt;&gt;Main.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dgvFieldBlockSetup.Name" xml:space="preserve">
+    <value>dgvFieldBlockSetup</value>
+  </data>
+  <data name="cmdEstateID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 55</value>
+  </data>
+  <data name="&gt;&gt;txtTicketNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgclSTLPOID.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtTotalDrc.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Parent" xml:space="preserve">
+    <value>pnlSearchLPO</value>
+  </data>
+  <data name="&gt;&gt;Main.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Button4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>211, 468</value>
+  </data>
+  <data name="dgclRemarks.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbldate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="dgclRemarks.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="&gt;&gt;TabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AddToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpDate.Name" xml:space="preserve">
+    <value>dtpDate</value>
+  </data>
+  <data name="&gt;&gt;Label3.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;dgclSTLPOID.Name" xml:space="preserve">
+    <value>dgclSTLPOID</value>
+  </data>
+  <data name="&gt;&gt;dgclRemarks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Main.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dgtxtDocDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label3.Parent" xml:space="preserve">
+    <value>tabSave</value>
+  </data>
+  <data name="&gt;&gt;dgclLPODate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Button4.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlSearchLPO.Parent" xml:space="preserve">
+    <value>tabSearchView</value>
+  </data>
+  <data name="wbbtnadd.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAABGdBTUEAALGOfPtRkwAAACBjSFJNAAB6
+        JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAAACXBIWXMAAAsSAAALEgHS3X78AAADwklE
+        QVQ4T41Ta0zTVxxt3Ic9vviJLRllLFITlyVmDhYQ2QPWMZyUlxOBobHIqrB1DnQaZKZTVzeBYHkIkqJh
+        pXTUFiYqrRsIImA3GNSOxwCB2tJSSltaiqWlj//Zf7XZKxnxJCf33l/O7+Tee+6l/BdsGfE066oxJq/N
+        /itbZrWwZTZT/nV79+Hm5aiCe9pnA7L1weFgQ57UmnKk3TpWNe7CFbUbl2fdKFetrn0usylZLbaEgHR9
+        ZNRrXjx0zfJD1bgTYgPQqAW+0wBCPYELI04wJWZBQLo+9gsNsUV3rF6Bxoe6CR9qxj2oHHGDN0qA/5BA
+        YccSAtL1kS2aizt51+atnQIqRjzgqZwoVTrAHXKjYhIovP2ERgkXp97Ol5k9XBWBon4XTvSt4HgvyX43
+        uL8BrBuLT2hUr9u2t2lOc1zhArvHh8MdThwieaSXwLE+J9Kb9HMB6f8jsU7/XE6LJYPBnx3MlhpQqCDw
+        6V34WXDPi48kBmQIdQpWm439ocBI23MVTwVa/wZDtPACU2zml6lchjKVg8gSqpHWOIccuQ0H5ctIJqPb
+        16xFrvQoskV0R1bjZlWmIKgn0P4Y+8Xm4I9bLZKKESfRZgLERqBkjCB3sIB3Kn73k3l9CaeGPMhpTYLG
+        swfTa7tRJKch55otggNs8Bt9dsP6NVex4hGoyYgnvODPrIGvc6P6oRe8aZIzPv+8RusGU5qEYfsu3LHQ
+        UdhGw0GJqYPTu/qS3+jEj0vakuE1lCh9OD3wCFzlCkpGHbgwsUpGvor89pPksVKQJUpGaV84FCY65Pq3
+        cK53CxJr6Y8SLm4eeq/y+W4KS7pIxuwFu9OB/J9MZDpWFP2yjOJBO4oH7GDUJ+FnaxS65qPRqYuGdCoK
+        DaPh6NDuQJc+Gv3mKDBFL4OyV7SAvE4C6c2LyJTqcOCmgbxgI3JvGclxAbGVDNSoN4E7GIYzijAUd9NQ
+        3EUDpy/MX+NNbELyFSoo6WITmHIC8Ze0SGxQI+V7zb8YeZ6B9+tCQK8OQaaEiqOdVBTcCgFLTvXX4mtD
+        EHGONIq/NGved9OFN8sfIK5Wg0SRBbuaFvFBkwE7G+exUzhPrg0kjdh6NhWf3A4Cqz0IkWXBiK2a1ERw
+        7qf5L/v1s8N5cdWzmsjzY4gpn0ZKsxOpUg9SJW6ktbixu9X9eE7WXv0qHbkDG3GgZyNeKw3G1i8H0v56
+        mKEc9TPbTg29G35a2RB+5r73jW/GfNvLJkk+IHbwZhBDcnvpJPFnLfSLZOKVb6nYQh4l+FjoP/4dhfIH
+        39me5yYTGLYAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;TabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dgvFieldBlockSetup.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtDrc.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;wbdry.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Button1.Name" xml:space="preserve">
+    <value>Button1</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPage2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblLPONoView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 77</value>
+  </data>
+  <data name="&gt;&gt;txtEstate.Parent" xml:space="preserve">
+    <value>tabSave</value>
+  </data>
+  <data name="&gt;&gt;wbbtndelete.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="txtTruckID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="dgclSupplierID.HeaderText" xml:space="preserve">
+    <value>APSupplierID</value>
+  </data>
+  <data name="dgclUnitPrice.HeaderText" xml:space="preserve">
+    <value>UnitPrice</value>
+  </data>
+  <data name="Label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 23</value>
+  </data>
+  <data name="dgvFieldBlockSetup.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;btnSaveAl.Parent" xml:space="preserve">
+    <value>TabPage1</value>
+  </data>
+  <data name="txtEstate.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dgclMainStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtWet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 42</value>
+  </data>
+  <data name="txtDry.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;lbldate.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>WBWeighingInOutRubberFrm</value>
+  </data>
+  <data name="txtDrc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 82</value>
+  </data>
+  <data name="&gt;&gt;btnLPOViewSearch.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 65</value>
+  </data>
+  <data name="lblwbwettotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 13</value>
+  </data>
+  <data name="txtWetTotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>705, 124</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgclSupplierName.Name" xml:space="preserve">
+    <value>dgclSupplierName</value>
+  </data>
+  <data name="&gt;&gt;dgclStockCategoryDescp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DataGridView3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="btnLPOViewSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>404</value>
+  </data>
+  <data name="chkDocDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 77</value>
+  </data>
+  <data name="dgclSupplierName.HeaderText" xml:space="preserve">
+    <value>Supplier Name</value>
+  </data>
+  <data name="&gt;&gt;Button1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="wbbtndelete.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="dgclStockCategoryID.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tabSave.Name" xml:space="preserve">
+    <value>tabSave</value>
+  </data>
+  <data name="SearchView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;wbbtndelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkLPOViewDate.Name" xml:space="preserve">
+    <value>chkLPOViewDate</value>
+  </data>
+  <data name="&gt;&gt;Label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dtpDate.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="wbbtnadd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="lblView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>259, 105</value>
+  </data>
+  <data name="&gt;&gt;txtSearchVehicleID.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>974, 574</value>
+  </data>
+  <data name="wbdrctotal.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="dgclT3Value.HeaderText" xml:space="preserve">
+    <value>T3</value>
+  </data>
+  <data name="&gt;&gt;dgclT3Value.Name" xml:space="preserve">
+    <value>dgclT3Value</value>
+  </data>
+  <data name="&gt;&gt;txtLPOViewNo.Parent" xml:space="preserve">
+    <value>pnlSearchLPO</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSearchTicketNum.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TabPage1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;wbbtnadd.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="GroupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 130</value>
+  </data>
+  <data name="btnClose.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="dgclSupplierID.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TabMain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtDry.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dtpDocDate.TabIndex" type="System.Int32, mscorlib">
+    <value>401</value>
+  </data>
+  <data name="txtDiv.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 97</value>
+  </data>
+  <data name="&gt;&gt;dgclContractNo.Name" xml:space="preserve">
+    <value>dgclContractNo</value>
+  </data>
+  <data name="&gt;&gt;EditToolStripMenuItem.Name" xml:space="preserve">
+    <value>EditToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;cmdEstateID.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Estate</value>
+  </data>
+  <data name="dgclStockCategory.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnSearchTruck.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;DeleteToolStripMenuItem.Name" xml:space="preserve">
+    <value>DeleteToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;dgvView.Parent" xml:space="preserve">
+    <value>tabSearchView</value>
+  </data>
+  <data name="&gt;&gt;txtTicketNum.Parent" xml:space="preserve">
+    <value>tabSave</value>
+  </data>
+  <data name="txtSearchVehicleID.TabIndex" type="System.Int32, mscorlib">
+    <value>406</value>
+  </data>
+  <data name="&gt;&gt;AddToolStripMenuItem.Name" xml:space="preserve">
+    <value>AddToolStripMenuItem</value>
+  </data>
+  <data name="TabMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;dtpSearchDocDate.Name" xml:space="preserve">
+    <value>dtpSearchDocDate</value>
+  </data>
+  <data name="dgclContractNo.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbldate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 13</value>
+  </data>
+  <data name="&gt;&gt;btnUpdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="&gt;&gt;wbdrctotal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLPOViewSearch.Parent" xml:space="preserve">
+    <value>pnlSearchLPO</value>
+  </data>
+  <data name="&gt;&gt;dgclSTLPOID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wbbtnadd.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="wbwet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;dgtxtDry.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;wbbtnadd.Name" xml:space="preserve">
+    <value>wbbtnadd</value>
+  </data>
+  <data name="&gt;&gt;Label67.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txtDocID.Parent" xml:space="preserve">
+    <value>tabSave</value>
+  </data>
+  <data name="Label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 100</value>
+  </data>
+  <data name="&gt;&gt;pnlSearchLPO.Name" xml:space="preserve">
+    <value>pnlSearchLPO</value>
+  </data>
+  <data name="lblwbwettotal.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnViewSearch.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;tabSave.Parent" xml:space="preserve">
+    <value>TabContainerMain</value>
+  </data>
+  <data name="btnLPOViewReport.TabIndex" type="System.Int32, mscorlib">
+    <value>405</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>982, 600</value>
+  </data>
+  <data name="&gt;&gt;txtWet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgclTotalPrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wbdry.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cmdEstateID.Parent" xml:space="preserve">
+    <value>TabPage1</value>
+  </data>
+  <data name="dtpDate.CustomFormat" xml:space="preserve">
+    <value>MM/dd/yyyy</value>
+  </data>
+  <data name="wbbtndelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>478, 80</value>
+  </data>
+  <data name="&gt;&gt;txtDocID.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="txtDocID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 20</value>
+  </data>
+  <data name="&gt;&gt;dtpDate.Parent" xml:space="preserve">
+    <value>tabSave</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="dgclUnitPrice.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtTotalDrc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>705, 209</value>
+  </data>
+  <data name="&gt;&gt;Label5.Name" xml:space="preserve">
+    <value>Label5</value>
+  </data>
+  <data name="&gt;&gt;DataGridView3.Name" xml:space="preserve">
+    <value>DataGridView3</value>
+  </data>
+  <data name="&gt;&gt;txtEstate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="chkDocDate.TabIndex" type="System.Int32, mscorlib">
+    <value>400</value>
+  </data>
+  <data name="Button4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 29</value>
+  </data>
+  <data name="TabPage2.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="dgclStockCategoryDescp.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Button4.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;txtVehicleID.Parent" xml:space="preserve">
+    <value>tabSave</value>
+  </data>
+  <data name="&gt;&gt;dgtxtDrc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtTruckID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 19</value>
+  </data>
+  <data name="&gt;&gt;wbbtndelete.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="dgvView.TabIndex" type="System.Int32, mscorlib">
+    <value>407</value>
+  </data>
+  <data name="&gt;&gt;chkDocDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbldate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 26</value>
+  </data>
+  <data name="&gt;&gt;dgclSupplierID.Name" xml:space="preserve">
+    <value>dgclSupplierID</value>
+  </data>
+  <data name="btnSaveAl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>211, 468</value>
+  </data>
+  <data name="&gt;&gt;pnlSearchLPO.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblStatusLPOView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgclStockCode.HeaderText" xml:space="preserve">
+    <value>Stock Code</value>
+  </data>
+  <data name="&gt;&gt;dgclSupplierAdd.Name" xml:space="preserve">
+    <value>dgclSupplierAdd</value>
+  </data>
+  <data name="wbdry.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="btnSearchTruck.TabIndex" type="System.Int32, mscorlib">
+    <value>307</value>
+  </data>
+  <data name="&gt;&gt;dgclT3Value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgvView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="wbdry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 13</value>
+  </data>
+  <data name="Label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="wbwet.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;txtDryTot.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>610, 468</value>
+  </data>
+  <data name="&gt;&gt;txtEstateID.Parent" xml:space="preserve">
+    <value>tabSave</value>
+  </data>
+  <data name="wbbtndelete.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;lblSearch.Parent" xml:space="preserve">
+    <value>pnlSearchLPO</value>
+  </data>
+  <data name="dtpLPOViewDate.TabIndex" type="System.Int32, mscorlib">
+    <value>401</value>
+  </data>
+  <data name="TabContainerMain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>tabSave</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 13</value>
+  </data>
+  <data name="wbbtnadd.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;Button2.Name" xml:space="preserve">
+    <value>Button2</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;Label6.Parent" xml:space="preserve">
+    <value>tabSave</value>
+  </data>
+  <data name="GroupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;txtSearchWBTcktNum.Name" xml:space="preserve">
+    <value>txtSearchWBTcktNum</value>
+  </data>
+  <data name="dgclSupplierNameCode.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dgclSupplierName.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="Main.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;Label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblwbwettotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>610, 127</value>
+  </data>
+  <data name="lblSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 45</value>
+  </data>
+  <data name="Button4.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="btnSaveAll.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="Button3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="Label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 13</value>
+  </data>
+  <data name="lblSearchTcktNum.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="Label67.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="dtpLPOViewDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 99</value>
+  </data>
+  <data name="&gt;&gt;wbdrytotal.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="btnSearchTicketNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>246, 48</value>
+  </data>
+  <data name="&gt;&gt;tabSearchView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Parent" xml:space="preserve">
+    <value>tabSave</value>
+  </data>
+  <data name="&gt;&gt;dgclStockCategoryID.Name" xml:space="preserve">
+    <value>dgclStockCategoryID</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Name" xml:space="preserve">
+    <value>btnReset</value>
+  </data>
+  <data name="txtVehicleID.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;tabSearchView.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabSearchView.Parent" xml:space="preserve">
+    <value>TabContainerMain</value>
+  </data>
+  <data name="&gt;&gt;chkDocDate.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnSearchTicketNum.Name" xml:space="preserve">
+    <value>btnSearchTicketNum</value>
+  </data>
+  <data name="tabSave.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblwbwettotal.Text" xml:space="preserve">
+    <value>Wet Total (Kg)</value>
+  </data>
+  <data name="TabPage1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;dgvLPOView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgtxtDrc.HeaderText" xml:space="preserve">
+    <value>Drc%</value>
+  </data>
+  <data name="&gt;&gt;dgclSupplierAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgclT0Value.HeaderText" xml:space="preserve">
+    <value>T0</value>
+  </data>
+  <data name="&gt;&gt;Label2.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;EditToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgtxtDrc.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;dgclStockCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label67.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;txtDrc.Name" xml:space="preserve">
+    <value>txtDrc</value>
+  </data>
+  <data name="&gt;&gt;lblwbwettotal.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="TabControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="Button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 468</value>
+  </data>
+  <data name="&gt;&gt;lblSearchTcktNum.Name" xml:space="preserve">
+    <value>lblSearchTcktNum</value>
+  </data>
+  <data name="&gt;&gt;txtDryTot.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;TabControl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSearchTicketNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;Panel1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtDocID.Name" xml:space="preserve">
+    <value>txtDocID</value>
+  </data>
+  <data name="dgvFieldBlockSetup.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="&gt;&gt;TextBox1.Name" xml:space="preserve">
+    <value>TextBox1</value>
+  </data>
+  <data name="&gt;&gt;wbdrytotal.Name" xml:space="preserve">
+    <value>wbdrytotal</value>
+  </data>
+  <data name="dgclStockCategory.HeaderText" xml:space="preserve">
+    <value>Stock Category</value>
+  </data>
+  <data name="dgclSupplierNameCode.HeaderText" xml:space="preserve">
+    <value>SupplierNameCode</value>
+  </data>
+  <data name="&gt;&gt;Label2.Name" xml:space="preserve">
+    <value>Label2</value>
+  </data>
+  <data name="wbdrytotal.Text" xml:space="preserve">
+    <value>Dry Total (Kg)</value>
+  </data>
+  <data name="&gt;&gt;Label6.Name" xml:space="preserve">
+    <value>Label6</value>
+  </data>
+  <data name="dgtxtDocID.HeaderText" xml:space="preserve">
+    <value>Doc ID</value>
+  </data>
+  <data name="&gt;&gt;wbwet.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;wbwet.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;dgclRemarks.Name" xml:space="preserve">
+    <value>dgclRemarks</value>
+  </data>
+  <data name="TabContainerMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="txtWet.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;dtpDocDate.Name" xml:space="preserve">
+    <value>dtpDocDate</value>
+  </data>
+  <data name="txtLPOViewNo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 99</value>
+  </data>
+  <data name="&gt;&gt;txtWet.Name" xml:space="preserve">
+    <value>txtWet</value>
+  </data>
+  <data name="btnSaveAl.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;lblStatusLPOView.Name" xml:space="preserve">
+    <value>lblStatusLPOView</value>
+  </data>
+  <data name="dgclQty.HeaderText" xml:space="preserve">
+    <value>Qty</value>
+  </data>
+  <data name="dtpDocDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 99</value>
+  </data>
+  <data name="dgtxtDry.HeaderText" xml:space="preserve">
+    <value>Dry(Kg)</value>
+  </data>
+  <data name="&gt;&gt;dgvLPOView.Name" xml:space="preserve">
+    <value>dgvLPOView</value>
+  </data>
+  <data name="btnLPOViewReport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>668, 95</value>
+  </data>
+  <data name="DataGridView3.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;wbdry.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnSaveAl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TabPage1.Text" xml:space="preserve">
+    <value>Weighbridge Details</value>
+  </data>
+  <data name="&gt;&gt;btnUpdate.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Button1.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="EditToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="&gt;&gt;cmdEstateID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkDocDate.Name" xml:space="preserve">
+    <value>chkDocDate</value>
+  </data>
+  <data name="&gt;&gt;lblView.Parent" xml:space="preserve">
+    <value>tabSearchView</value>
+  </data>
+  <data name="wbwet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 45</value>
+  </data>
+  <data name="&gt;&gt;TextBox1.Parent" xml:space="preserve">
+    <value>TabPage1</value>
+  </data>
+  <data name="&gt;&gt;SearchView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtWetTotal.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dtpDocDate.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 85</value>
+  </data>
+  <data name="dgvLPOView.TabIndex" type="System.Int32, mscorlib">
+    <value>408</value>
+  </data>
+  <data name="DeleteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="&gt;&gt;txtSearchVehicleID.Parent" xml:space="preserve">
+    <value>pnlSearchLPO</value>
+  </data>
+  <data name="&gt;&gt;TabControl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 57</value>
+  </data>
+  <data name="dgclSTLPOID.HeaderText" xml:space="preserve">
+    <value>STLPOID</value>
+  </data>
+  <data name="&gt;&gt;TabMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtEstateID.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lblwbwettotal.Name" xml:space="preserve">
+    <value>lblwbwettotal</value>
+  </data>
+  <data name="&gt;&gt;TabControl1.Name" xml:space="preserve">
+    <value>TabControl1</value>
+  </data>
+  <data name="lblSearchTcktNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 77</value>
+  </data>
+  <data name="Panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="Button3.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="&gt;&gt;dgvLPOView.Parent" xml:space="preserve">
+    <value>TabPage2</value>
+  </data>
+  <data name="wbdrytotal.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;txtEstateID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TabPage2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabSave.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtDryTot.Name" xml:space="preserve">
+    <value>txtDryTot</value>
+  </data>
+  <data name="&gt;&gt;dgclUnitPrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgtxtWbTcktNum.HeaderText" xml:space="preserve">
+    <value>WB Ticket Number</value>
+  </data>
+  <data name="dgclLPODate.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblStatusLPOView.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtDrc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgclT0Value.Name" xml:space="preserve">
+    <value>dgclT0Value</value>
+  </data>
+  <data name="&gt;&gt;btnLPOViewSearch.Name" xml:space="preserve">
+    <value>btnLPOViewSearch</value>
+  </data>
+  <data name="dtpSearchDocDate.TabIndex" type="System.Int32, mscorlib">
+    <value>401</value>
+  </data>
+  <data name="&gt;&gt;txtWetTotal.Name" xml:space="preserve">
+    <value>txtWetTotal</value>
+  </data>
+  <data name="&gt;&gt;btnLPOViewReport.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;btnSaveAll.Parent" xml:space="preserve">
+    <value>tabSave</value>
+  </data>
+  <data name="&gt;&gt;txtDiv.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;cmsWBRubber.Name" xml:space="preserve">
+    <value>cmsWBRubber</value>
+  </data>
+  <data name="txtDrc.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;dgvView.Name" xml:space="preserve">
+    <value>dgvView</value>
+  </data>
+  <data name="dgclT4Value.HeaderText" xml:space="preserve">
+    <value>T4</value>
+  </data>
+  <data name="btnSearchTruck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>484, 52</value>
+  </data>
+  <data name="&gt;&gt;dgtxtDry.Name" xml:space="preserve">
+    <value>dgtxtDry</value>
+  </data>
+  <data name="&gt;&gt;lblLPONoView.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;DateTimePicker1.Name" xml:space="preserve">
+    <value>DateTimePicker1</value>
+  </data>
+  <data name="txtWetTotal.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="btnSaveAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>211, 468</value>
+  </data>
+  <data name="&gt;&gt;SearchView.Name" xml:space="preserve">
+    <value>SearchView</value>
+  </data>
+  <data name="Button1.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="Label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;dgclQty.Name" xml:space="preserve">
+    <value>dgclQty</value>
+  </data>
+  <data name="&gt;&gt;btnReset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReset.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;dgclContractID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpLPOViewDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtTruckID.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="wbdrctotal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="Label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 13</value>
+  </data>
+  <data name="&gt;&gt;btnSaveAll.Name" xml:space="preserve">
+    <value>btnSaveAll</value>
+  </data>
+  <data name="&gt;&gt;dgclSupplierName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnViewSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>404</value>
+  </data>
+  <data name="&gt;&gt;dgtxtWbTcktNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgclLPONo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>239, 99</value>
+  </data>
+  <data name="txtDry.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 42</value>
+  </data>
+  <data name="cbLPOViewStatus.Items4" xml:space="preserve">
+    <value>DELIVERED</value>
+  </data>
+  <data name="wbdrctotal.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="txtSearchWBTcktNum.TabIndex" type="System.Int32, mscorlib">
+    <value>402</value>
+  </data>
+  <data name="dgclContractID.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtWet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="&gt;&gt;txtEstate.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="wbdrctotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>610, 212</value>
+  </data>
+  <data name="txtEstate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>357, 97</value>
+  </data>
+  <data name="Button3.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;tabSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgclT4Value.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;dgtxtDrc.Name" xml:space="preserve">
+    <value>dgtxtDrc</value>
+  </data>
+  <data name="wbbtndelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 22</value>
+  </data>
+  <data name="txtDry.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="wbbtnadd.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="&gt;&gt;Button3.Name" xml:space="preserve">
+    <value>Button3</value>
+  </data>
+  <data name="&gt;&gt;lbldate.Parent" xml:space="preserve">
+    <value>tabSave</value>
+  </data>
+  <data name="dtpDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 20</value>
+  </data>
+  <data name="TextBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 20</value>
+  </data>
+  <data name="&gt;&gt;TextBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DateTimePicker1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;dgclSupplierID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtSearchWBTcktNum.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabPage2.Parent" xml:space="preserve">
+    <value>TabControl1</value>
+  </data>
+  <data name="&gt;&gt;dgclQty.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-75, 75</value>
+  </data>
+  <data name="&gt;&gt;dgclContractID.Name" xml:space="preserve">
+    <value>dgclContractID</value>
+  </data>
+  <data name="dgclT3Value.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;TabMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="dgvLPOView.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;cbLPOViewStatus.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="TabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>940, 544</value>
+  </data>
+  <data name="&gt;&gt;btnViewSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lbldate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;dgvFieldBlockSetup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TabPage2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="Label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 26</value>
+  </data>
+  <data name="&gt;&gt;Label5.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="lblStatusLPOView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>376, 76</value>
+  </data>
+  <data name="dgclLPODate.HeaderText" xml:space="preserve">
+    <value>PO Date</value>
+  </data>
+  <data name="wbbtnadd.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="dgclT1Value.HeaderText" xml:space="preserve">
+    <value>T1</value>
+  </data>
+  <data name="wbbtnadd.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;Label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkDocDate.Parent" xml:space="preserve">
+    <value>pnlSearchLPO</value>
+  </data>
+  <data name="&gt;&gt;dgclLPODate.Name" xml:space="preserve">
+    <value>dgclLPODate</value>
+  </data>
+  <data name="txtDrc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="&gt;&gt;DataGridView3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lbldate.Name" xml:space="preserve">
+    <value>lbldate</value>
+  </data>
+  <data name="dgvFieldBlockSetup.TabIndex" type="System.Int32, mscorlib">
+    <value>313</value>
+  </data>
+  <data name="&gt;&gt;dgclStockCategory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSearchEstate.Name" xml:space="preserve">
+    <value>btnSearchEstate</value>
+  </data>
+  <data name="wbbtnadd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 80</value>
+  </data>
+  <data name="&gt;&gt;Label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnlSearchLPO.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;txt.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txtWetTotal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label67.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 47</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Parent" xml:space="preserve">
+    <value>tabSave</value>
+  </data>
+  <data name="GroupBox1.Text" xml:space="preserve">
+    <value>Weighbridge Details</value>
+  </data>
+  <data name="lblSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="&gt;&gt;TabContainerMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtTruckID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtWet.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Parent" xml:space="preserve">
+    <value>TabPage1</value>
+  </data>
+  <data name="btnSave.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="wbdrctotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 13</value>
+  </data>
+  <data name="&gt;&gt;cmsWBRubber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label6.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="TabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;txtWetTotal.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtLPOViewNo.Name" xml:space="preserve">
+    <value>txtLPOViewNo</value>
+  </data>
+  <data name="cbLPOViewStatus.Items3" xml:space="preserve">
+    <value>REJECTED</value>
+  </data>
+  <data name="&gt;&gt;TabContainerMain.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpDocDate.Parent" xml:space="preserve">
+    <value>pnlSearchLPO</value>
+  </data>
+  <data name="dgclViewReport.HeaderText" xml:space="preserve">
+    <value>View Report</value>
+  </data>
+  <data name="&gt;&gt;txtDrc.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dgclSupplierAdd.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtDry.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;dgclLPONo.Name" xml:space="preserve">
+    <value>dgclLPONo</value>
+  </data>
+  <data name="Msg04" xml:space="preserve">
+    <value>Deleted Successfully</value>
+  </data>
+  <data name="Msg03" xml:space="preserve">
+    <value>Do you want to cancel the entered data?</value>
+  </data>
+  <data name="Msg02" xml:space="preserve">
+    <value>Saved Successfully</value>
+  </data>
+  <data name="Msg01" xml:space="preserve">
+    <value>Invalid Truck ID</value>
+  </data>
+  <data name="Button2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Label5.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmdEstateID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="dgclMainStatus.HeaderText" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="&gt;&gt;DateTimePicker1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtDiv.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnSearchTicketNum.TabIndex" type="System.Int32, mscorlib">
+    <value>308</value>
+  </data>
+  <data name="wbbtndelete.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="TabPage1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;txtDocID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblStatusLPOView.TabIndex" type="System.Int32, mscorlib">
+    <value>91</value>
+  </data>
+  <data name="&gt;&gt;dgclStockCode.Name" xml:space="preserve">
+    <value>dgclStockCode</value>
+  </data>
+  <data name="&gt;&gt;dgclT0Value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLPOViewReport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dgclViewReport.Name" xml:space="preserve">
+    <value>dgclViewReport</value>
+  </data>
+  <data name="btnReset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>477, 468</value>
+  </data>
+  <data name="&gt;&gt;Main.Name" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="&gt;&gt;wbwet.Name" xml:space="preserve">
+    <value>wbwet</value>
+  </data>
+  <data name="&gt;&gt;pnlSearchLPO.Type" xml:space="preserve">
+    <value>Stepi.UI.ExtendedPanel, ExtendedPanel, Version=1.1.4.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnLPOViewReport.Name" xml:space="preserve">
+    <value>btnLPOViewReport</value>
+  </data>
+  <data name="Button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="&gt;&gt;cbLPOViewStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgtxtDry.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Button4.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtTruckID.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Label2.Parent" xml:space="preserve">
+    <value>tabSave</value>
+  </data>
+  <data name="&gt;&gt;chkLPOViewDate.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;TabPage2.Name" xml:space="preserve">
+    <value>TabPage2</value>
+  </data>
+  <data name="Button1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="cbLPOViewStatus.Items2" xml:space="preserve">
+    <value>APPROVED</value>
+  </data>
+  <data name="wbbtnadd.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAQQAAAAlCAIAAAAr7QB6AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAy0lEQVR4Xu3Ca0pCAQCE0dn/JlyDf6MI
+        kSJCE5EwtczU7tXMtFLzEYyzkO9wdPg3ydT+ZJKp3dEkU5uDSaZ+9iaZWv+ZZGq1M8nUcmuSqcXGJFPz
+        X5NMld8mmSrWJpmarkwyNf4yydRoaZKp4adJpl4WJpkafJhkqjc3yVR3ZpKpx9IkU53CJFPtd5NMtaYm
+        mXqYmGSqMTbJ1P2bSabuRiaZun01ydTN0CRT9WeTTNUGJpm67ptk6qpnkqnLJ5NMXXRNMlWpNklWqs0z
+        o+UJwj8nfMkAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="cmbTicketNum.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="chkLPOViewDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 77</value>
+  </data>
+  <data name="&gt;&gt;txtDiv.Parent" xml:space="preserve">
+    <value>tabSave</value>
+  </data>
+  <data name="txtTotalDrc.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;Label4.Name" xml:space="preserve">
+    <value>Label4</value>
+  </data>
+  <data name="wbbtndelete.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1
+        MAAA6mAAADqYAAAXb5JfxUYAAAAJcEhZcwAACxIAAAsSAdLdfvwAAARcSURBVDhPjZR7TJNXGMYPbEMg
+        mWxoUopcWlZuE0q4g6AkUmY0ipJMyeoMTv3DbCT6j1kGUSLETLZxixFm1Gm4lV6wWErlOgNEkLRkoLBV
+        FhiWZMK4CYSbDJ69X/mMF9TxJF/a7zvn+Z3zXs5h79KPjImzGfv2pw/eN+TZ2z/MsdvQlm3D8uhbHD9l
+        fcpgzJZgXxW6uXWWbt26rIyOhio2Fqrt21efbdugDAnBFZFoJN/BISeNMSFvfbNyGHP4wc7ufnlYGBQE
+        K6NfJQd57VFERaGMwBW02M9C4WQ+Y1Ie8aoKGNtQ6Ozcw5mK/f3xW24uBrRalEulUBNEQ981MTFQBAXB
+        mJUFS2MjFBERUNLYdZEIlJIDPOqF8u3sjOrISJQR5FFpKZ5r4sED3CKjlksBAU3nz2Nledk6NmOxQE2L
+        qTiwu/v094x9zOMYu2Rrm6IgmCo8HMNtbVbDy3pqNkO/Ywf+LCnhv7zQ/OgoahIToQoORpGjYwuPZOy6
+        q2sLt0u1NBBj7e389PVpgaCGBBlUoaFQ+Pkhl7EwdoUxx1KJZElDRdFyD4U4qFLxlndrlsKvi49HFQEr
+        yaum3f4iEHzHrgoEETraIQfUUeIN0VHQ+fhgkEJdWVnh7Ws13deHWvIYoiKhpyir6P+t0BCUeYmLWYmv
+        b6KOql1NAwaC1lMrNdDvXar04vg4j1irRxcvop521kAFrCWvnjxclOVicSXThIbuqRIKcdvbG3U02BgR
+        jvb9+7E0NcXb3yyuA34/exaNBG6kjegDA6FwcoLaz0/DKqXSnfW+vtC6uOD2pk24n3QA/87M8Nb/1+Mb
+        N6Ann87dDerNm1EXHV3BFJ6eombqtWpXFzTTMXybnhqNWJqd5d9eVW9aGnQfOcHwqT/uyWQ5DIzZtMXH
+        D9RKJGjYsgWW4mJ+6qq4Ug0VFaEnIAB9R45Y31/W3OAgWiiXdR4e6ExKQp1E8rm1T5t8fS91JyejmQrW
+        Svl9UlFhNXDVH6ZF+nftgoWAg9Tk/SdOYHFy0jo+PzSEDqp66yde6JDJ0BIcPE3H9UMrVCkQiH/18Vnu
+        kcvRQQUzSbxhycuDJTMLQ4cPY+TMGYxTUUYpzCcnT2IgJQX/3LmDbjqBJmr4rn370J2QAL2Hx5dW4HPV
+        uLsn3wsKemY+ehR/0KpmMgwdOoSxc+cwdfkyZm7exPS1a5igVhr+JhV9sTEwUw3MFGHXZwkwuAiVKsbe
+        43Gr4u5Rvafn13cpN70HD2KYLo5RAk7m52NOo8FCUxMWamowQ+DxCxcwnJmJv06fRjulrE4s1tLJdOJR
+        a1Xt5bWnUSw2du/ejRG64qbVasy3tuIZ3VaLJhPmKOxx2nn/sWNoDQz42yASZVwRCh15+9t1deNG55a4
+        uC8eyuU1/adOTQxnZ2O8sBBjBQV4nJ6+0Hv8eJdx7970an9/by5C3rY+ZcTF2XfK5Z49aWkRXRkZO3vS
+        02NNqal+KpmMC9VmddbrYuw/KCezO7iy/T4AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="&gt;&gt;dtpSearchDocDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvFieldBlockSetup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 124</value>
+  </data>
+  <data name="DateTimePicker1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>573, 16</value>
+  </data>
+  <data name="&gt;&gt;wbdrytotal.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Label4.Parent" xml:space="preserve">
+    <value>tabSave</value>
+  </data>
+  <data name="Label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;GroupBox1.Name" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="wbdry.Text" xml:space="preserve">
+    <value>Dry (Kg)</value>
+  </data>
+  <data name="&gt;&gt;dtpLPOViewDate.Name" xml:space="preserve">
+    <value>dtpLPOViewDate</value>
+  </data>
+  <data name="btnUpdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 468</value>
+  </data>
+  <data name="wbbtndelete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="&gt;&gt;TabPage1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TabPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;TabControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgclViewReport.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbldate.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="wbwet.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="dgclT1Value.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="wbdrytotal.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label6.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtTicketNum.Name" xml:space="preserve">
+    <value>txtTicketNum</value>
+  </data>
+  <data name="&gt;&gt;btnClose.Parent" xml:space="preserve">
+    <value>tabSave</value>
+  </data>
+  <data name="&gt;&gt;txtLPOViewNo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dtpDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 20</value>
+  </data>
+  <data name="&gt;&gt;btnUpdate.Parent" xml:space="preserve">
+    <value>tabSave</value>
+  </data>
+  <data name="dgclStockCategoryID.HeaderText" xml:space="preserve">
+    <value>StockCategoryID</value>
+  </data>
+  <data name="&gt;&gt;txt.Name" xml:space="preserve">
+    <value>txt</value>
+  </data>
+  <data name="AddToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="dgclSupplierName.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Button4.Parent" xml:space="preserve">
+    <value>TabPage1</value>
+  </data>
+  <data name="&gt;&gt;dgtxtDocID.Name" xml:space="preserve">
+    <value>dgtxtDocID</value>
+  </data>
+  <data name="Label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtVehicleID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 60</value>
+  </data>
+  <data name="SearchView.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="dtpSearchDocDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 99</value>
+  </data>
+  <data name="&gt;&gt;btnUpdate.Name" xml:space="preserve">
+    <value>btnUpdate</value>
+  </data>
+  <data name="tabSearchView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="txtEstateID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 97</value>
+  </data>
+  <data name="&gt;&gt;btnSearchEstate.Parent" xml:space="preserve">
+    <value>tabSave</value>
+  </data>
+  <data name="cmbTicketNum.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;TabControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lbldate.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Button4.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="&gt;&gt;lblwbwettotal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dgclSupplierAdd.HeaderText" xml:space="preserve">
+    <value>SupplierAddress</value>
+  </data>
+  <data name="cbLPOViewStatus.Items1" xml:space="preserve">
+    <value>OPEN</value>
+  </data>
+  <data name="&gt;&gt;dgtxtWet.Name" xml:space="preserve">
+    <value>dgtxtWet</value>
+  </data>
+  <data name="&gt;&gt;dgvView.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtTruckID.Parent" xml:space="preserve">
+    <value>tabSave</value>
+  </data>
+  <data name="TabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="txt.TabIndex" type="System.Int32, mscorlib">
+    <value>402</value>
+  </data>
+  <data name="&gt;&gt;dgtxtDocID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSaveAl.Name" xml:space="preserve">
+    <value>btnSaveAl</value>
+  </data>
+  <data name="Button2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="&gt;&gt;TabContainerMain.Name" xml:space="preserve">
+    <value>TabContainerMain</value>
+  </data>
+  <data name="&gt;&gt;btnLPOViewReport.Parent" xml:space="preserve">
+    <value>pnlSearchLPO</value>
+  </data>
+  <data name="btnLPOViewSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>553, 95</value>
+  </data>
+  <data name="&gt;&gt;dtpSearchDocDate.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblLPONoView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbLPOViewStatus.Parent" xml:space="preserve">
+    <value>pnlSearchLPO</value>
+  </data>
+  <data name="&gt;&gt;Button2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtSearchWBTcktNum.Parent" xml:space="preserve">
+    <value>pnlSearchLPO</value>
+  </data>
+  <data name="&gt;&gt;dgclStockCategoryID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SearchView.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="wbdrytotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>610, 172</value>
+  </data>
+  <data name="txtTicketNum.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 57</value>
+  </data>
+  <data name="&gt;&gt;wbdrctotal.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="wbbtnadd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 22</value>
+  </data>
+  <data name="&gt;&gt;DataGridView3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnUpdate.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;DateTimePicker1.Parent" xml:space="preserve">
+    <value>tabSave</value>
+  </data>
+  <data name="cbLPOViewStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>403</value>
+  </data>
+  <data name="cbLPOViewStatus.Items" xml:space="preserve">
+    <value>SELECT ALL</value>
+  </data>
+  <data name="cbLPOViewStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>374, 98</value>
+  </data>
+  <data name="&gt;&gt;lblwbwettotal.Parent" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="&gt;&gt;dtpSearchDocDate.Parent" xml:space="preserve">
+    <value>pnlSearchLPO</value>
+  </data>
+  <data name="&gt;&gt;cmbTicketNum.Name" xml:space="preserve">
+    <value>cmbTicketNum</value>
+  </data>
+  <data name="&gt;&gt;lblView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtWet.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabSearchView.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Panel1.Name" xml:space="preserve">
+    <value>Panel1</value>
+  </data>
+  <data name="dgtxtDocDate.HeaderText" xml:space="preserve">
+    <value>Doc Date</value>
+  </data>
+  <data name="&gt;&gt;btnViewSearch.Name" xml:space="preserve">
+    <value>btnViewSearch</value>
+  </data>
+  <data name="pnlSearchLPO.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="dgclRemarks.HeaderText" xml:space="preserve">
+    <value>Remarks</value>
+  </data>
+  <data name="&gt;&gt;TabContainerMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgclStockCode.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="txtDocID.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="TabPage2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;dgclViewReport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewButtonColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabControl.Name" xml:space="preserve">
+    <value>TabControl</value>
+  </data>
+  <data name="lblwbwettotal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;lblView.Name" xml:space="preserve">
+    <value>lblView</value>
+  </data>
+  <data name="TabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>982, 600</value>
+  </data>
+  <data name="Button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 29</value>
+  </data>
+  <data name="&gt;&gt;txtEstateID.Name" xml:space="preserve">
+    <value>txtEstateID</value>
+  </data>
+  <data name="dgclT0Value.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtDiv.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="dgtxtDocID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgtxtWbTcktNum.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="cmsWBRubber.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="dgtxtDocDate.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

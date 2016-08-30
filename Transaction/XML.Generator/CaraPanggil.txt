@@ -1,0 +1,51 @@
+﻿ Dim objIPR As New IPRBOL
+        Dim dt As New DataTable
+        Dim dtDetail As New DataTable
+
+        dt = objIPR.GenerateIPRXML(Nothing)
+
+        Dim profile As New Profile
+        With profile
+            .NameXML = "RequisitionImport"
+            .FirstTag = "SSPRRequisitionImport"
+            .SecondTag = "Requisition"
+            .Creator = New String() {dt.Columns.Item("creator").ColumnName, dt.Rows(0).Item("creator").ToString()}
+            .Descr = New String() {dt.Columns.Item("descr").ColumnName, dt.Rows(0).Item("descr").ToString()}
+            .ReqStatus = New String() {dt.Columns.Item("reqStatus").ColumnName, dt.Rows(0).Item("reqStatus").ToString()}
+        End With
+
+        Dim profileLines As New List(Of ProfileLine)
+        Dim profileNameValues As New List(Of ProfileNameValue)
+
+
+        For Each o As DataRow In dt.Rows
+            Dim profileLine As New ProfileLine
+
+            dtDetail = objIPR.GenerateIPRXML(o.Item("Id").ToString())
+            For Each oDetail As DataRow In dtDetail.Rows
+                profileNameValues.Add(BSPXMLGenerator.WriteXML(dt, oDetail, "nextRoleId"))
+                profileNameValues.Add(BSPXMLGenerator.WriteXML(dt, oDetail, "orderDate"))
+                profileNameValues.Add(BSPXMLGenerator.WriteXML(dt, oDetail, "businessUnitCode"))
+                profileNameValues.Add(BSPXMLGenerator.WriteXML(dt, oDetail, "quantity"))
+                profileNameValues.Add(BSPXMLGenerator.WriteXML(dt, oDetail, "requisitioner"))
+                profileNameValues.Add(BSPXMLGenerator.WriteXML(dt, oDetail, "isRequisitionOnly"))
+                profileNameValues.Add(BSPXMLGenerator.WriteXML(dt, oDetail, "itemCode"))
+                profileNameValues.Add(BSPXMLGenerator.WriteXML(dt, oDetail, "description"))
+                profileNameValues.Add(BSPXMLGenerator.WriteXML(dt, oDetail, "unitOfMeasure"))
+                profileNameValues.Add(BSPXMLGenerator.WriteXML(dt, oDetail, "unitPrice"))
+                profileNameValues.Add(BSPXMLGenerator.WriteXML(dt, oDetail, "costCentreCode"))
+                profileNameValues.Add(BSPXMLGenerator.WriteXML(dt, oDetail, "currencyCode"))
+                Exit For
+            Next
+
+            With profileLine
+                .Id = o.Item("Id").ToString()
+                .Line = "line"
+                .LTName = New String() {dt.Columns.Item("LTName").ColumnName, o.Item("LTName").ToString()}
+                .ProfileNameValue = profileNameValues
+                .Fields = "fields"
+            End With
+            profileLines.Add(profileLine)
+        Next
+
+        BSPXMLGenerator.Generate(profile, profileLines, profileNameValues)

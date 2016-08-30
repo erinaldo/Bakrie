@@ -1,0 +1,654 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Add" xml:space="preserve">
+    <value>Menambahkan</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>Jumlah</value>
+  </data>
+  <data name="chkLabAnalDate" xml:space="preserve">
+    <value>Tanggal</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Deskripsi</value>
+  </data>
+  <data name="dgclDirt" xml:space="preserve">
+    <value>Kotoran</value>
+  </data>
+  <data name="dgLabAnalDate" xml:space="preserve">
+    <value>Tanggal</value>
+  </data>
+  <data name="gActualP" xml:space="preserve">
+    <value>Aktual (%)</value>
+  </data>
+  <data name="gActualpercent" xml:space="preserve">
+    <value>Aktual (%)</value>
+  </data>
+  <data name="gAmount" xml:space="preserve">
+    <value>Jumlah</value>
+  </data>
+  <data name="gbCPOProduction" xml:space="preserve">
+    <value>CPO - Produksi</value>
+  </data>
+  <data name="gbEfficiencyripleMill" xml:space="preserve">
+    <value>Efisiensi Riple Mill</value>
+  </data>
+  <data name="gbKernelInTake" xml:space="preserve">
+    <value>Kernel Intake</value>
+  </data>
+  <data name="gbKernelProduction" xml:space="preserve">
+    <value>Kernel Produksi</value>
+  </data>
+  <data name="gbKernelQualityStorage" xml:space="preserve">
+    <value>Kualitas Kernel Penyimpanan</value>
+  </data>
+  <data name="gbOilQualityStorage" xml:space="preserve">
+    <value>Kualitas Minyak Penyimpanan</value>
+  </data>
+  <data name="gbPKOProduction" xml:space="preserve">
+    <value>PKO - Produksi</value>
+  </data>
+  <data name="gbProductionQuantity" xml:space="preserve">
+    <value>Jumlah Produksi</value>
+  </data>
+  <data name="gBrokenKernel" xml:space="preserve">
+    <value>Broken Kernel</value>
+  </data>
+  <data name="gDescription" xml:space="preserve">
+    <value>Deskripsi</value>
+  </data>
+  <data name="gDirt" xml:space="preserve">
+    <value>Kotoran</value>
+  </data>
+  <data name="gDirtP" xml:space="preserve">
+    <value>Kotoran (%)</value>
+  </data>
+  <data name="gEfficiencyP" xml:space="preserve">
+    <value>Efisiensi (%)</value>
+  </data>
+  <data name="gEquipment" xml:space="preserve">
+    <value>Peralatan</value>
+  </data>
+  <data name="gERMEffciencyP" xml:space="preserve">
+    <value>Efisiensi</value>
+  </data>
+  <data name="gERMLine" xml:space="preserve">
+    <value>Baris</value>
+  </data>
+  <data name="gERMNo" xml:space="preserve">
+    <value>Tidak</value>
+  </data>
+  <data name="gExpellerStageNo" xml:space="preserve">
+    <value>Expeller Tahap Tidak</value>
+  </data>
+  <data name="gExpellerStagetype" xml:space="preserve">
+    <value>Tahap Expeller Jenis</value>
+  </data>
+  <data name="gFFA" xml:space="preserve">
+    <value>FFA</value>
+  </data>
+  <data name="gFibre" xml:space="preserve">
+    <value>Serat (%)</value>
+  </data>
+  <data name="gFibreCyc" xml:space="preserve">
+    <value>Serat Cyc. (%)</value>
+  </data>
+  <data name="gFruitinFB" xml:space="preserve">
+    <value>Buah di FB</value>
+  </data>
+  <data name="gHydroCyc" xml:space="preserve">
+    <value>Hydro Cyc. (%)</value>
+  </data>
+  <data name="gLine" xml:space="preserve">
+    <value>Baris</value>
+  </data>
+  <data name="gLocation" xml:space="preserve">
+    <value>Tempat</value>
+  </data>
+  <data name="gLossesP" xml:space="preserve">
+    <value>Kerugian (%)</value>
+  </data>
+  <data name="gLTDS1" xml:space="preserve">
+    <value>LTDS 1 (%)</value>
+  </data>
+  <data name="gLTDS2" xml:space="preserve">
+    <value>LTDS 2 (%)</value>
+  </data>
+  <data name="gMoisture" xml:space="preserve">
+    <value>Embun</value>
+  </data>
+  <data name="gMonthTodateHrs" xml:space="preserve">
+    <value>Bulan Untuk tanggal (Jam)</value>
+  </data>
+  <data name="gNo" xml:space="preserve">
+    <value>Nomor</value>
+  </data>
+  <data name="gProductType" xml:space="preserve">
+    <value>Tipe Produk</value>
+  </data>
+  <data name="gReceivedTon" xml:space="preserve">
+    <value>Diterima Ton</value>
+  </data>
+  <data name="gSample" xml:space="preserve">
+    <value>Contoh (%)</value>
+  </data>
+  <data name="gSourceLocation" xml:space="preserve">
+    <value>Lokasi Sumber</value>
+  </data>
+  <data name="gStationDescp" xml:space="preserve">
+    <value>Alat / Stasiun</value>
+  </data>
+  <data name="gSTD" xml:space="preserve">
+    <value>STD (%)</value>
+  </data>
+  <data name="gTank" xml:space="preserve">
+    <value>Tangki</value>
+  </data>
+  <data name="gTotalHourstoday" xml:space="preserve">
+    <value>Jumlah Jam (hari ini)</value>
+  </data>
+  <data name="gTotalNutPercent" xml:space="preserve">
+    <value>Total Nut (%)</value>
+  </data>
+  <data name="gType" xml:space="preserve">
+    <value>Jenis</value>
+  </data>
+  <data name="gYearTodateHrs" xml:space="preserve">
+    <value>Tahun Untuk tanggal (Jam)</value>
+  </data>
+  <data name="KernalLosses" xml:space="preserve">
+    <value>Kerugian Kernal</value>
+  </data>
+  <data name="KernallossesPresscakefibre" xml:space="preserve">
+    <value>Kernal Kerugian - Tekan Serat Cake</value>
+  </data>
+  <data name="MachineName" xml:space="preserve">
+    <value>Nama Mesin</value>
+  </data>
+  <data name="MachineryOperationHours" xml:space="preserve">
+    <value>Operasi Mesin Jam</value>
+  </data>
+  <data name="MeterFrom" xml:space="preserve">
+    <value>Meter Dari</value>
+  </data>
+  <data name="MeterTo" xml:space="preserve">
+    <value>Meter Untuk</value>
+  </data>
+  <data name="NonProcessHours" xml:space="preserve">
+    <value>Non Proses Jam</value>
+  </data>
+  <data name="OilLosses" xml:space="preserve">
+    <value>Minyak Kerugian</value>
+  </data>
+  <data name="ProcessHours" xml:space="preserve">
+    <value>Proses Jam</value>
+  </data>
+  <data name="ProductType" xml:space="preserve">
+    <value>Tipe Produk</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Ulang Awal</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Pencarian</value>
+  </data>
+  <data name="searchBy" xml:space="preserve">
+    <value>Cari Berdasarkan</value>
+  </data>
+  <data name="SearchLaboratoryAnalysis" xml:space="preserve">
+    <value>Cari Laboratorium Analisis</value>
+  </data>
+  <data name="tbLabAnalysis.TabPages(tbLaboratoryAnalysis).Text" xml:space="preserve">
+    <value>Analisis Laboratorium</value>
+  </data>
+  <data name="tbLabAnalysis.TabPages(tbView).Text" xml:space="preserve">
+    <value>Melihat</value>
+  </data>
+  <data name="tcLaboratoryAnalysis.TabPages(tpLossestoFFB).Text" xml:space="preserve">
+    <value>Kerugian untuk TBS</value>
+  </data>
+  <data name="tcLaboratoryAnalysis.TabPages(tpLossestosample).Text" xml:space="preserve">
+    <value>Kerugian untuk Contoh</value>
+  </data>
+  <data name="tcLaboratoryAnalysis.TabPages(tpMachinelog).Text" xml:space="preserve">
+    <value>Mesin Login</value>
+  </data>
+  <data name="tcLaboratoryAnalysis.TabPages(tpOthers).Text" xml:space="preserve">
+    <value>Lainnya</value>
+  </data>
+  <data name="tcLaboratoryAnalysis.TabPages(tpQuality1).Text" xml:space="preserve">
+    <value>Kualitas 1</value>
+  </data>
+  <data name="tcLaboratoryAnalysis.TabPages(tpQuality2).Text" xml:space="preserve">
+    <value>Kualitas 2</value>
+  </data>
+  <data name="BoilerWaterAnalysis" xml:space="preserve">
+    <value>BoilerWaterAnalysis</value>
+  </data>
+  <data name="Dosage" xml:space="preserve">
+    <value>Dosis</value>
+  </data>
+  <data name="Softner" xml:space="preserve">
+    <value>Denimt Plant</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Nilai</value>
+  </data>
+  <data name="Msg1" xml:space="preserve">
+    <value>Alat / Stasiun Field ini diperlukan.</value>
+  </data>
+  <data name="Msg10" xml:space="preserve">
+    <value>Dirt (%) Lapangan diperlukan.</value>
+  </data>
+  <data name="Msg11" xml:space="preserve">
+    <value>Sample (%) Lapangan diperlukan.</value>
+  </data>
+  <data name="Msg12" xml:space="preserve">
+    <value>Fibre (%) Lapangan diperlukan.</value>
+  </data>
+  <data name="Msg13" xml:space="preserve">
+    <value>Total Nut Field ini diperlukan.</value>
+  </data>
+  <data name="Msg14" xml:space="preserve">
+    <value>Line sudah ada</value>
+  </data>
+  <data name="Msg15" xml:space="preserve">
+    <value>Equipment sudah ada</value>
+  </data>
+  <data name="Msg16" xml:space="preserve">
+    <value>Description Field ini diperlukan.</value>
+  </data>
+  <data name="Msg17" xml:space="preserve">
+    <value>Tahap Expeller Field Jenis diperlukan.</value>
+  </data>
+  <data name="Msg18" xml:space="preserve">
+    <value>Expeller Tahap Tidak Field ini diperlukan.</value>
+  </data>
+  <data name="Msg19" xml:space="preserve">
+    <value>Amount Field ini diperlukan.</value>
+  </data>
+  <data name="Msg2" xml:space="preserve">
+    <value>Kolom Jenis diperlukan.</value>
+  </data>
+  <data name="Msg20" xml:space="preserve">
+    <value>Description sudah ada</value>
+  </data>
+  <data name="Msg21" xml:space="preserve">
+    <value>LTDS1 (%) Lapangan diperlukan.</value>
+  </data>
+  <data name="Msg22" xml:space="preserve">
+    <value>LTDS2 (%) Lapangan diperlukan.</value>
+  </data>
+  <data name="Msg23" xml:space="preserve">
+    <value>Fibre Cyc. (%) Lapangan diperlukan.</value>
+  </data>
+  <data name="Msg24" xml:space="preserve">
+    <value>Hydro Cyc. (%) Lapangan diperlukan.</value>
+  </data>
+  <data name="Msg25" xml:space="preserve">
+    <value>Fruit di EB Field ini diperlukan.</value>
+  </data>
+  <data name="Msg26" xml:space="preserve">
+    <value>Line sudah ada</value>
+  </data>
+  <data name="Msg27" xml:space="preserve">
+    <value>Sumber Lokasi Field ini diperlukan.</value>
+  </data>
+  <data name="Msg28" xml:space="preserve">
+    <value>Moisture Field ini diperlukan.</value>
+  </data>
+  <data name="Msg29" xml:space="preserve">
+    <value>Received Ton Field ini diperlukan.</value>
+  </data>
+  <data name="Msg3" xml:space="preserve">
+    <value>Nomor Field ini diperlukan.</value>
+  </data>
+  <data name="Msg30" xml:space="preserve">
+    <value>Dirt Field ini diperlukan.</value>
+  </data>
+  <data name="Msg31" xml:space="preserve">
+    <value>Broken Kernel Field ini diperlukan.</value>
+  </data>
+  <data name="Msg32" xml:space="preserve">
+    <value>Sumber Lokasi sudah ada</value>
+  </data>
+  <data name="Msg33" xml:space="preserve">
+    <value>Location Field ini diperlukan.</value>
+  </data>
+  <data name="Msg34" xml:space="preserve">
+    <value>Location sudah ada</value>
+  </data>
+  <data name="Msg35" xml:space="preserve">
+    <value>Product Field Jenis diperlukan.</value>
+  </data>
+  <data name="Msg36" xml:space="preserve">
+    <value>Tank Field ini diperlukan.</value>
+  </data>
+  <data name="Msg37" xml:space="preserve">
+    <value>FFA Field ini diperlukan.</value>
+  </data>
+  <data name="Msg38" xml:space="preserve">
+    <value>Tipe Produk sudah ada</value>
+  </data>
+  <data name="Msg39" xml:space="preserve">
+    <value>Nama mesin Field ini diperlukan.</value>
+  </data>
+  <data name="Msg4" xml:space="preserve">
+    <value>Aktual (%) Lapangan diperlukan.</value>
+  </data>
+  <data name="Msg40" xml:space="preserve">
+    <value>Meter Dari Lapangan diperlukan.</value>
+  </data>
+  <data name="Msg41" xml:space="preserve">
+    <value>Meter Untuk Field ini diperlukan.</value>
+  </data>
+  <data name="Msg42" xml:space="preserve">
+    <value>Proses Jam Field ini diperlukan.</value>
+  </data>
+  <data name="Msg43" xml:space="preserve">
+    <value>Jam NonProcess Field ini diperlukan.</value>
+  </data>
+  <data name="Msg44" xml:space="preserve">
+    <value>Month Untuk Tanggal Field ini diperlukan.</value>
+  </data>
+  <data name="Msg45" xml:space="preserve">
+    <value>Year Untuk Tanggal Field ini diperlukan.</value>
+  </data>
+  <data name="Msg46" xml:space="preserve">
+    <value>Nama Mesin sudah ada</value>
+  </data>
+  <data name="Msg47" xml:space="preserve">
+    <value>Value Field ini diperlukan.</value>
+  </data>
+  <data name="Msg48" xml:space="preserve">
+    <value>Description sudah ada</value>
+  </data>
+  <data name="Msg49" xml:space="preserve">
+    <value>dosage Field ini diperlukan.</value>
+  </data>
+  <data name="Msg5" xml:space="preserve">
+    <value>Line Field ini diperlukan.</value>
+  </data>
+  <data name="Msg50" xml:space="preserve">
+    <value>No Records di Stasiun, Silahkan Tambahkan Records di Stasiun Produksi</value>
+  </data>
+  <data name="Msg51" xml:space="preserve">
+    <value>No Records di Master Tank, Silahkan Tambahkan Records pada Produksi-Tank Master</value>
+  </data>
+  <data name="Msg52" xml:space="preserve">
+    <value>No Records di Master Mesin, Silahkan Tambahkan Records di-Mesin Produksi Master</value>
+  </data>
+  <data name="Msg53" xml:space="preserve">
+    <value>No Record ke Edit, Silahkan Pilih Edit Record ke</value>
+  </data>
+  <data name="Msg54" xml:space="preserve">
+    <value>Data Berhasil Dihapus</value>
+  </data>
+  <data name="Msg55" xml:space="preserve">
+    <value>No Record ke Hapus, Silahkan Pilih Rekaman untuk menghapus</value>
+  </data>
+  <data name="Msg56" xml:space="preserve">
+    <value>Silahkan Masukkan Kriteria untuk Pencarian</value>
+  </data>
+  <data name="Msg57" xml:space="preserve">
+    <value>No catatan (s) yang cocok dengan kriteria pencarian Anda.</value>
+  </data>
+  <data name="Msg58" xml:space="preserve">
+    <value>No PRESS CAKE SERAT Records, Tolong masukkan catatan di Stasiun Produksi</value>
+  </data>
+  <data name="Msg59" xml:space="preserve">
+    <value>Kernel Moisture</value>
+  </data>
+  <data name="Msg6" xml:space="preserve">
+    <value>STD (%) Lapangan diperlukan.</value>
+  </data>
+  <data name="Msg60" xml:space="preserve">
+    <value>Kernel Dirt</value>
+  </data>
+  <data name="Msg61" xml:space="preserve">
+    <value>Broken Kernel</value>
+  </data>
+  <data name="Msg62" xml:space="preserve">
+    <value>CPO FFA</value>
+  </data>
+  <data name="Msg63" xml:space="preserve">
+    <value>CPO Moisture</value>
+  </data>
+  <data name="Msg64" xml:space="preserve">
+    <value>CPO Dirt</value>
+  </data>
+  <data name="Msg65" xml:space="preserve">
+    <value>PKO FFA</value>
+  </data>
+  <data name="Msg66" xml:space="preserve">
+    <value>PKO Moisture</value>
+  </data>
+  <data name="Msg67" xml:space="preserve">
+    <value>PKO Dirt</value>
+  </data>
+  <data name="Msg68" xml:space="preserve">
+    <value>Kerugian Oil Field ini Harus Diisi</value>
+  </data>
+  <data name="Msg69" xml:space="preserve">
+    <value>Record sudah ada untuk Tanggal, Silahkan ubah Tanggal</value>
+  </data>
+  <data name="Msg7" xml:space="preserve">
+    <value>Alat / Stasiun sudah ada</value>
+  </data>
+  <data name="Msg70" xml:space="preserve">
+    <value>Data Berhasil Tersimpan</value>
+  </data>
+  <data name="Msg71" xml:space="preserve">
+    <value>Data Berhasil Diperbarui</value>
+  </data>
+  <data name="Msg72" xml:space="preserve">
+    <value>User Dapatkah masukkan hanya HH atau HH.mm (Contoh: 10 (atau 10,50); tidak valid Nilai 10.)</value>
+  </data>
+  <data name="Msg73" xml:space="preserve">
+    <value>Proses Jam cant lebih besar dari 24 jam</value>
+  </data>
+  <data name="Msg74" xml:space="preserve">
+    <value>Proses Jumlah Jam Cant lebih besar dari 24 jam</value>
+  </data>
+  <data name="Msg75" xml:space="preserve">
+    <value>User Dapatkah masukkan hanya HH atau HH: MM</value>
+  </data>
+  <data name="Msg76" xml:space="preserve">
+    <value>Nilai menit Cant lebih besar dari 59</value>
+  </data>
+  <data name="Msg77" xml:space="preserve">
+    <value>Proses Jumlah Jam Cant lebih besar dari 24 jam</value>
+  </data>
+  <data name="Msg78" xml:space="preserve">
+    <value>Proses jam non cant lebih besar dari jam Proses</value>
+  </data>
+  <data name="Msg79" xml:space="preserve">
+    <value>User hanya dapat masukkan Nomor Utuh atau Desimal (Contoh: 10 (atau) 10,50; Nilai tidak valid 10.)</value>
+  </data>
+  <data name="Msg8" xml:space="preserve">
+    <value>Efisiensi Field ini diperlukan.</value>
+  </data>
+  <data name="Msg80" xml:space="preserve">
+    <value>User hanya dapat masukkan Nomor Utuh atau Desimal (Contoh: 10 (atau) 10,500; Nilai tidak valid 10.)</value>
+  </data>
+  <data name="Msg81" xml:space="preserve">
+    <value>Nilai menit harus format MM, misalnya. 10 bukan 1</value>
+  </data>
+  <data name="Msg82" xml:space="preserve">
+    <value>Nilai menit harus format MM, misalnya. 10 tidak 100</value>
+  </data>
+  <data name="Msg83" xml:space="preserve">
+    <value>Meter Untuk Nilai seharusnya lebih besar Meter Dari</value>
+  </data>
+  <data name="Msg84" xml:space="preserve">
+    <value>User Dapatkah masukkan hanya: MM atau HH: MM format, misalnya. 10:30 tidak 10:</value>
+  </data>
+  <data name="Msg85" xml:space="preserve">
+    <value>Month Untuk cant Tanggal Jam akan lebih rendah daripada Jumlah Jam</value>
+  </data>
+  <data name="Msg86" xml:space="preserve">
+    <value>User Dapatkah masukkan hanya HH atau HH: MM format</value>
+  </data>
+  <data name="Msg87" xml:space="preserve">
+    <value>Year Untuk cant Tanggal Jam akan lebih rendah daripada Jumlah Jam</value>
+  </data>
+  <data name="Msg88" xml:space="preserve">
+    <value>Year Untuk cant Tanggal Jam akan lebih rendah daripada Bulan Untuk Tanggal Jam</value>
+  </data>
+  <data name="Msg89" xml:space="preserve">
+    <value>Please masukkan nilai numerik hanya</value>
+  </data>
+  <data name="Msg9" xml:space="preserve">
+    <value>Kerugian (%) Lapangan diperlukan.</value>
+  </data>
+  <data name="Msg90" xml:space="preserve">
+    <value>"Data tidak disimpan, apakah Anda ingin melanjutkan tanpa menyimpan?" Jika ya silahkan klik "" OK "" atau klik "" Batal ""</value>
+  </data>
+  <data name="Msg91" xml:space="preserve">
+    <value>You sekitar Hapus catatan yang dipilih. Apakah Anda yakin? Jika ya, silakan klik "" OK "" atau klik "" Batal "".</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Tutup</value>
+  </data>
+  <data name="ResetAll" xml:space="preserve">
+    <value>Ulang Awal</value>
+  </data>
+  <data name="gbFFBKL" xml:space="preserve">
+    <value>Kerugian Kernal</value>
+  </data>
+  <data name="gbOillossesA" xml:space="preserve">
+    <value>Minyak Kerugian A</value>
+  </data>
+  <data name="gbOilLossesB" xml:space="preserve">
+    <value>Minyak Kerugian B</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Msg631" xml:space="preserve">
+    <value>Anda akan beralih dari tab saat ini, Anda mungkin kehilangan data yang belum disimpan. apakah Anda yakin? jika ya silahkan klik "" ok "" atau klik "" cancel "".</value>
+  </data>
+  <data name="msg176" xml:space="preserve">
+    <value>pengguna dapat mengedit hanya merekam Terbaru!</value>
+  </data>
+  <data name="msg177" xml:space="preserve">
+    <value>pengguna dapat menghapus data terbaru hanya!</value>
+  </data>
+</root>

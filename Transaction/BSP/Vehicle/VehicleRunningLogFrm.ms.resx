@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>Tutup</value>
+  </data>
+  <data name="btnPrintFFBDO.Text" xml:space="preserve">
+    <value>Cetak</value>
+  </data>
+  <data name="btnReset.Text" xml:space="preserve">
+    <value>Ulang Awal</value>
+  </data>
+  <data name="btnSaveOrUpdate.Text" xml:space="preserve">
+    <value>Simpan</value>
+  </data>
+  <data name="btnSearch.Text" xml:space="preserve">
+    <value>Pencarian</value>
+  </data>
+  <data name="chkDate.Text" xml:space="preserve">
+    <value>Tanggal</value>
+  </data>
+  <data name="dgVehicleCode.Columns(Sno).HeaderText" xml:space="preserve">
+    <value>S.No</value>
+  </data>
+  <data name="dgVehicleCode.Columns(VHWSCode).HeaderText" xml:space="preserve">
+    <value>Kode Kendaraan</value>
+  </data>
+  <data name="dgvListOfVehicleLog.Columns(Activity).HeaderText" xml:space="preserve">
+    <value>Aktifitas</value>
+  </data>
+  <data name="dgvListOfVehicleLog.Columns(EndTime).HeaderText" xml:space="preserve">
+    <value>Waktu Akhir</value>
+  </data>
+  <data name="dgvListOfVehicleLog.Columns(LogDate).HeaderText" xml:space="preserve">
+    <value>Tanggal</value>
+  </data>
+  <data name="dgvListOfVehicleLog.Columns(StartTime).HeaderText" xml:space="preserve">
+    <value>Waktu Mulai</value>
+  </data>
+  <data name="dgvListOfVehicleLog.Columns(TotalHrs).HeaderText" xml:space="preserve">
+    <value>Total Jam</value>
+  </data>
+  <data name="dgvListOfVehicleLog.Columns(VehicleCode).HeaderText" xml:space="preserve">
+    <value>Kode Kendaraan</value>
+  </data>
+  <data name="gbBunchesData.Text" xml:space="preserve">
+    <value>Tanggal Janjang</value>
+  </data>
+  <data name="gbListOfVehicleLog.Text" xml:space="preserve">
+    <value>Log Menjalankan kendaraan Records</value>
+  </data>
+  <data name="gbVehicleRunningData.Text" xml:space="preserve">
+    <value>Data Menjalankan Kendaraan</value>
+  </data>
+  <data name="lblActualBunchesMill.Text" xml:space="preserve">
+    <value>Aktual Janjang</value>
+  </data>
+  <data name="lblBatchValue.Text" xml:space="preserve">
+    <value>Batch Nilai</value>
+  </data>
+  <data name="lblBunches.Text" xml:space="preserve">
+    <value>Janjang</value>
+  </data>
+  <data name="lblCollectionPoint.Text" xml:space="preserve">
+    <value>Point Koleksi</value>
+  </data>
+  <data name="lblContractNo.Text" xml:space="preserve">
+    <value>No Kontrak</value>
+  </data>
+  <data name="lblDate.Text" xml:space="preserve">
+    <value>Tanggal</value>
+  </data>
+  <data name="lblDateCollected.Text" xml:space="preserve">
+    <value>Tanggal Dikumpulkan</value>
+  </data>
+  <data name="lblDateHarvested.Text" xml:space="preserve">
+    <value>Tanggal Dipanen</value>
+  </data>
+  <data name="lblDispatchedBy.Text" xml:space="preserve">
+    <value>Dikirim oleh</value>
+  </data>
+  <data name="lblDIV.Text" xml:space="preserve">
+    <value>Afdeling</value>
+  </data>
+  <data name="lblDoubleHandledFFB.Text" xml:space="preserve">
+    <value>DH FFB</value>
+  </data>
+  <data name="lblEndKms.Text" xml:space="preserve">
+    <value>Akhir Km</value>
+  </data>
+  <data name="lblEndTime.Text" xml:space="preserve">
+    <value>Waktu Akhir</value>
+  </data>
+  <data name="lblLocation.Text" xml:space="preserve">
+    <value>Lokasi</value>
+  </data>
+  <data name="lblMillWeight.Text" xml:space="preserve">
+    <value>Berat Minyak</value>
+  </data>
+  <data name="lblOperatedBy.Text" xml:space="preserve">
+    <value>Dioperasikan Oleh</value>
+  </data>
+  <data name="lblRemarks.Text" xml:space="preserve">
+    <value>Keterangan</value>
+  </data>
+  <data name="lblSearchby.Text" xml:space="preserve">
+    <value>Pencarian dengan</value>
+  </data>
+  <data name="lblSerialNo.Text" xml:space="preserve">
+    <value>No Pengiriman FFB</value>
+  </data>
+  <data name="lblShift.Text" xml:space="preserve">
+    <value>Bergeser</value>
+  </data>
+  <data name="lblStartKms.Text" xml:space="preserve">
+    <value>Awal KM</value>
+  </data>
+  <data name="lblStartTime.Text" xml:space="preserve">
+    <value>Waktu Mulai</value>
+  </data>
+  <data name="lblStatus.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="lblSubBlock.Text" xml:space="preserve">
+    <value>Sub Blok</value>
+  </data>
+  <data name="lblTotalHours.Text" xml:space="preserve">
+    <value>Total Jam</value>
+  </data>
+  <data name="lblTotalKms.Text" xml:space="preserve">
+    <value>Total KM</value>
+  </data>
+  <data name="lblUOM.Text" xml:space="preserve">
+    <value>UOM</value>
+  </data>
+  <data name="lblVehicleActivity.Text" xml:space="preserve">
+    <value>Aktifitas Kendaraan</value>
+  </data>
+  <data name="lblVehicleCode.Text" xml:space="preserve">
+    <value>Kode Kendaraan</value>
+  </data>
+  <data name="lblVehicleDescription.Text" xml:space="preserve">
+    <value>Keterangan kendaraan</value>
+  </data>
+  <data name="lblVehicleModel.Text" xml:space="preserve">
+    <value>Model Kendaraan</value>
+  </data>
+  <data name="lblVehicleRegNo.Text" xml:space="preserve">
+    <value>No registrasi Kendaraan</value>
+  </data>
+  <data name="lblViewVehicleCode.Text" xml:space="preserve">
+    <value>Kode Kendaraan</value>
+  </data>
+  <data name="lblWeightedBy.Text" xml:space="preserve">
+    <value>Ditimbang Oleh</value>
+  </data>
+  <data name="lblYOP.Text" xml:space="preserve">
+    <value>Tahun Tanam</value>
+  </data>
+  <data name="PnlSearch.Text" xml:space="preserve">
+    <value>Cari Kendaraan Menjalankan log</value>
+  </data>
+  <data name="rbBreakDown.Text" xml:space="preserve">
+    <value>Waktu Kerusakan</value>
+  </data>
+  <data name="rbOperational.Text" xml:space="preserve">
+    <value>Operasional</value>
+  </data>
+  <data name="rbStandBy.Text" xml:space="preserve">
+    <value>Waktu siaga</value>
+  </data>
+  <data name="tbVehicleRunningLog.TabPages(tbpgAdd).Text" xml:space="preserve">
+    <value>Menjalankan kendaraan Log</value>
+  </data>
+  <data name="tbVehicleRunningLog.TabPages(tpViewVRL).Text" xml:space="preserve">
+    <value>Tampilkan</value>
+  </data>
+  <data name="IKmsFormat" xml:space="preserve">
+    <value>Harap periksa bahwa urutan protokoler adalah 16 digit dan desimal adalah 2 digit.</value>
+  </data>
+  <data name="INumeric" xml:space="preserve">
+    <value>Pastikan Anda telah memasukkan nilai numerik.</value>
+  </data>
+  <data name="IStartEndHrs" xml:space="preserve">
+    <value>Mulai jam nilai harus kurang dari nilai akhir jam.</value>
+  </data>
+  <data name="IStartEndHrsEqual" xml:space="preserve">
+    <value>Mulai jam nilai tidak boleh equlal untuk nilai akhir jam.</value>
+  </data>
+  <data name="IStartEndKms" xml:space="preserve">
+    <value>Mulai nilai km harus kurang dari nilai akhir km.</value>
+  </data>
+  <data name="IStartEndKmsEqual" xml:space="preserve">
+    <value>Mulai km nilai tidak harus sama dengan nilai akhir km.</value>
+  </data>
+  <data name="MsgNoRecords" xml:space="preserve">
+    <value>catatan tidak ditemukan</value>
+  </data>
+  <data name="MsgPosted" xml:space="preserve">
+    <value>catatan ini telah diposting. Oleh karena itu tidak dapat diperbarui / dihapus.</value>
+  </data>
+  <data name="MsgSearch" xml:space="preserve">
+    <value>Silahkan masukkan kriteria pencarian</value>
+  </data>
+  <data name="IContractEstate" xml:space="preserve">
+    <value>Nomor kontrak ini bukan milik perkebunan ini.</value>
+  </data>
+  <data name="IContractNo" xml:space="preserve">
+    <value>Nomor Kontrak tidak valid.</value>
+  </data>
+  <data name="IEndStartKms" xml:space="preserve">
+    <value>Akhir km nilai harus lebih dari nilai km Mulai.</value>
+  </data>
+  <data name="IStartEndTime" xml:space="preserve">
+    <value>Waktu mulai harus lebih awal dari Akhir Waktu.</value>
+  </data>
+  <data name="ISubBlock" xml:space="preserve">
+    <value>FieldNo tidak valid</value>
+  </data>
+  <data name="IVehicle" xml:space="preserve">
+    <value>Kendaraan tidak valid Kode.</value>
+  </data>
+  <data name="IVehicleEstate" xml:space="preserve">
+    <value>Kode ini kendaraan tidak milik perkebunan ini.</value>
+  </data>
+  <data name="REndHr" xml:space="preserve">
+    <value>Akhir waktu yang diperlukan saat waktu mulai diisi.</value>
+  </data>
+  <data name="REndKm" xml:space="preserve">
+    <value>Akhir km diperlukan bila km mulai diisi.</value>
+  </data>
+  <data name="RStartHr" xml:space="preserve">
+    <value>Mulai waktu yang dibutuhkan saat waktu selesai diisi.</value>
+  </data>
+  <data name="RStartKm" xml:space="preserve">
+    <value>Km mulai diperlukan ketika km akhir diisi.</value>
+  </data>
+  <data name="UsedVehicleSomeWhere" xml:space="preserve">
+    <value>Kendaraan yang digunakan dalam workshop layar log untuk waktu yang sama dan tanggal</value>
+  </data>
+  <data name="Msg11" xml:space="preserve">
+    <value>Data saat konflik dengan data yang ada dalam database. Harap modifikasi km mulai dan / atau km akhir.</value>
+  </data>
+  <data name="Msg12" xml:space="preserve">
+    <value>Data saat konflik dengan data yang ada dalam database. Harap modifikasi waktu mulai dan / atau akhir zaman.</value>
+  </data>
+  <data name="txtPosted" xml:space="preserve">
+    <value>Dikirim</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>Lihat Laporan</value>
+  </data>
+  <data name="pnlSearch" xml:space="preserve">
+    <value>Cari Kendaraan Menjalankan Login</value>
+  </data>
+  <data name="ClosePrompt" xml:space="preserve">
+    <value>Apakah Anda ingin menutup layar ini? Jika ya, silakan klik "" OK "" atau klik "" Batal ""</value>
+  </data>
+  <data name="DeleteMorePrompt" xml:space="preserve">
+    <value>Operasi ini dapat menghapus lebih dari satu catatan untuk tanggal yang dipilih dan kode kendaraan. Apakah Anda yakin? Jika ya, silakan klik "OK" atau klik "Batal".</value>
+  </data>
+  <data name="DeletePrompt" xml:space="preserve">
+    <value>Anda akan menghapus catatan yang dipilih. Apakah Anda yakin? Jika ya, silakan klik "OK" atau klik "Batal".</value>
+  </data>
+  <data name="FFBReportMsg" xml:space="preserve">
+    <value>Laporan ini hanya tersedia untuk catatan FFB dikirim ke pabrik, dapat dilihat hanya selama modus update.</value>
+  </data>
+  <data name="REndHrsSelect" xml:space="preserve">
+    <value>Bidang ini diperlukan ketika Jam Akhir terpilih.</value>
+  </data>
+  <data name="REndMtsSelect" xml:space="preserve">
+    <value>Bidang ini diperlukan saat Akhir Menit dipilih.</value>
+  </data>
+  <data name="REndTimeSelect" xml:space="preserve">
+    <value>Bidang ini diperlukan saat waktu Akhir yang dipilih.</value>
+  </data>
+  <data name="RStartHrsSelect" xml:space="preserve">
+    <value>Bidang ini diperlukan saat Jam Mulai dipilih.</value>
+  </data>
+  <data name="RStartMtsSelect" xml:space="preserve">
+    <value>Bidang ini diperlukan saat Menit Mulai dipilih.</value>
+  </data>
+  <data name="RStartTimeSelect" xml:space="preserve">
+    <value>Bidang ini diperlukan saat waktu mulai dipilih.</value>
+  </data>
+  <data name="BreakDownOnlyone" xml:space="preserve">
+    <value>Untuk Perincian, Hanya satu kendaraan per hari untuk tanggal yang sama dan Kendaraan</value>
+  </data>
+  <data name="RTime" xml:space="preserve">
+    <value>Waktu mulai seharusnya lebih besar 00:00</value>
+  </data>
+  <data name="RField" xml:space="preserve">
+    <value>Bidang ini diperlukan.</value>
+  </data>
+  <data name="IEndHrs" xml:space="preserve">
+    <value>Cacat Jam Akhir</value>
+  </data>
+  <data name="IEndMin" xml:space="preserve">
+    <value>Cacat Menit Akhir</value>
+  </data>
+  <data name="IStartHrs" xml:space="preserve">
+    <value>Cacat Mulai Jam</value>
+  </data>
+  <data name="IStartMin" xml:space="preserve">
+    <value>Cacat Mulai Menit</value>
+  </data>
+  <data name="ITimeFormat" xml:space="preserve">
+    <value>Format Waktu tidak valid. Waktu akan jj: mm (misalnya: 05:54)</value>
+  </data>
+  <data name="cmsDelete.Items.Item(0).Text" xml:space="preserve">
+    <value>Menambahkan</value>
+  </data>
+  <data name="cmsDelete.Items.Item(1).Text" xml:space="preserve">
+    <value>Menyunting</value>
+  </data>
+  <data name="cmsDelete.Items.Item(2).Text" xml:space="preserve">
+    <value>Menghilangkan</value>
+  </data>
+</root>

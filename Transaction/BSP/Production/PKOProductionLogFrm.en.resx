@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="AgeOfscrew" xml:space="preserve">
+    <value>Age of screw</value>
+  </data>
+  <data name="Assistant" xml:space="preserve">
+    <value>Assistant</value>
+  </data>
+  <data name="Capacity" xml:space="preserve">
+    <value>Capacity</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="KernelProcessed" xml:space="preserve">
+    <value>Kernel Processed</value>
+  </data>
+  <data name="Locationreceived" xml:space="preserve">
+    <value>Location received</value>
+  </data>
+  <data name="Mandore" xml:space="preserve">
+    <value>Mandore</value>
+  </data>
+  <data name="MeterForm" xml:space="preserve">
+    <value>Meter Form</value>
+  </data>
+  <data name="MeterTo" xml:space="preserve">
+    <value>Meter To</value>
+  </data>
+  <data name="Msg1" xml:space="preserve">
+    <value>User Can enter only HH or HH:MM</value>
+  </data>
+  <data name="Msg10" xml:space="preserve">
+    <value>Press Info stage 1 Year To Date Hrs cant be lesser than Press Info stage 1 Total Hrs</value>
+  </data>
+  <data name="Msg100" xml:space="preserve">
+    <value>Year Breakdown hours should be lesser than Year To Date hours</value>
+  </data>
+  <data name="Msg101" xml:space="preserve">
+    <value>Today Loss on Kernel cant be greater than Kernel Production Today</value>
+  </data>
+  <data name="Msg102" xml:space="preserve">
+    <value>Month Loss on Kernel cant be greater than Kernel Production month</value>
+  </data>
+  <data name="Msg103" xml:space="preserve">
+    <value>Year Loss on Kernel cant be greater than Kernel Production Year</value>
+  </data>
+  <data name="Msg11" xml:space="preserve">
+    <value>Press Info stage 1 Year To Date Hrs cant be lesser than Press Info stage 1 Month To Date Hrs</value>
+  </data>
+  <data name="Msg12" xml:space="preserve">
+    <value>Press Info stage 2 Year To Date Hrs cant be lesser than Press Info stage 2 Total Hrs</value>
+  </data>
+  <data name="Msg120" xml:space="preserve">
+    <value>Month To date Hrs cant be greater than 744 hrs</value>
+  </data>
+  <data name="Msg121" xml:space="preserve">
+    <value>Year To date Hrs cant be greater than 8760 hrs</value>
+  </data>
+  <data name="Msg13" xml:space="preserve">
+    <value>Press Info stage 2 Year To Date Hrs cant be lesser than Press Info stage 2 Month To Date Hrs</value>
+  </data>
+  <data name="Msg14" xml:space="preserve">
+    <value>No Records Available for Loading Location ,Please insert the Record in Production Loading Location</value>
+  </data>
+  <data name="Msg15" xml:space="preserve">
+    <value>Loading Location Field Required</value>
+  </data>
+  <data name="Msg16" xml:space="preserve">
+    <value>Qty Field Required</value>
+  </data>
+  <data name="Msg17" xml:space="preserve">
+    <value>Today Received Kernel should be lesser tStage and Press No Already Existshan Month Received Kernel</value>
+  </data>
+  <data name="msg176" xml:space="preserve">
+    <value>user can edit Latest record only!</value>
+  </data>
+  <data name="msg177" xml:space="preserve">
+    <value>user can delete Latest record only!</value>
+  </data>
+  <data name="Msg178" xml:space="preserve">
+    <value>Shift  Hrs cant be greater than 24 Hrs</value>
+  </data>
+  <data name="Msg179" xml:space="preserve">
+    <value>StartTime Hrs cant be greater than 24 Hrs</value>
+  </data>
+  <data name="Msg18" xml:space="preserve">
+    <value>Today Received Kernel should be lesser than Year Received Kernel</value>
+  </data>
+  <data name="Msg180" xml:space="preserve">
+    <value>StopTime Hrs cant be greater than 24 Hrs</value>
+  </data>
+  <data name="Msg187" xml:space="preserve">
+    <value>StopTime  field is required</value>
+  </data>
+  <data name="Msg188" xml:space="preserve">
+    <value>Start Time  field is required</value>
+  </data>
+  <data name="Msg19" xml:space="preserve">
+    <value>Month Received Kernel should be lesser than Year Received Kernel</value>
+  </data>
+  <data name="Msg2" xml:space="preserve">
+    <value>User Can enter only :HH or HH:MM format,example. 10:30 not 10:</value>
+  </data>
+  <data name="Msg20" xml:space="preserve">
+    <value>Loading Location already Exixts</value>
+  </data>
+  <data name="Msg21" xml:space="preserve">
+    <value>Stage and Press No Already Exists</value>
+  </data>
+  <data name="Msg22" xml:space="preserve">
+    <value>Invalid Press No,Please Choose it from look up</value>
+  </data>
+  <data name="Msg23" xml:space="preserve">
+    <value>Press No Field Required</value>
+  </data>
+  <data name="Msg24" xml:space="preserve">
+    <value>Op. Hrs This Field Required</value>
+  </data>
+  <data name="Msg25" xml:space="preserve">
+    <value>Please add the records in shift information</value>
+  </data>
+  <data name="Msg26" xml:space="preserve">
+    <value>Hours Month to date field is required</value>
+  </data>
+  <data name="Msg27" xml:space="preserve">
+    <value>Hours Year to date field is required</value>
+  </data>
+  <data name="Msg28" xml:space="preserve">
+    <value>Month To Date Hrs cant be lesser than Total Hrs</value>
+  </data>
+  <data name="Msg29" xml:space="preserve">
+    <value>Year To Date Hrs cant be lesser than Total Hrs</value>
+  </data>
+  <data name="Msg3" xml:space="preserve">
+    <value>Minutes Value Cant be greater than 59</value>
+  </data>
+  <data name="Msg30" xml:space="preserve">
+    <value>Year To Date Hrs cant be lesser than Month To Date Hrs</value>
+  </data>
+  <data name="Msg31" xml:space="preserve">
+    <value>B/F Qty field is required</value>
+  </data>
+  <data name="Msg32" xml:space="preserve">
+    <value>Kernel Processed Month to date field is required</value>
+  </data>
+  <data name="Msg33" xml:space="preserve">
+    <value>Kernel Processed Year to date field is required</value>
+  </data>
+  <data name="Msg34" xml:space="preserve">
+    <value>Kernel Processed for the day cannot be greater than sum of Kernel B/F quantity and Kernel Recieved Quantity for the day.</value>
+  </data>
+  <data name="Msg35" xml:space="preserve">
+    <value>Hours Year to date field is required</value>
+  </data>
+  <data name="Msg36" xml:space="preserve">
+    <value>Loss On Kernel Month field is required</value>
+  </data>
+  <data name="Msg37" xml:space="preserve">
+    <value>Loss On Kernel year field is required</value>
+  </data>
+  <data name="Msg38" xml:space="preserve">
+    <value>Loss Of Kernel Month to date Value should be greater than Loss Of Kernel today qty</value>
+  </data>
+  <data name="Msg39" xml:space="preserve">
+    <value>Loss Of Kernel Year to date Value should be greater than Loss Of Kernel today qty</value>
+  </data>
+  <data name="Msg4" xml:space="preserve">
+    <value>Minutes Value should be MM format ,example. 10 not 1</value>
+  </data>
+  <data name="Msg40" xml:space="preserve">
+    <value>Loss Of Kernel Year to date Value should be greater than Loss Of Kernel month to date</value>
+  </data>
+  <data name="Msg41" xml:space="preserve">
+    <value>Mechanical Breakdown Month field is required</value>
+  </data>
+  <data name="Msg42" xml:space="preserve">
+    <value>Mechanical Breakdown year field is required</value>
+  </data>
+  <data name="Msg43" xml:space="preserve">
+    <value>Electrical Breakdown Month field is required</value>
+  </data>
+  <data name="Msg44" xml:space="preserve">
+    <value>Electrical Breakdown year field is required</value>
+  </data>
+  <data name="Msg45" xml:space="preserve">
+    <value>Processing Breakdown Month field is required</value>
+  </data>
+  <data name="Msg46" xml:space="preserve">
+    <value>Processing Breakdown year field is required</value>
+  </data>
+  <data name="Msg47" xml:space="preserve">
+    <value>Mechanical Breakdown Month To Date Hrs cant be lesser than Mechanical Breakdown Today Hrs</value>
+  </data>
+  <data name="Msg48" xml:space="preserve">
+    <value>Mechanical Breakdown Year To Date Hrs cant be lesser than Mechanical Breakdown Today Hrs</value>
+  </data>
+  <data name="Msg49" xml:space="preserve">
+    <value>Mechanical Breakdown Year To Date Hrs cant be lesser than Mechanical Breakdown Month To Date Hrs</value>
+  </data>
+  <data name="Msg5" xml:space="preserve">
+    <value>Press Info stage 1 Month To Date Hrs cant be lesser than Press Info stage 1 Total Hrs</value>
+  </data>
+  <data name="Msg50" xml:space="preserve">
+    <value>Electrical Breakdown Month To Date Hrs cant be lesser than Electrical Breakdown Today Hrs</value>
+  </data>
+  <data name="Msg51" xml:space="preserve">
+    <value>Electrical Breakdown Year To Date Hrs cant be lesser than Electrical Breakdown Today Hrs</value>
+  </data>
+  <data name="Msg52" xml:space="preserve">
+    <value>Electrical Breakdown Year To Date Hrs cant be lesser than Electrical Breakdown Month To Date Hrs</value>
+  </data>
+  <data name="Msg53" xml:space="preserve">
+    <value>Processing Breakdown Month To Date Hrs cant be lesser than Processing Breakdown Today Hrs</value>
+  </data>
+  <data name="Msg54" xml:space="preserve">
+    <value>Processing Breakdown Year To Date Hrs cant be lesser than Processing Breakdown Today Hrs</value>
+  </data>
+  <data name="Msg55" xml:space="preserve">
+    <value>Processing Breakdown Year To Date Hrs cant be lesser than Processing Breakdown Month To Date Hrs</value>
+  </data>
+  <data name="Msg56" xml:space="preserve">
+    <value>Press Info stage 1 Month To Date Hrs cant be lesser than Press Info stage 1 Total Hrs</value>
+  </data>
+  <data name="Msg57" xml:space="preserve">
+    <value>Press Info Month To Date Line 1 field is required</value>
+  </data>
+  <data name="Msg58" xml:space="preserve">
+    <value>Press Info Month To Date Line 2 field is required</value>
+  </data>
+  <data name="Msg59" xml:space="preserve">
+    <value>Press Info stage 1 Year To Date Hrs cant be lesser than Press Info stage 1 Total Hrs</value>
+  </data>
+  <data name="Msg6" xml:space="preserve">
+    <value>Press Info stage 1 Year To Date Hrs cant be lesser than Press Info stage 1 Month To Date Hrs</value>
+  </data>
+  <data name="Msg60" xml:space="preserve">
+    <value>Press Info stage 1 Year To Date Hrs cant be lesser than Press Info stage 1 Month To Date Hrs</value>
+  </data>
+  <data name="Msg61" xml:space="preserve">
+    <value>Press Info stage 2  Month To Date Hrs cant be lesser than Press Info stage 2 Total Hrs</value>
+  </data>
+  <data name="Msg62" xml:space="preserve">
+    <value>Press Info stage 2 Year To Date Hrs cant be lesser than Press Info stage 2 Total Hrs</value>
+  </data>
+  <data name="Msg621" xml:space="preserve">
+    <value>You are about to Save the  record. Are you sure? If yes please click ""OK"" or click ""Cancel""</value>
+  </data>
+  <data name="Msg63" xml:space="preserve">
+    <value>Press Info stage 2 Year To Date Hrs cant be lesser than Press Info stage 2 Month To Date Hrs</value>
+  </data>
+  <data name="Msg631" xml:space="preserve">
+    <value>you are about to navigate away from the current tab,you may lose unsaved data. are you sure? if yes please click ""ok"" or click ""cancel"".</value>
+  </data>
+  <data name="Msg64" xml:space="preserve">
+    <value>Record already exists for the Date , Please change the Date</value>
+  </data>
+  <data name="Msg65" xml:space="preserve">
+    <value>Data Successfully Saved</value>
+  </data>
+  <data name="Msg66" xml:space="preserve">
+    <value>Save Process Failed</value>
+  </data>
+  <data name="Msg67" xml:space="preserve">
+    <value>Data Successfully Updated</value>
+  </data>
+  <data name="Msg68" xml:space="preserve">
+    <value>Update Process Failed</value>
+  </data>
+  <data name="Msg69" xml:space="preserve">
+    <value>No Record in General.CropYield</value>
+  </data>
+  <data name="Msg7" xml:space="preserve">
+    <value>Please enter only numeric  values</value>
+  </data>
+  <data name="Msg70" xml:space="preserve">
+    <value>Process Hrs Cant be greater than 24 hrs</value>
+  </data>
+  <data name="Msg71" xml:space="preserve">
+    <value>Please Enter Criteria to Search</value>
+  </data>
+  <data name="Msg72" xml:space="preserve">
+    <value>No record(s) found matching your search criteria.</value>
+  </data>
+  <data name="Msg73" xml:space="preserve">
+    <value>No Record to Edit,Please Select a Record to Edit</value>
+  </data>
+  <data name="Msg74" xml:space="preserve">
+    <value>You are about to Delete the selected record. Are you sure? If yes please click ""OK"" or click ""Cancel""</value>
+  </data>
+  <data name="Msg75" xml:space="preserve">
+    <value>Data Successfully Deleted</value>
+  </data>
+  <data name="Msg76" xml:space="preserve">
+    <value>No Record to Delete,Please Select a Record to delete</value>
+  </data>
+  <data name="Msg77" xml:space="preserve">
+    <value>Shift Field is Required</value>
+  </data>
+  <data name="Msg78" xml:space="preserve">
+    <value>Kernel Processed Field is Required</value>
+  </data>
+  <data name="Msg79" xml:space="preserve">
+    <value>Start Time and Stop Time cannot be equal, Please the change the Time</value>
+  </data>
+  <data name="Msg8" xml:space="preserve">
+    <value>Press Info stage 2 Month To Date Hrs cant be lesser than Press Info stage 2 Total Hrs</value>
+  </data>
+  <data name="Msg80" xml:space="preserve">
+    <value>Process Hrs Cant be greater than 24 hrs</value>
+  </data>
+  <data name="Msg81" xml:space="preserve">
+    <value>Shift Hrs Cant be greater than 24 hrs</value>
+  </data>
+  <data name="Msg82" xml:space="preserve">
+    <value>Shift  already exist in the list</value>
+  </data>
+  <data name="Msg83" xml:space="preserve">
+    <value>Breakdown Hrs cant be greater than  24</value>
+  </data>
+  <data name="Msg84" xml:space="preserve">
+    <value>Total Break down hours should be lesser than Total Shift hours</value>
+  </data>
+  <data name="Msg85" xml:space="preserve">
+    <value>Month To Date Hrs cant be lesser than Total Hrs</value>
+  </data>
+  <data name="Msg86" xml:space="preserve">
+    <value>Year To Date Hrs cant be lesser than Month To Date Hrs</value>
+  </data>
+  <data name="Msg87" xml:space="preserve">
+    <value>Year To Date Hrs cant be lesser than Total Hrs</value>
+  </data>
+  <data name="Msg88" xml:space="preserve">
+    <value>Minutes Value should be MM format ,example. 10 not 100</value>
+  </data>
+  <data name="Msg89" xml:space="preserve">
+    <value>Operating Hrs Cant be greater than 24 hrs</value>
+  </data>
+  <data name="Msg9" xml:space="preserve">
+    <value>Press Info stage 2 Year To Date Hrs cant be lesser than Press Info stage 2 Month To Date Hrs</value>
+  </data>
+  <data name="Msg90" xml:space="preserve">
+    <value>Meter To Value should be greater than Meter From</value>
+  </data>
+  <data name="Msg91" xml:space="preserve">
+    <value>User Can enter only Whole Number or Decimal(Example: 10 (or) 10.500 ;Invalid Values 10.)</value>
+  </data>
+  <data name="Msg92" xml:space="preserve">
+    <value>Month to date Value should be greater than today qty</value>
+  </data>
+  <data name="Msg93" xml:space="preserve">
+    <value>Year to date Value should be greater than month to date</value>
+  </data>
+  <data name="Msg94" xml:space="preserve">
+    <value>User Can enter only Whole Number or Decimal(Example: 10 (or) 10.500 ;Invalid Values 10.)</value>
+  </data>
+  <data name="Msg95" xml:space="preserve">
+    <value>Year to date Value should be greater than today qty</value>
+  </data>
+  <data name="Msg96" xml:space="preserve">
+    <value>Year to date Value should be greater than month to date</value>
+  </data>
+  <data name="Msg97" xml:space="preserve">
+    <value>Please Enter numeric values only</value>
+  </data>
+  <data name="Msg98" xml:space="preserve">
+    <value>“Data not saved, do you want to proceed without saving?” If yes please click ""OK"" or click ""Cancel""</value>
+  </data>
+  <data name="Msg99" xml:space="preserve">
+    <value>Month Breakdown hours should be lesser than Month To Date hours</value>
+  </data>
+  <data name="OP.Hrs" xml:space="preserve">
+    <value>OP.Hrs</value>
+  </data>
+  <data name="PressNo" xml:space="preserve">
+    <value>PressNo</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="ResetAll" xml:space="preserve">
+    <value>Reset All</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="SaveAll" xml:space="preserve">
+    <value>Save All</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Shift" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="ShiftHrs" xml:space="preserve">
+    <value>Shift Hrs</value>
+  </data>
+  <data name="Stage" xml:space="preserve">
+    <value>Stage</value>
+  </data>
+  <data name="StartTime" xml:space="preserve">
+    <value>Start Time</value>
+  </data>
+  <data name="StopTime" xml:space="preserve">
+    <value>Stop Time</value>
+  </data>
+  <data name="Msg911" xml:space="preserve">
+    <value>Delete function cant be done for single record</value>
+  </data>
+</root>

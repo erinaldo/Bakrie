@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Add" xml:space="preserve">
+    <value>Menambahkan</value>
+  </data>
+  <data name="AgeOfscrew" xml:space="preserve">
+    <value>Age Of sekrup (Hrs)</value>
+  </data>
+  <data name="Assistant" xml:space="preserve">
+    <value>Assistan</value>
+  </data>
+  <data name="BalanceB/f" xml:space="preserve">
+    <value>Balans B/f</value>
+  </data>
+  <data name="BalanceC/F" xml:space="preserve">
+    <value>Banlans C/F</value>
+  </data>
+  <data name="Capacity" xml:space="preserve">
+    <value>Kapasitas</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Tutup</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Tanggal</value>
+  </data>
+  <data name="EffectiveProcessingHours" xml:space="preserve">
+    <value>Efektip jam process </value>
+  </data>
+  <data name="FFBProcessed" xml:space="preserve">
+    <value>FFB Diproses</value>
+  </data>
+  <data name="Kernel" xml:space="preserve">
+    <value>Kernel</value>
+  </data>
+  <data name="LorryProcessed" xml:space="preserve">
+    <value>Lorry Proses</value>
+  </data>
+  <data name="Mandore" xml:space="preserve">
+    <value>Mandor</value>
+  </data>
+  <data name="MeterFrom" xml:space="preserve">
+    <value>Meter Darin</value>
+  </data>
+  <data name="MeterTo" xml:space="preserve">
+    <value>Meter Untuk</value>
+  </data>
+  <data name="Msg1" xml:space="preserve">
+    <value>Tidak ada hasil Rekaman di Crop untuk CPO, Tolong masukkan catatan dalam Umum Yield Tanaman</value>
+  </data>
+  <data name="Msg10" xml:space="preserve">
+    <value>Tidak ada lapangan Olahan Lorry diperlukan</value>
+  </data>
+  <data name="Msg100" xml:space="preserve">
+    <value>Tekan Info Line 1 Tahun Untuk cant Tanggal Jam akan lebih rendah daripada Tekan Info Line 1 Bulan Untuk Tanggal Jam</value>
+  </data>
+  <data name="Msg101" xml:space="preserve">
+    <value>Tekan Info Line 2 Bulan Untuk cant Tanggal Jam akan lebih rendah daripada Tekan Info Line 2 Jumlah Jam</value>
+  </data>
+  <data name="Msg102" xml:space="preserve">
+    <value>Tekan Info Line 2 Tahun Untuk cant Tanggal Jam akan lebih rendah daripada Tekan Info Saluran 2 Bulan Untuk Tanggal Jam</value>
+  </data>
+  <data name="Msg103" xml:space="preserve">
+    <value>Jam operasi Cant lebih besar dari 24 jam</value>
+  </data>
+  <data name="Msg104" xml:space="preserve">
+    <value>Meter Untuk Nilai Harus Greater Than Meter Dari</value>
+  </data>
+  <data name="Msg105" xml:space="preserve">
+    <value>Nilai menit harus format MM, misalnya. 10 tidak 100</value>
+  </data>
+  <data name="Msg106" xml:space="preserve">
+    <value>User bisa masuk saja: MM atau HH: MM format, misalnya. 10:30 tidak 10:</value>
+  </data>
+  <data name="Msg107" xml:space="preserve">
+    <value>Mill jam kerja laporan template hilang,Silakan hubungi administrator sistem.</value>
+  </data>
+  <data name="Msg108" xml:space="preserve">
+    <value>Laporan direktori tidak ditemukan</value>
+  </data>
+  <data name="Msg109" xml:space="preserve">
+    <value>Bulan Breakdown jam harus lebih rendah daripada Bulan Untuk Tanggal jam</value>
+  </data>
+  <data name="Msg1091" xml:space="preserve">
+    <value>Tahun Breakdown jam harus lebih rendah daripada Bulan Untuk Tanggal jam</value>
+  </data>
+  <data name="Msg11" xml:space="preserve">
+    <value>FFB Diproses harus kurang dari jumlah saldo b / f dan FFB yang diterima</value>
+  </data>
+  <data name="Msg110" xml:space="preserve">
+    <value>Anda akan Menghapus catatan yang dipilih. Apakah Anda yakin? Jika ya silahkan klik "" OK "" atau klik "" Batal ""</value>
+  </data>
+  <data name="Msg12" xml:space="preserve">
+    <value>pengolahan cant jam Efektif berupa 0, maka tidak ada TBS yang diolah.</value>
+  </data>
+  <data name="Msg120" xml:space="preserve">
+    <value>Bulan Sampai saat Jam cant lebih besar dari 744 jam</value>
+  </data>
+  <data name="Msg121" xml:space="preserve">
+    <value>Tahun Untuk cant saat Jam lebih besar dari 8760 jam</value>
+  </data>
+  <data name="Msg13" xml:space="preserve">
+    <value>Tekan Info Bulan Untuk Tanggal 1 bidang Line diperlukan</value>
+  </data>
+  <data name="Msg14" xml:space="preserve">
+    <value>Press Info Month To Date Line 2 field is required</value>
+  </data>
+  <data name="Msg15" xml:space="preserve">
+    <value>Bulan Untuk Tanggal Jam cant akan lebih rendah daripada Jumlah Jam</value>
+  </data>
+  <data name="Msg16" xml:space="preserve">
+    <value>Tahun Untuk cant Tanggal Jam akan lebih rendah daripada Jumlah Jam</value>
+  </data>
+  <data name="Msg17" xml:space="preserve">
+    <value>Tahun Untuk cant Tanggal Jam akan lebih rendah daripada Bulan Untuk Tanggal Jam</value>
+  </data>
+  <data name="msg176" xml:space="preserve">
+    <value>pengguna dapat mengedit hanya merekam Terbaru!</value>
+  </data>
+  <data name="msg177" xml:space="preserve">
+    <value>pengguna dapat menghapus data terbaru hanya!</value>
+  </data>
+  <data name="Msg178" xml:space="preserve">
+    <value>Shift cant Jam lebih besar dari 24 Jam</value>
+  </data>
+  <data name="Msg18" xml:space="preserve">
+    <value>FFB Diproses Bulan sampai saat Nilai harus lebih besar daripada FFB Diproses qty hari ini</value>
+  </data>
+  <data name="Msg187" xml:space="preserve">
+    <value>StopTime lapangan diperlukan</value>
+  </data>
+  <data name="Msg188" xml:space="preserve">
+    <value>Mulai lapangan Waktu adalah diperlukan</value>
+  </data>
+  <data name="Msg19" xml:space="preserve">
+    <value>FFB Tahun Diproses sampai saat ini nilai harus lebih besar daripada  FFB  Diproses qty hari ini</value>
+  </data>
+  <data name="Msg2" xml:space="preserve">
+    <value>Tidak ada hasil Rekaman di Crop untuk Kernel, Tolong masukkan catatan dalam Umum Yield Tanaman</value>
+  </data>
+  <data name="Msg20" xml:space="preserve">
+    <value>FFB Tahun Diproses sampai saat ini nilai harus lebih besar daripada FFB Diproses bulan sampai saat ini</value>
+  </data>
+  <data name="Msg21" xml:space="preserve">
+    <value>Tidak Dari Lorry Bulan-to-date Nilai harus lebih besar dari No Dari qty hari ini Lorry</value>
+  </data>
+  <data name="Msg22" xml:space="preserve">
+    <value>Tidak Dari Tahun Lorry to date Nilai harus lebih besar dari No Dari qty hari ini Lorry</value>
+  </data>
+  <data name="Msg23" xml:space="preserve">
+    <value>Tidak Dari Tahun Lorry to date Nilai harus lebih besar dari No Dari bulan Lorry sampai saat ini</value>
+  </data>
+  <data name="Msg24" xml:space="preserve">
+    <value>FFB Olahan Bulan lapangan diperlukan</value>
+  </data>
+  <data name="Msg25" xml:space="preserve">
+    <value>FFB Tahun Olahan lapangan diperlukan</value>
+  </data>
+  <data name="Msg26" xml:space="preserve">
+    <value>Tidak ada lapangan diperlukan Bulan</value>
+  </data>
+  <data name="Msg27" xml:space="preserve">
+    <value>Tidak ada bidang Tahun diperlukan</value>
+  </data>
+  <data name="Msg28" xml:space="preserve">
+    <value>Rugi Di lapangan Bulan Kernel diperlukan</value>
+  </data>
+  <data name="Msg29" xml:space="preserve">
+    <value>Rugi Di lapangan Tahun Kernel diperlukan</value>
+  </data>
+  <data name="Msg3" xml:space="preserve">
+    <value>FFB lapangan diproses Diperlukan</value>
+  </data>
+  <data name="Msg30" xml:space="preserve">
+    <value>Bulan bidang Mekanikal Breakdown diperlukan</value>
+  </data>
+  <data name="Msg31" xml:space="preserve">
+    <value>Bidang mekanik Tahun Breakdown diperlukan</value>
+  </data>
+  <data name="Msg32" xml:space="preserve">
+    <value>Listrik Breakdown Bulan lapangan diperlukan</value>
+  </data>
+  <data name="Msg33" xml:space="preserve">
+    <value>Medan listrik Tahun Breakdown diperlukan</value>
+  </data>
+  <data name="Msg34" xml:space="preserve">
+    <value>Rincian Pengolahan Bulan lapangan diperlukan</value>
+  </data>
+  <data name="Msg35" xml:space="preserve">
+    <value>Pengolahan bidang Tahun Breakdown diperlukan</value>
+  </data>
+  <data name="Msg36" xml:space="preserve">
+    <value>Kehilangan Kernel Bulan-to-date Nilai harus lebih besar dari Kehilangan qty hari Kernel</value>
+  </data>
+  <data name="Msg37" xml:space="preserve">
+    <value>Rugi Dari Tahun Kernel-to-date Nilai harus lebih besar dari Kehilangan qty hari Kernel</value>
+  </data>
+  <data name="Msg38" xml:space="preserve">
+    <value>Rugi Dari Tahun Kernel-to-date Nilai harus lebih besar dari Kehilangan Kernel bulan sampai saat ini</value>
+  </data>
+  <data name="Msg39" xml:space="preserve">
+    <value>Mekanikal Breakdown Bulan Untuk cant Tanggal Jam akan lebih rendah daripada Mechanical Breakdown Hari Jam</value>
+  </data>
+  <data name="Msg4" xml:space="preserve">
+    <value>Bidang truk diproses Diperlukan</value>
+  </data>
+  <data name="Msg40" xml:space="preserve">
+    <value>Mekanikal Tahun Breakdown Untuk cant Tanggal Jam akan lebih rendah daripada Mekanikal Hari Breakdown Jam</value>
+  </data>
+  <data name="Msg41" xml:space="preserve">
+    <value>Mekanikal Tahun Breakdown Untuk cant Tanggal Jam akan lebih rendah daripada Mechanical Breakdown Bulan Untuk Tanggal Jam</value>
+  </data>
+  <data name="Msg42" xml:space="preserve">
+    <value>Listrik Breakdown Bulan Untuk Tanggal Jam cant akan lebih rendah daripada Electrical Breakdown Hari Jam</value>
+  </data>
+  <data name="Msg43" xml:space="preserve">
+    <value>Listrik Tahun Breakdown Untuk cant Tanggal Jam akan lebih rendah daripada Bulan Breakdown Listrik Untuk Tanggal Jam</value>
+  </data>
+  <data name="Msg44" xml:space="preserve">
+    <value>Rincian Pengolahan Bulan Untuk cant Tanggal Jam akan lebih rendah daripada Pengolahan Breakdown Hari Jam</value>
+  </data>
+  <data name="Msg45" xml:space="preserve">
+    <value>Pengolahan Tahun Breakdown Untuk cant Tanggal Jam akan lebih rendah daripada Pengolahan Hari Breakdown Jam</value>
+  </data>
+  <data name="Msg46" xml:space="preserve">
+    <value>Pengolahan Tahun Breakdown Untuk cant Tanggal Jam akan lebih rendah daripada Pengolahan Breakdown Bulan Untuk Tanggal Jam</value>
+  </data>
+  <data name="Msg47" xml:space="preserve">
+    <value>Pengolahan Tahun Breakdown Untuk cant Tanggal Jam akan lebih rendah daripada Pengolahan Breakdown Bulan Untuk Tanggal Jam</value>
+  </data>
+  <data name="Msg48" xml:space="preserve">
+    <value>Tekan Info Bulan Untuk cant Tanggal Jam akan lebih rendah daripada Tekan Info Jumlah Jam</value>
+  </data>
+  <data name="Msg49" xml:space="preserve">
+    <value>Tekan Info Line 1 Tahun Untuk cant Tanggal Jam akan lebih rendah daripada Tekan Line Info 1 Jam Total</value>
+  </data>
+  <data name="Msg5" xml:space="preserve">
+    <value>lapangan Shift yang Diperlukan</value>
+  </data>
+  <data name="Msg50" xml:space="preserve">
+    <value>Tekan Info Line 1 Tahun Untuk cant Tanggal Jam akan lebih rendah daripada Tekan Info Line 1 Bulan Untuk Tanggal Jam</value>
+  </data>
+  <data name="Msg51" xml:space="preserve">
+    <value>Tekan Info Line 2 Bulan Untuk cant Tanggal Jam akan lebih rendah daripada Tekan Info Line 2 Jumlah Jam</value>
+  </data>
+  <data name="Msg52" xml:space="preserve">
+    <value>Tekan Info Line 2 Tahun Untuk cant Tanggal Jam akan lebih rendah daripada Tekan Line Info 2 Jumlah Jam</value>
+  </data>
+  <data name="Msg53" xml:space="preserve">
+    <value>Tekan Info Line 2 Tahun Untuk cant Tanggal Jam akan lebih rendah daripada Tekan Info Saluran 2 Bulan Untuk Tanggal Jam</value>
+  </data>
+  <data name="Msg54" xml:space="preserve">
+    <value>Can't Tambah Record (s) di Tanggal Same</value>
+  </data>
+  <data name="Msg55" xml:space="preserve">
+    <value>Data Berhasil Disimpan</value>
+  </data>
+  <data name="Msg56" xml:space="preserve">
+    <value>Data Berhasil Diperbarui</value>
+  </data>
+  <data name="Msg57" xml:space="preserve">
+    <value>User bisa masuk hanya HH atau HH: MM</value>
+  </data>
+  <data name="Msg58" xml:space="preserve">
+    <value>Breakdown cant Jam lebih besar dari 24</value>
+  </data>
+  <data name="Msg59" xml:space="preserve">
+    <value>User bisa masuk hanya HH atau HH: MM</value>
+  </data>
+  <data name="Msg6" xml:space="preserve">
+    <value>Shift informasi Rekam diperlukan</value>
+  </data>
+  <data name="Msg60" xml:space="preserve">
+    <value>User bisa masuk saja: MM atau HH: MM format, misalnya. 10:30 tidak 10:</value>
+  </data>
+  <data name="Msg61" xml:space="preserve">
+    <value>Nilai menit Cant lebih besar dari 59</value>
+  </data>
+  <data name="Msg62" xml:space="preserve">
+    <value>Nilai menit harus format MM, misalnya. 10 bukan 1</value>
+  </data>
+  <data name="Msg621" xml:space="preserve">
+    <value>Anda akan Simpan catatan. Apakah Anda yakin? Jika ya silahkan klik "" OK "" atau klik "" Batal ""</value>
+  </data>
+  <data name="Msg63" xml:space="preserve">
+    <value>Breakdown cant Jam lebih besar dari 24 Jam</value>
+  </data>
+  <data name="Msg631" xml:space="preserve">
+    <value>Anda akan beralih dari tab saat ini, Anda mungkin kehilangan data yang belum disimpan. apakah Anda yakin? jika ya silahkan klik "" ok "" atau klik "" cancel "".</value>
+  </data>
+  <data name="Msg64" xml:space="preserve">
+    <value>Total Breakdown jam harus lebih rendah daripada jam Shift Jumlah</value>
+  </data>
+  <data name="Msg65" xml:space="preserve">
+    <value>User bisa masuk hanya HH atau HH: MM</value>
+  </data>
+  <data name="Msg66" xml:space="preserve">
+    <value>Breakdown cant Jam lebih besar dari 24</value>
+  </data>
+  <data name="Msg67" xml:space="preserve">
+    <value>User bisa masuk hanya HH atau HH: MM</value>
+  </data>
+  <data name="Msg68" xml:space="preserve">
+    <value>User bisa masuk hanya HH atau HH: MM</value>
+  </data>
+  <data name="Msg69" xml:space="preserve">
+    <value>Nilai menit Cant lebih besar dari 59</value>
+  </data>
+  <data name="Msg7" xml:space="preserve">
+    <value>Kolom Ke Bulan diperlukan Tanggal</value>
+  </data>
+  <data name="Msg70" xml:space="preserve">
+    <value>Nilai menit harus format MM, misalnya. 10 bukan 1</value>
+  </data>
+  <data name="Msg71" xml:space="preserve">
+    <value>Breakdown cant Jam lebih besar dari 24 Jam</value>
+  </data>
+  <data name="Msg72" xml:space="preserve">
+    <value>User bisa masuk hanya HH atau HH: MM</value>
+  </data>
+  <data name="Msg73" xml:space="preserve">
+    <value>Breakdown cant Jam lebih besar dari 24</value>
+  </data>
+  <data name="Msg74" xml:space="preserve">
+    <value>User bisa masuk hanya HH atau HH: MM</value>
+  </data>
+  <data name="Msg75" xml:space="preserve">
+    <value>User bisa masuk saja: MM atau HH: MM format, misalnya. 10:30 tidak 10:</value>
+  </data>
+  <data name="Msg76" xml:space="preserve">
+    <value>User bisa masuk saja: MM atau HH: MM format, misalnya. 10:30 tidak 10:</value>
+  </data>
+  <data name="Msg77" xml:space="preserve">
+    <value>User bisa masuk saja: MM atau HH: MM format, misalnya. 10:30 tidak 10:</value>
+  </data>
+  <data name="Msg78" xml:space="preserve">
+    <value>Breakdown cant Jam lebih besar dari 24 Jam</value>
+  </data>
+  <data name="Msg79" xml:space="preserve">
+    <value>Rekam Tidak untuk Edit, Silahkan Pilih Rekam untuk Edit</value>
+  </data>
+  <data name="Msg8" xml:space="preserve">
+    <value>Tahun kolom Ke Tanggal diperlukan</value>
+  </data>
+  <data name="Msg80" xml:space="preserve">
+    <value>"Data tidak disimpan, apakah Anda ingin melanjutkan tanpa menyimpan?" Jika ya silahkan klik "" OK "" atau klik "" Batal ""</value>
+  </data>
+  <data name="Msg81" xml:space="preserve">
+    <value>Tidak Rekam untuk Hapus, Silahkan End Pilih Rekam untuk menghapus</value>
+  </data>
+  <data name="Msg82" xml:space="preserve">
+    <value>Silahkan Masukkan Kriteria untuk Pencarian</value>
+  </data>
+  <data name="Msg83" xml:space="preserve">
+    <value>Tidak ada catatan (s) yang sesuai dengan kriteria pencarian Anda.</value>
+  </data>
+  <data name="Msg84" xml:space="preserve">
+    <value>Harap masukkan hanya nilai numerik</value>
+  </data>
+  <data name="Msg85" xml:space="preserve">
+    <value>Maaf Shift ini sudah ada</value>
+  </data>
+  <data name="Msg86" xml:space="preserve">
+    <value>Shift lapangan diperlukan</value>
+  </data>
+  <data name="Msg87" xml:space="preserve">
+    <value>FFB lapangan diperlukan Olahan</value>
+  </data>
+  <data name="Msg88" xml:space="preserve">
+    <value>Truk lapangan diperlukan Olahan</value>
+  </data>
+  <data name="Msg89" xml:space="preserve">
+    <value>Waktu Mulai dan Berhenti Waktu tidak bisa sama, Silahkan ubah Waktu</value>
+  </data>
+  <data name="Msg9" xml:space="preserve">
+    <value>FFB lapangan diperlukan Olahan</value>
+  </data>
+  <data name="Msg90" xml:space="preserve">
+    <value>Can't Tambah Record (s) di Tanggal Same</value>
+  </data>
+  <data name="Msg91" xml:space="preserve">
+    <value>Proses Jam Cant lebih besar dari 24 jam</value>
+  </data>
+  <data name="Msg92" xml:space="preserve">
+    <value>Shift Jam Cant lebih besar dari 24 jam</value>
+  </data>
+  <data name="Msg93" xml:space="preserve">
+    <value>Tekan Tidak Bidang Diperlukan</value>
+  </data>
+  <data name="Msg94" xml:space="preserve">
+    <value>Op. Jam Bidang Diperlukan</value>
+  </data>
+  <data name="Msg95" xml:space="preserve">
+    <value>Line dan PressNo Sudah Exists</value>
+  </data>
+  <data name="Msg96" xml:space="preserve">
+    <value>Valid Tekan Tidak, Silahkan Pilih dari mencari</value>
+  </data>
+  <data name="Msg97" xml:space="preserve">
+    <value>User bisa masuk hanya HH atau HH: MM</value>
+  </data>
+  <data name="Msg98" xml:space="preserve">
+    <value>User bisa masuk saja: MM atau HH: MM format, misalnya. 10:30 tidak 10:</value>
+  </data>
+  <data name="Msg99" xml:space="preserve">
+    <value>Tekan Info Line 1 Bulan Untuk cant Tanggal Jam akan lebih rendah daripada Tekan Info Line 1 Jumlah Jam</value>
+  </data>
+  <data name="Op.Hrs" xml:space="preserve">
+    <value>Op.Hrs</value>
+  </data>
+  <data name="PressNo" xml:space="preserve">
+    <value>Tekan Tidak</value>
+  </data>
+  <data name="ProcessedFFB" xml:space="preserve">
+    <value>FFB proses</value>
+  </data>
+  <data name="Received" xml:space="preserve">
+    <value>Terima</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Ulang Awal</value>
+  </data>
+  <data name="ResetAll" xml:space="preserve">
+    <value>Reset Semua</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Simpan</value>
+  </data>
+  <data name="ScrewsStatus" xml:space="preserve">
+    <value>Baut Status</value>
+  </data>
+  <data name="SearchBy" xml:space="preserve">
+    <value>Mencari Oleh</value>
+  </data>
+  <data name="Shift" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="ShiftHrs" xml:space="preserve">
+    <value>Shift Hours</value>
+  </data>
+  <data name="ShiftInformation" xml:space="preserve">
+    <value>Shift informasi</value>
+  </data>
+  <data name="Stage" xml:space="preserve">
+    <value>Tahap</value>
+  </data>
+  <data name="StartTime" xml:space="preserve">
+    <value>Waktu Mulai</value>
+  </data>
+  <data name="StopTime" xml:space="preserve">
+    <value>Waktu Akhir</value>
+  </data>
+  <data name="Variance" xml:space="preserve">
+    <value>Varians</value>
+  </data>
+  <data name="Msg911" xml:space="preserve">
+    <value>cant fungsi Hapus dilakukan untuk rekaman tunggal</value>
+  </data>
+  <data name="Msg181" xml:space="preserve">
+    <value>FFB Diterima Bulan-to-date Nilai harus lebih besar dari qty hari ini Diterima FFB</value>
+  </data>
+  <data name="Msg191" xml:space="preserve">
+    <value>FFB Tahun Diterima sampai saat Nilai harus lebih besar dari qty hari ini Diterima FFB</value>
+  </data>
+  <data name="Msg201" xml:space="preserve">
+    <value>FFB Tahun Diterima sampai saat Nilai harus lebih besar dari bulan Diterima FFB sampai saat ini</value>
+  </data>
+  <data name="Msg711" xml:space="preserve">
+    <value>FFB Diterima Bulan ke lapangan Date Diperlukan</value>
+  </data>
+  <data name="Msg811" xml:space="preserve">
+    <value>FFB Tahun Diterima ke lapangan Date Diperlukan</value>
+  </data>
+</root>

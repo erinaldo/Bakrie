@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnAdd.Text" xml:space="preserve">
+    <value>Menambahkan</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="btnReset.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="btnResetAll.Text" xml:space="preserve">
+    <value>Reset All</value>
+  </data>
+  <data name="btnSaveAll.Text" xml:space="preserve">
+    <value>Simpan Semua</value>
+  </data>
+  <data name="btnviewISRReport.Text" xml:space="preserve">
+    <value>View Report</value>
+  </data>
+  <data name="btnviewISRSearch.Text" xml:space="preserve">
+    <value>ISR Search</value>
+  </data>
+  <data name="dgvISRDetails.Columns(COACode).HeaderText" xml:space="preserve">
+    <value>Kode Akun</value>
+  </data>
+  <data name="dgvISRDetails.Columns(COADescp).HeaderText" xml:space="preserve">
+    <value>Kode Akun Description</value>
+  </data>
+  <data name="dgvISRDetails.Columns(CurrencyType).HeaderText" xml:space="preserve">
+    <value>Currency Type</value>
+  </data>
+  <data name="dgvISRDetails.Columns(Qty).HeaderText" xml:space="preserve">
+    <value>Jumlah</value>
+  </data>
+  <data name="dgvISRDetails.Columns(ServiceDetail).HeaderText" xml:space="preserve">
+    <value>Detail Service</value>
+  </data>
+  <data name="dgvISRDetails.Columns(T0Value).HeaderText" xml:space="preserve">
+    <value>T0</value>
+  </data>
+  <data name="dgvISRDetails.Columns(T1Value).HeaderText" xml:space="preserve">
+    <value>T1</value>
+  </data>
+  <data name="dgvISRDetails.Columns(T2Value).HeaderText" xml:space="preserve">
+    <value>T2</value>
+  </data>
+  <data name="dgvISRDetails.Columns(T3Value).HeaderText" xml:space="preserve">
+    <value>T3</value>
+  </data>
+  <data name="dgvISRDetails.Columns(T4Value).HeaderText" xml:space="preserve">
+    <value>T4</value>
+  </data>
+  <data name="dgvISRDetails.Columns(TotalPrice_Currency).HeaderText" xml:space="preserve">
+    <value>Total Harga_Currency</value>
+  </data>
+  <data name="dgvISRDetails.Columns(Unit).HeaderText" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="dgvISRDetails.Columns(UnitPrice).HeaderText" xml:space="preserve">
+    <value>Harga Unit</value>
+  </data>
+  <data name="dgvISRDetails.Columns(UnitPrice_Currency).HeaderText" xml:space="preserve">
+    <value>Harga Unit_Currency</value>
+  </data>
+  <data name="dgvISRDetails.Columns(Value).HeaderText" xml:space="preserve">
+    <value>Total Harga</value>
+  </data>
+  <data name="dgvviewISR.Columns(ChassisNo).HeaderText" xml:space="preserve">
+    <value>Serial No Sasis</value>
+  </data>
+  <data name="dgvviewISR.Columns(Engine).HeaderText" xml:space="preserve">
+    <value>Mesin</value>
+  </data>
+  <data name="dgvviewISR.Columns(FixedAssetNo).HeaderText" xml:space="preserve">
+    <value>Fix Asset No</value>
+  </data>
+  <data name="dgvviewISR.Columns(ISRDate).HeaderText" xml:space="preserve">
+    <value>Tanggal ISR</value>
+  </data>
+  <data name="dgvviewISR.Columns(ISRNo).HeaderText" xml:space="preserve">
+    <value>ISR No</value>
+  </data>
+  <data name="dgvviewISR.Columns(MakeModel).HeaderText" xml:space="preserve">
+    <value>Model Pembuatan</value>
+  </data>
+  <data name="dgvviewISR.Columns(Supplier).HeaderText" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="gbEnquipmentData.Text" xml:space="preserve">
+    <value>Data Equipmnet</value>
+  </data>
+  <data name="gbISRDetails.Text" xml:space="preserve">
+    <value>ISR Details</value>
+  </data>
+  <data name="lblAccountCode.Text" xml:space="preserve">
+    <value>Kode Akun</value>
+  </data>
+  <data name="lblChassisSerialNo.Text" xml:space="preserve">
+    <value>Serial No Sasis</value>
+  </data>
+  <data name="lblCurrencyType.Text" xml:space="preserve">
+    <value>Currency Type</value>
+  </data>
+  <data name="lblEngine.Text" xml:space="preserve">
+    <value>Mesin</value>
+  </data>
+  <data name="lblFixedAssetNo.Text" xml:space="preserve">
+    <value>Fix Asset No</value>
+  </data>
+  <data name="lblISRDate.Text" xml:space="preserve">
+    <value>Tanggal ISR</value>
+  </data>
+  <data name="lblISRNo.Text" xml:space="preserve">
+    <value>ISR No</value>
+  </data>
+  <data name="lblMakeandModel.Text" xml:space="preserve">
+    <value>Model Pembuatan</value>
+  </data>
+  <data name="lblQty.Text" xml:space="preserve">
+    <value>Jumlah</value>
+  </data>
+  <data name="lblRequiredFor.Text" xml:space="preserve">
+    <value>Guna Keperluan</value>
+  </data>
+  <data name="lblServiceDetails.Text" xml:space="preserve">
+    <value>Detail Service</value>
+  </data>
+  <data name="lblSuggestedSupplier.Text" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="lblTAnalysisT0.Text" xml:space="preserve">
+    <value>T0</value>
+  </data>
+  <data name="lblTAnalysisT1.Text" xml:space="preserve">
+    <value>T1</value>
+  </data>
+  <data name="lblTAnalysisT2.Text" xml:space="preserve">
+    <value>T2</value>
+  </data>
+  <data name="lblTAnalysisT3.Text" xml:space="preserve">
+    <value>T3</value>
+  </data>
+  <data name="lblTAnalysisT4.Text" xml:space="preserve">
+    <value>T4</value>
+  </data>
+  <data name="lblTotalPrice.Text" xml:space="preserve">
+    <value>Total Harga</value>
+  </data>
+  <data name="lblTotalPriceC.Text" xml:space="preserve">
+    <value>Total Harga</value>
+  </data>
+  <data name="lblUnit.Text" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="lblUnitPrice.Text" xml:space="preserve">
+    <value>Harga Unit</value>
+  </data>
+  <data name="lblUnitPriceC.Text" xml:space="preserve">
+    <value>Harga Unit</value>
+  </data>
+  <data name="lblviewISRDate.Text" xml:space="preserve">
+    <value>Tanggal ISR</value>
+  </data>
+  <data name="lblviewISRno.Text" xml:space="preserve">
+    <value>ISR No</value>
+  </data>
+  <data name="lblviewISRSearchBy.Text" xml:space="preserve">
+    <value>ISRSearch By</value>
+  </data>
+  <data name="pnlISRSearch.CaptionText" xml:space="preserve">
+    <value>ISR Search</value>
+  </data>
+  <data name="tcISRView.TabPages(tbpgISR).Text" xml:space="preserve">
+    <value>ISR</value>
+  </data>
+  <data name="tcISRView.TabPages(tbpgView).Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="dgvISRDetails.Columns(OldCOACode).HeaderText" xml:space="preserve">
+    <value>Old Acct Code</value>
+  </data>
+  <data name="lblOldAcctCode.Text" xml:space="preserve">
+    <value>Old Acct Code</value>
+  </data>
+  <data name="Label14.Text" xml:space="preserve">
+    <value>wb</value>
+  </data>
+  <data name="dgvISRDetails.Columns(ServiceType).HeaderText" xml:space="preserve">
+    <value>Service Type</value>
+  </data>
+  <data name="dgvISRDetails.Columns(StockCode).HeaderText" xml:space="preserve">
+    <value>Kode Stok</value>
+  </data>
+  <data name="dgvISRDetails.Columns(StockDesc).HeaderText" xml:space="preserve">
+    <value>Keterangan Stok</value>
+  </data>
+  <data name="lblServicetype.Text" xml:space="preserve">
+    <value>Service Type</value>
+  </data>
+  <data name="lblStockCode.Text" xml:space="preserve">
+    <value>Kode Stok</value>
+  </data>
+  <data name="msg01" xml:space="preserve">
+    <value>Tidak ada catatan untuk ISR</value>
+  </data>
+  <data name="msg02" xml:space="preserve">
+    <value>Nilai tidak valid T0, Silahkan Pilih dari mencari</value>
+  </data>
+  <data name="msg03" xml:space="preserve">
+    <value>Nilai tidak valid T1, Silahkan Pilih dari mencari</value>
+  </data>
+  <data name="msg04" xml:space="preserve">
+    <value>Nilai tidak valid T2, Silahkan Pilih dari mencari</value>
+  </data>
+  <data name="msg05" xml:space="preserve">
+    <value>Nilai tidak valid T3, Silahkan Pilih dari mencari</value>
+  </data>
+  <data name="msg06" xml:space="preserve">
+    <value>Nilai tidak valid T4, Silahkan Pilih dari mencari</value>
+  </data>
+  <data name="msg07" xml:space="preserve">
+    <value>Harap Tambahkan Details ISR</value>
+  </data>
+  <data name="msg08" xml:space="preserve">
+    <value>Data Berhasil Disimpan</value>
+  </data>
+  <data name="msg09" xml:space="preserve">
+    <value>Harap Tambahkan Details ISR</value>
+  </data>
+  <data name="msg10" xml:space="preserve">
+    <value>Data Diperbarui berhasil</value>
+  </data>
+  <data name="msg11" xml:space="preserve">
+    <value>Data Berhasil Diperbarui</value>
+  </data>
+  <data name="msg12" xml:space="preserve">
+    <value>ISRNo diperlukan</value>
+  </data>
+  <data name="msg13" xml:space="preserve">
+    <value>Tanggal ISR Lapangan wajib</value>
+  </data>
+  <data name="msg14" xml:space="preserve">
+    <value>ServiceDetails Lapangan wajib</value>
+  </data>
+  <data name="msg15" xml:space="preserve">
+    <value>Kode Saham Lapangan wajib</value>
+  </data>
+  <data name="msg16" xml:space="preserve">
+    <value>Account Lapangan wajib</value>
+  </data>
+  <data name="msg17" xml:space="preserve">
+    <value>Kuantitas Lapangan wajib</value>
+  </data>
+  <data name="msg18" xml:space="preserve">
+    <value>Unit Lapangan wajib</value>
+  </data>
+  <data name="msg19" xml:space="preserve">
+    <value>UnitPrice Lapangan wajib</value>
+  </data>
+  <data name="msg20" xml:space="preserve">
+    <value>Anda akan Menghapus catatan yang dipilih. Apakah Anda yakin? Jika ya silahkan klik "" OK "" atau klik "" Batal "".</value>
+  </data>
+  <data name="msg21" xml:space="preserve">
+    <value>Tidak Rekam untuk Hapus, Silahkan Pilih Rekam untuk menghapus</value>
+  </data>
+  <data name="msg22" xml:space="preserve">
+    <value>Tidak Rekam untuk Hapus, Silahkan Pilih Rekam untuk menghapus</value>
+  </data>
+  <data name="msg23" xml:space="preserve">
+    <value>Tidak ada catatan untuk memilih</value>
+  </data>
+  <data name="msg24" xml:space="preserve">
+    <value>Silakan masukkan kode 13 digit Account</value>
+  </data>
+  <data name="msg25" xml:space="preserve">
+    <value>Kode valid Account, Silahkan Pilih dari mencari</value>
+  </data>
+  <data name="msg26" xml:space="preserve">
+    <value>Maaf, Kode Account sudah ada dalam daftar
+</value>
+  </data>
+  <data name="msg27" xml:space="preserve">
+    <value>Kode Akun sudah ada di TN-IN Details</value>
+  </data>
+  <data name="msg28" xml:space="preserve">
+    <value>Tidak Records Tersedia!</value>
+  </data>
+  <data name="msg29" xml:space="preserve">
+    <value>Silahkan Pilih Jenis Layanan</value>
+  </data>
+  <data name="msg30" xml:space="preserve">
+    <value>Kode Saham valid, Silahkan Pilih dari mencari</value>
+  </data>
+  <data name="msg31" xml:space="preserve">
+    <value>Jenis Layanan Lapangan wajib</value>
+  </data>
+  <data name="msg32" xml:space="preserve">
+    <value>Jenis layanan ini tidak tersedia dalam kategori master stok.</value>
+  </data>
+  <data name="msg33" xml:space="preserve">
+    <value>Anda akan beralih dari tab saat ini, Anda mungkin kehilangan data yang belum disimpan. apakah Anda yakin? jika ya silahkan klik "" ok "" atau klik "" cancel "".</value>
+  </data>
+  <data name="msg34" xml:space="preserve">
+    <value>T0 Lapangan wajib</value>
+  </data>
+  <data name="msg35" xml:space="preserve">
+    <value>Apakah Anda ingin menyimpan data Jika ya silahkan klik "" OK "" atau klik "" Batal "?".</value>
+  </data>
+  <data name="msg36" xml:space="preserve">
+    <value>"Data tidak disimpan, apakah Anda ingin melanjutkan tanpa menyimpan?" Jika ya silahkan klik "" OK "" atau klik "" Batal ""</value>
+  </data>
+  <data name="msg37" xml:space="preserve">
+    <value>Tidak ada kode saham yang tersedia untuk item yang dipilih</value>
+  </data>
+  <data name="msg38" xml:space="preserve">
+    <value>Jenis mata uang tidak dipilih</value>
+  </data>
+</root>

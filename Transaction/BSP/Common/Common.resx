@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnAdd" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btnReport" xml:space="preserve">
+    <value>~/Images/Report EN.png</value>
+  </data>
+  <data name="btnReset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="btnSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btnSaveAll" xml:space="preserve">
+    <value>Save All</value>
+  </data>
+  <data name="btnSearch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="btnUpdate" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="ddlEstate" xml:space="preserve">
+    <value>Estate:</value>
+  </data>
+  <data name="ddlLanguage" xml:space="preserve">
+    <value>Language:</value>
+  </data>
+  <data name="gvheaderDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="gvheaderEdit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="gvheaderSelect" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="IAccountCode" xml:space="preserve">
+    <value>Invalid Account Code</value>
+  </data>
+  <data name="IAttendanceCode" xml:space="preserve">
+    <value>Invalid Attendance Code</value>
+  </data>
+  <data name="IChargeCode" xml:space="preserve">
+    <value>Invalid Charge Code</value>
+  </data>
+  <data name="IDiv" xml:space="preserve">
+    <value>Invalid Afdeling Code</value>
+  </data>
+  <data name="IMaterial" xml:space="preserve">
+    <value>Invalid Material Code</value>
+  </data>
+  <data name="IOperatedBy" xml:space="preserve">
+    <value>Invalid Operated By</value>
+  </data>
+  <data name="ISubBlock" xml:space="preserve">
+    <value>Invalid Field No Code</value>
+  </data>
+  <data name="IT0" xml:space="preserve">
+    <value>Invalid T0 Code</value>
+  </data>
+  <data name="IT0IT1IT2IT3IT4" xml:space="preserve">
+    <value>Invalid T0 Code \nInvalid T1 Code \n Invalid T2 Code \n Invalid T3 Code \n Invalid T4 Code</value>
+  </data>
+  <data name="IT1" xml:space="preserve">
+    <value>Invalid T1 Code</value>
+  </data>
+  <data name="IT2" xml:space="preserve">
+    <value>Invalid T2 Code</value>
+  </data>
+  <data name="IT3" xml:space="preserve">
+    <value>Invalid T3 Code</value>
+  </data>
+  <data name="IT4" xml:space="preserve">
+    <value>Invalid T4 Code</value>
+  </data>
+  <data name="IVehicleCategory" xml:space="preserve">
+    <value>Invalid Category</value>
+  </data>
+  <data name="IYOP" xml:space="preserve">
+    <value>Invalid YOP Code</value>
+  </data>
+  <data name="lblDate" xml:space="preserve">
+    <value>Date :</value>
+  </data>
+  <data name="lblDeletePrompt" xml:space="preserve">
+    <value>You are about to delete the selected record. Are you sure? If yes please click OK or click Cancel</value>
+  </data>
+  <data name="lblEmptyRecord" xml:space="preserve">
+    <value>There are currently no records for this screen in your database.</value>
+  </data>
+  <data name="lblPage" xml:space="preserve">
+    <value>Page :</value>
+  </data>
+  <data name="lblResolution" xml:space="preserve">
+    <value>This site is best viewed in 1280x720 resolution and Internet Explorer 7 and above.</value>
+  </data>
+  <data name="lgnSearch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="lgnSearchResults" xml:space="preserve">
+    <value>Search Results</value>
+  </data>
+  <data name="Msg0" xml:space="preserve">
+    <value>We are unable to process your request at this time, Please make sure to enter all the mandatory fields and try again. If the problem still exists contact administrator.</value>
+  </data>
+  <data name="Msg1" xml:space="preserve">
+    <value>Data successfully saved</value>
+  </data>
+  <data name="Msg10" xml:space="preserve">
+    <value>Record already exists</value>
+  </data>
+  <data name="Msg11" xml:space="preserve">
+    <value>Current data conflicts with existing data in the database.Please modify start kms and/or end kms.</value>
+  </data>
+  <data name="Msg12" xml:space="preserve">
+    <value>Current data conflicts with existing data in the database.Please modify start time and/or end time.</value>
+  </data>
+  <data name="Msg13" xml:space="preserve">
+    <value>Current data conflicts with existing data in the database.Please modify FFB Delivery Order No.</value>
+  </data>
+  <data name="Msg2" xml:space="preserve">
+    <value>Data successfully updated</value>
+  </data>
+  <data name="Msg3" xml:space="preserve">
+    <value>Data successfully deleted</value>
+  </data>
+  <data name="Msg4" xml:space="preserve">
+    <value>Record already in use</value>
+  </data>
+  <data name="Msg5" xml:space="preserve">
+    <value>You are attempting to modify a record that is being used elsewhere</value>
+  </data>
+  <data name="Msg6" xml:space="preserve">
+    <value>This record was posted successfully.</value>
+  </data>
+  <data name="Msg7" xml:space="preserve">
+    <value>All records were posted successfully.</value>
+  </data>
+  <data name="MsgNoRecords" xml:space="preserve">
+    <value>No records found matching your search criteria</value>
+  </data>
+  <data name="MsgSearch" xml:space="preserve">
+    <value>Please enter the search criteria</value>
+  </data>
+  <data name="PageSize" xml:space="preserve">
+    <value>Page Size : </value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="RBasicPay" xml:space="preserve">
+    <value>Basic Pay Required</value>
+  </data>
+  <data name="RPublicHolidayDescp" xml:space="preserve">
+    <value>Please select public holiday as description</value>
+  </data>
+  <data name="RTimeBasic" xml:space="preserve">
+    <value>Time Basic Required</value>
+  </data>
+  <data name="RVehicleWorkshop" xml:space="preserve">
+    <value>Please select a vehicle or workshop</value>
+  </data>
+  <data name="SaveAllUpdateAll" xml:space="preserve">
+    <value>Please click the Save All/Update All button to store the data permanently in your database.</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>User Name:</value>
+  </data>
+</root>
